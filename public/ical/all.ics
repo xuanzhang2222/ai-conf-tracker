@@ -3,18 +3,124 @@ VERSION:2.0
 PRODID:-//AI Conf Tracker//ZH-CN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
+UID:aaai-2027-abstract@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 摘要注册截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20260722T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 论文截稿
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20260729T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-supplementary@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 附录与代码截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20260801T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-phase-one-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 第一阶段拒稿通知
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART;VALUE=DATE:20260924
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-author-feedback@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 作者反馈截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20261026T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 最终录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-camera-ready@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · Camera-ready 截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20261215T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:aaai-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:AAAI 2027 · 会议开始
 URL:https://aaai.org/conference/aaai/aaai-27/
 DTSTART;VALUE=DATE:20270216
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:AAAI 2027 · 会议结束
 URL:https://aaai.org/conference/aaai/aaai-27/
 DTSTART;VALUE=DATE:20270223
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-author-registration@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · OpenReview 作者注册截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART:20260918T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-abstract@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · 摘要注册截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART:20261002T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · 论文截稿
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART:20261009T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-rebuttal@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · Rebuttal 期
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART:20261120T120000Z
+DTEND:20261125T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · 录用通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART;VALUE=DATE:20261221
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-camera-ready@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · Camera-ready 截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART:20270126T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · 会议开始
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART;VALUE=DATE:20270503
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAMAS 2027 · 会议结束
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+DTSTART;VALUE=DATE:20270507
 END:VEVENT
 BEGIN:VEVENT
 UID:acl-2027-conference-start@ai-conf-tracker
@@ -94,31 +200,172 @@ URL:https://2026.acmmm.org/site/important-dates.html
 DTSTART;VALUE=DATE:20261114
 END:VEVENT
 BEGIN:VEVENT
+UID:coling-2027-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:COLING 2027 · ARR 投稿截止
+URL:https://2027.coling-iccl.org/
+DTSTART:20261013T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-commitment@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:COLING 2027 · COLING 承诺截止
+URL:https://2027.coling-iccl.org/
+DTSTART:20261224T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:COLING 2027 · 录用通知
+URL:https://2027.coling-iccl.org/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:COLING 2027 · 会议开始
+URL:https://2027.coling-iccl.org/
+DTSTART;VALUE=DATE:20270509
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:COLING 2027 · 会议结束
+URL:https://2027.coling-iccl.org/
+DTSTART;VALUE=DATE:20270514
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:CVPR 2027 · 会议开始
+URL:https://www.thecvf.com/?p=137
+DTSTART;VALUE=DATE:20270620
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:CVPR 2027 · 会议结束
+URL:https://www.thecvf.com/?p=137
+DTSTART;VALUE=DATE:20270624
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-abstract@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECAI 2026 · 摘要注册截止
+URL:https://2026.ijcai.org/important-dates/
+DTSTART:20260113T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECAI 2026 · 论文截稿
+URL:https://2026.ijcai.org/important-dates/
+DTSTART:20260120T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-phase-one-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECAI 2026 · 第一阶段通知
+URL:https://2026.ijcai.org/important-dates/
+DTSTART;VALUE=DATE:20260304
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-rebuttal@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECAI 2026 · 作者回复期
+URL:https://2026.ijcai.org/important-dates/
+DTSTART:20260407T120000Z
+DTEND:20260411T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECAI 2026 · 录用通知
+URL:https://2026.ijcai.org/important-dates/
+DTSTART:20260430T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-camera-ready@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECAI 2026 · Camera-ready 截止
+URL:https://2026.ijcai.org/important-dates/
+DTSTART:20260521T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:ecai-2026-conference-start@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:ECAI 2026 · 会议开始
-URL:https://2026.ijcai.org/at-a-glance2/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART;VALUE=DATE:20260815
 END:VEVENT
 BEGIN:VEVENT
 UID:ecai-2026-conference-end@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:ECAI 2026 · 会议结束
-URL:https://2026.ijcai.org/at-a-glance2/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART;VALUE=DATE:20260821
 END:VEVENT
 BEGIN:VEVENT
+UID:eccv-2026-registration@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECCV 2026 · 论文注册截止
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+DTSTART:20260226T220000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2026-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECCV 2026 · 论文截稿
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+DTSTART:20260305T220000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2026-supplementary@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECCV 2026 · 附录截止
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+DTSTART:20260312T220000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2026-review-release@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECCV 2026 · 审稿意见发布
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+DTSTART;VALUE=DATE:20260502
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2026-rebuttal@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECCV 2026 · Rebuttal 截止
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+DTSTART:20260511T210000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2026-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECCV 2026 · 最终录用通知
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+DTSTART;VALUE=DATE:20260617
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2026-camera-ready@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ECCV 2026 · Camera-ready 截止
+URL:https://eccv.ecva.net/Conferences/2026/Dates
+DTSTART:20260701T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:eccv-2026-conference-start@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:ECCV 2026 · 会议开始
-URL:https://eccv.ecva.net/Conferences/2026
+URL:https://eccv.ecva.net/Conferences/2026/Dates
 DTSTART;VALUE=DATE:20260908
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2026-conference-end@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:ECCV 2026 · 会议结束
-URL:https://eccv.ecva.net/Conferences/2026
+URL:https://eccv.ecva.net/Conferences/2026/Dates
 DTSTART;VALUE=DATE:20260912
 END:VEVENT
 BEGIN:VEVENT
@@ -179,47 +426,208 @@ URL:https://2026.emnlp.org/
 DTSTART;VALUE=DATE:20261029
 END:VEVENT
 BEGIN:VEVENT
+UID:iccv-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICCV 2027 · 会议开始
+URL:https://www.thecvf.com/?p=137
+DTSTART;VALUE=DATE:20271002
+END:VEVENT
+BEGIN:VEVENT
+UID:iccv-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICCV 2027 · 会议结束
+URL:https://www.thecvf.com/?p=137
+DTSTART;VALUE=DATE:20271008
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-abstract@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · 摘要注册截止
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART:20260919T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · 论文截稿
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART:20260926T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-review-release@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · 审稿意见发布
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20261105
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-author-discussion@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · 作者与评审讨论截止
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20261118
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-meta-review@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · Meta-review 截止
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20261216
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · 最终录用通知
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20261216
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · 主会开始
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270426
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICLR 2027 · Workshops 结束
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270430
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-video-first-window@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 附加视频第一窗口截止
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART:20260910T075900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 论文截稿
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART:20260916T075900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-video-final-window@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 附加视频最终截止
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART:20260923T075900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 录用通知
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART;VALUE=DATE:20270131
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-author-registration@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 作者注册截止
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART;VALUE=DATE:20270305
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-early-registration@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 早鸟注册截止
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART;VALUE=DATE:20270331
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 会议开始
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART;VALUE=DATE:20270524
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:ICRA 2027 · 会议结束
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART;VALUE=DATE:20270528
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2026-abstract@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:IJCAI 2026 · 摘要注册截止
-URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART:20260113T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2026-paper@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:IJCAI 2026 · 论文截稿
-URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART:20260120T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcai-2026-phase-one-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:IJCAI 2026 · 第一阶段通知
+URL:https://2026.ijcai.org/important-dates/
+DTSTART;VALUE=DATE:20260304
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2026-rebuttal@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:IJCAI 2026 · 作者回复期
-URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART:20260407T120000Z
 DTEND:20260411T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2026-notification@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:IJCAI 2026 · 录用通知
-URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART:20260430T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcai-2026-camera-ready@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:IJCAI 2026 · Camera-ready 截止
+URL:https://2026.ijcai.org/important-dates/
+DTSTART:20260521T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2026-conference-start@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:IJCAI 2026 · 会议开始
-URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART;VALUE=DATE:20260815
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2026-conference-end@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:IJCAI 2026 · 会议结束
-URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+URL:https://2026.ijcai.org/important-dates/
 DTSTART;VALUE=DATE:20260821
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-arr-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:NAACL 2027 · ARR 投稿截止
+URL:https://2027.naacl.org/
+DTSTART:20261013T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:NAACL 2027 · 会议开始
+URL:https://2027.naacl.org/
+DTSTART;VALUE=DATE:20270601
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:NAACL 2027 · 会议结束
+URL:https://2027.naacl.org/
+DTSTART;VALUE=DATE:20270605
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-abstract@ai-conf-tracker
@@ -280,17 +688,53 @@ URL:https://neurips.cc/Conferences/2026/Dates
 DTSTART;VALUE=DATE:20261212
 END:VEVENT
 BEGIN:VEVENT
+UID:www-2027-abstract@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:WWW 2027 · 摘要注册截止
+URL:https://acmweb2027.org/important-dates/
+DTSTART:20261012T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:WWW 2027 · 论文截稿
+URL:https://acmweb2027.org/important-dates/
+DTSTART:20261019T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-review-release@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:WWW 2027 · 评审结果发布
+URL:https://acmweb2027.org/important-dates/
+DTSTART;VALUE=DATE:20261210
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-rebuttal@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:WWW 2027 · Rebuttal 期
+URL:https://acmweb2027.org/important-dates/
+DTSTART:20261212T120000Z
+DTEND:20261220T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-final-version@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:WWW 2027 · 论文最终版本截止
+URL:https://acmweb2027.org/important-dates/
+DTSTART:20270201T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:www-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:WWW 2027 · 会议开始
-URL:https://acmweb2027.org/
+URL:https://acmweb2027.org/important-dates/
 DTSTART;VALUE=DATE:20270510
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:WWW 2027 · 会议结束
-URL:https://acmweb2027.org/
+URL:https://acmweb2027.org/important-dates/
 DTSTART;VALUE=DATE:20270514
 END:VEVENT
 END:VCALENDAR

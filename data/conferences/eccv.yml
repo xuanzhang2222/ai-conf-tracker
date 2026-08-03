@@ -10,12 +10,17 @@ editions:
     website: https://eccv.ecva.net/Conferences/2026
     venue: { city: Malmö, country: Sweden, mode: onsite }
     sources:
-      - &dates { url: https://eccv.ecva.net/Conferences/2026, label: ECCV 2026 官方网站, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
+      - &dates { url: https://eccv.ecva.net/Conferences/2026/Dates, label: ECCV 2026 Dates and Deadlines, source_type: official_dates, verified_at: 2026-08-03T10:08:46Z }
     tracks:
       - id: main
         name: Main Conference
         milestones:
-          - { id: notification, label: 录用通知, type: notification, kind: tbd, date_status: tbd, action_required: false, source: *dates }
-          - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
+          - { id: registration, label: 论文注册截止, type: abstract_registration, kind: instant, at: '2026-02-26T22:00:00', timezone: UTC, original_timezone: UTC, date_status: confirmed, action_required: true, source: *dates }
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: instant, at: '2026-03-05T22:00:00', timezone: UTC, original_timezone: UTC, date_status: confirmed, action_required: true, source: *dates }
+          - { id: supplementary, label: 附录截止, type: supplementary_deadline, kind: instant, at: '2026-03-12T22:00:00', timezone: UTC, original_timezone: UTC, date_status: confirmed, action_required: true, source: *dates }
+          - { id: review-release, label: 审稿意见发布, type: review_release, kind: date, date: 2026-05-02, date_status: confirmed, action_required: false, source: *dates }
+          - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: instant, at: '2026-05-11T21:00:00', timezone: UTC, original_timezone: UTC, date_status: confirmed, action_required: true, source: *dates }
+          - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-06-17, date_status: confirmed, action_required: false, source: *dates }
+          - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2026-06-30T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2026-09-08, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2026-09-12, date_status: confirmed, action_required: false, source: *dates }

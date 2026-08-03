@@ -55,8 +55,13 @@ export function selectNextMilestone(milestones: Milestone[], now = new Date()): 
     ?? null
 }
 
+const submissionDeadlineTypes = new Set([
+  'abstract_registration', 'abstract_deadline', 'paper_deadline', 'supplementary_deadline',
+  'code_deadline', 'data_deadline', 'ethics_form_deadline', 'conflict_registration_deadline',
+])
+
 export function selectDeadlineMilestone(milestones: Milestone[], now = new Date()): Milestone | null {
-  const usable = milestones.filter((item) => !['cancelled', 'superseded', 'estimated'].includes(item.date_status))
+  const usable = milestones.filter((item) => submissionDeadlineTypes.has(item.type) && !['cancelled', 'superseded', 'estimated'].includes(item.date_status))
   const byDeadline = (a: Milestone, b: Milestone) => (milestoneEnd(a)?.getTime() ?? Infinity) - (milestoneEnd(b)?.getTime() ?? Infinity)
   const future = usable.filter((item) => ['open', 'upcoming'].includes(milestoneState(item, now))).sort(byDeadline)
   if (future.length) return future[0]

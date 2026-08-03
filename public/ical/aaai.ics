@@ -3,15 +3,64 @@ VERSION:2.0
 PRODID:-//AI Conf Tracker//ZH-CN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
+UID:aaai-2027-abstract@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 摘要注册截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20260722T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-paper@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 论文截稿
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20260729T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-supplementary@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 附录与代码截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20260801T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-phase-one-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 第一阶段拒稿通知
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART;VALUE=DATE:20260924
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-author-feedback@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 作者反馈截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20261026T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-notification@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · 最终录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-camera-ready@ai-conf-tracker
+DTSTAMP:20260803T100846Z
+SUMMARY:AAAI 2027 · Camera-ready 截止
+URL:https://aaai.org/conference/aaai/aaai-27/
+DTSTART:20261215T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:aaai-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:AAAI 2027 · 会议开始
 URL:https://aaai.org/conference/aaai/aaai-27/
 DTSTART;VALUE=DATE:20270216
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260803T100846Z
 SUMMARY:AAAI 2027 · 会议结束
 URL:https://aaai.org/conference/aaai/aaai-27/
 DTSTART;VALUE=DATE:20270223

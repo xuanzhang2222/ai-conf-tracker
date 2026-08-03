@@ -27,9 +27,9 @@
         "sources": [
           {
             "url": "https://aaai.org/conference/aaai/aaai-27/",
-            "label": "AAAI-27 官方页面",
+            "label": "AAAI-27 官方作者日程",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -38,17 +38,118 @@
             "name": "Main Technical Track",
             "milestones": [
               {
-                "id": "paper",
-                "label": "论文截稿",
-                "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "instant",
+                "at": "2026-07-21T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
-                  "label": "AAAI-27 官方页面",
+                  "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-07-28T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方作者日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录与代码截止",
+                "type": "supplementary_deadline",
+                "kind": "instant",
+                "at": "2026-07-31T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方作者日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "phase-one-notification",
+                "label": "第一阶段拒稿通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-09-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方作者日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "author-feedback",
+                "label": "作者反馈截止",
+                "type": "author_response_deadline",
+                "kind": "instant",
+                "at": "2026-10-25T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方作者日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "date",
+                "date": "2026-11-30",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方作者日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2026-12-14T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方作者日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -61,9 +162,9 @@
                 "action_required": false,
                 "source": {
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
-                  "label": "AAAI-27 官方页面",
+                  "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -76,9 +177,9 @@
                 "action_required": false,
                 "source": {
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
-                  "label": "AAAI-27 官方页面",
+                  "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -106,18 +207,18 @@
     "editions": [
       {
         "year": 2027,
-        "website": "https://www.aamas-conference.org/",
+        "website": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
         "venue": {
-          "city": "TBD",
-          "country": "TBD",
-          "mode": "tbd"
+          "city": "Hanoi",
+          "country": "Vietnam",
+          "mode": "onsite"
         },
         "sources": [
           {
-            "url": "https://www.aamas-conference.org/",
-            "label": "AAMAS 官方网站",
-            "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+            "label": "AAMAS 2027 Main Track CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -126,59 +227,134 @@
             "name": "Main Conference",
             "milestones": [
               {
+                "id": "author-registration",
+                "label": "OpenReview 作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "instant",
+                "at": "2026-09-17T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
                 "id": "abstract",
                 "label": "摘要注册截止",
                 "type": "abstract_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-10-01T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://www.aamas-conference.org/",
-                  "label": "AAMAS 官方网站",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "paper",
                 "label": "论文截稿",
                 "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-10-08T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://www.aamas-conference.org/",
-                  "label": "AAMAS 官方网站",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "rebuttal",
-                "label": "Rebuttal 截止",
+                "label": "Rebuttal 期",
                 "type": "rebuttal_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "window",
+                "start_at": "2026-11-20T00:00:00",
+                "end_at": "2026-11-24T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://www.aamas-conference.org/",
-                  "label": "AAMAS 官方网站",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "notification",
                 "label": "录用通知",
                 "type": "notification",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2026-12-21",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://www.aamas-conference.org/",
-                  "label": "AAMAS 官方网站",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2027-01-25T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-05-03",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-05-07",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/",
+                  "label": "AAMAS 2027 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -514,19 +690,19 @@
     "dblp": "conf/coling",
     "editions": [
       {
-        "year": 2026,
-        "website": "https://coling2026.org/",
+        "year": 2027,
+        "website": "https://2027.coling-iccl.org/",
         "venue": {
-          "city": "TBD",
-          "country": "TBD",
-          "mode": "tbd"
+          "city": "Macau",
+          "country": "China",
+          "mode": "hybrid"
         },
         "sources": [
           {
-            "url": "https://coling2026.org/",
-            "label": "COLING 2026 官方网站",
+            "url": "https://2027.coling-iccl.org/",
+            "label": "COLING 2027 官方 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -536,30 +712,51 @@
             "milestones": [
               {
                 "id": "paper",
-                "label": "论文截稿",
+                "label": "ARR 投稿截止",
                 "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-10-12T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://coling2026.org/",
-                  "label": "COLING 2026 官方网站",
+                  "url": "https://2027.coling-iccl.org/",
+                  "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "commitment",
+                "label": "COLING 承诺截止",
+                "type": "revision_deadline",
+                "kind": "instant",
+                "at": "2026-12-23T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/",
+                  "label": "COLING 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "notification",
                 "label": "录用通知",
                 "type": "notification",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2027-02-10",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://coling2026.org/",
-                  "label": "COLING 2026 官方网站",
+                  "url": "https://2027.coling-iccl.org/",
+                  "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -570,10 +767,40 @@
                 "date_status": "tbd",
                 "action_required": true,
                 "source": {
-                  "url": "https://coling2026.org/",
-                  "label": "COLING 2026 官方网站",
+                  "url": "https://2027.coling-iccl.org/",
+                  "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-05-09",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/",
+                  "label": "COLING 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-05-14",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/",
+                  "label": "COLING 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -603,16 +830,22 @@
         "year": 2027,
         "website": "https://cvpr.thecvf.com/",
         "venue": {
-          "city": "TBD",
-          "country": "TBD",
-          "mode": "tbd"
+          "city": "Seattle",
+          "country": "USA",
+          "mode": "onsite"
         },
         "sources": [
           {
             "url": "https://cvpr.thecvf.com/",
             "label": "CVPR 官方页面",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
+          },
+          {
+            "url": "https://www.thecvf.com/?p=137",
+            "label": "CVF Upcoming Conferences",
+            "source_type": "official_announcement",
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -631,7 +864,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -645,7 +878,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -659,7 +892,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -673,7 +906,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -687,7 +920,37 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-06-20",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?p=137",
+                  "label": "CVF Upcoming Conferences",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-06-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?p=137",
+                  "label": "CVF Upcoming Conferences",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -723,10 +986,10 @@
         },
         "sources": [
           {
-            "url": "https://2026.ijcai.org/at-a-glance2/",
-            "label": "IJCAI-ECAI 2026 官方日程",
+            "url": "https://2026.ijcai.org/important-dates/",
+            "label": "IJCAI-ECAI 2026 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -734,6 +997,107 @@
             "id": "main",
             "name": "Main Conference",
             "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "instant",
+                "at": "2026-01-12T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-01-19T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "phase-one-notification",
+                "label": "第一阶段通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-03-04",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "作者回复期",
+                "type": "author_response_deadline",
+                "kind": "window",
+                "start_at": "2026-04-07T00:00:00",
+                "end_at": "2026-04-10T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "instant",
+                "at": "2026-04-29T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2026-05-20T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
               {
                 "id": "conference-start",
                 "label": "会议开始",
@@ -743,10 +1107,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/at-a-glance2/",
-                  "label": "IJCAI-ECAI 2026 官方日程",
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -758,10 +1122,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/at-a-glance2/",
-                  "label": "IJCAI-ECAI 2026 官方日程",
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -797,10 +1161,10 @@
         },
         "sources": [
           {
-            "url": "https://eccv.ecva.net/Conferences/2026",
-            "label": "ECCV 2026 官方网站",
+            "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+            "label": "ECCV 2026 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -809,31 +1173,118 @@
             "name": "Main Conference",
             "milestones": [
               {
-                "id": "notification",
-                "label": "录用通知",
-                "type": "notification",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "id": "registration",
+                "label": "论文注册截止",
+                "type": "abstract_registration",
+                "kind": "instant",
+                "at": "2026-02-26T22:00:00",
+                "timezone": "UTC",
+                "original_timezone": "UTC",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-03-05T22:00:00",
+                "timezone": "UTC",
+                "original_timezone": "UTC",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录截止",
+                "type": "supplementary_deadline",
+                "kind": "instant",
+                "at": "2026-03-12T22:00:00",
+                "timezone": "UTC",
+                "original_timezone": "UTC",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "审稿意见发布",
+                "type": "review_release",
+                "kind": "date",
+                "date": "2026-05-02",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://eccv.ecva.net/Conferences/2026",
-                  "label": "ECCV 2026 官方网站",
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "instant",
+                "at": "2026-05-11T21:00:00",
+                "timezone": "UTC",
+                "original_timezone": "UTC",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "date",
+                "date": "2026-06-17",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "camera-ready",
                 "label": "Camera-ready 截止",
                 "type": "camera_ready_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-06-30T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://eccv.ecva.net/Conferences/2026",
-                  "label": "ECCV 2026 官方网站",
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -845,10 +1296,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://eccv.ecva.net/Conferences/2026",
-                  "label": "ECCV 2026 官方网站",
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -860,10 +1311,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://eccv.ecva.net/Conferences/2026",
-                  "label": "ECCV 2026 官方网站",
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -1066,16 +1517,22 @@
         "year": 2027,
         "website": "https://iccv.thecvf.com/",
         "venue": {
-          "city": "TBD",
-          "country": "TBD",
-          "mode": "tbd"
+          "city": "Hong Kong",
+          "country": "China",
+          "mode": "onsite"
         },
         "sources": [
           {
             "url": "https://iccv.thecvf.com/",
             "label": "ICCV 官方页面",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
+          },
+          {
+            "url": "https://www.thecvf.com/?p=137",
+            "label": "CVF Upcoming Conferences",
+            "source_type": "official_announcement",
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -1094,7 +1551,7 @@
                   "url": "https://iccv.thecvf.com/",
                   "label": "ICCV 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1108,7 +1565,7 @@
                   "url": "https://iccv.thecvf.com/",
                   "label": "ICCV 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1122,7 +1579,37 @@
                   "url": "https://iccv.thecvf.com/",
                   "label": "ICCV 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-10-02",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?p=137",
+                  "label": "CVF Upcoming Conferences",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-10-08",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?p=137",
+                  "label": "CVF Upcoming Conferences",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -1153,15 +1640,15 @@
         "website": "https://iclr.cc/Conferences/2027",
         "venue": {
           "city": "TBD",
-          "country": "TBD",
-          "mode": "tbd"
+          "country": "USA",
+          "mode": "onsite"
         },
         "sources": [
           {
-            "url": "https://iclr.cc/Conferences/2027",
-            "label": "ICLR 2027 官方页面",
+            "url": "https://iclr.cc/Conferences/2027/Dates",
+            "label": "ICLR 2027 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -1173,70 +1660,124 @@
                 "id": "abstract",
                 "label": "摘要注册截止",
                 "type": "abstract_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-09-18T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027",
-                  "label": "ICLR 2027 官方页面",
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "paper",
                 "label": "论文截稿",
                 "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-09-25T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027",
-                  "label": "ICLR 2027 官方页面",
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "review-release",
                 "label": "审稿意见发布",
                 "type": "review_release",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2026-11-05",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027",
-                  "label": "ICLR 2027 官方页面",
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
-                "id": "rebuttal",
-                "label": "作者回复截止",
+                "id": "author-discussion",
+                "label": "作者与评审讨论截止",
                 "type": "author_response_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2026-11-18",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027",
-                  "label": "ICLR 2027 官方页面",
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "meta-review",
+                "label": "Meta-review 截止",
+                "type": "discussion_deadline",
+                "kind": "date",
+                "date": "2026-12-16",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "notification",
-                "label": "录用通知",
-                "type": "notification",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "date",
+                "date": "2026-12-16",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027",
-                  "label": "ICLR 2027 官方页面",
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "主会开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-04-26",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "Workshops 结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-04-30",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -1380,16 +1921,16 @@
         "year": 2027,
         "website": "https://2027.ieee-icra.org/",
         "venue": {
-          "city": "TBD",
-          "country": "TBD",
-          "mode": "tbd"
+          "city": "Seoul",
+          "country": "South Korea",
+          "mode": "onsite"
         },
         "sources": [
           {
-            "url": "https://2027.ieee-icra.org/",
-            "label": "ICRA 2027 官方网站",
-            "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+            "label": "ICRA 2027 Call for Papers",
+            "source_type": "official_cfp",
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -1398,45 +1939,129 @@
             "name": "Main Conference",
             "milestones": [
               {
-                "id": "paper",
-                "label": "论文截稿",
-                "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "id": "video-first-window",
+                "label": "附加视频第一窗口截止",
+                "type": "supplementary_deadline",
+                "kind": "instant",
+                "at": "2026-09-09T23:59:00",
+                "timezone": "Etc/GMT+8",
+                "original_timezone": "PST",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2027.ieee-icra.org/",
-                  "label": "ICRA 2027 官方网站",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
-                "id": "supplementary",
-                "label": "附录与视频截止",
-                "type": "supplementary_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-09-15T23:59:00",
+                "timezone": "Etc/GMT+8",
+                "original_timezone": "PST",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2027.ieee-icra.org/",
-                  "label": "ICRA 2027 官方网站",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "video-final-window",
+                "label": "附加视频最终截止",
+                "type": "supplementary_deadline",
+                "kind": "instant",
+                "at": "2026-09-22T23:59:00",
+                "timezone": "Etc/GMT+8",
+                "original_timezone": "PST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "notification",
                 "label": "录用通知",
                 "type": "notification",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2027-01-31",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2027.ieee-icra.org/",
-                  "label": "ICRA 2027 官方网站",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "author-registration",
+                "label": "作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "date",
+                "date": "2027-03-05",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "early-registration",
+                "label": "早鸟注册截止",
+                "type": "early_registration_deadline",
+                "kind": "date",
+                "date": "2027-03-31",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-05-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-05-28",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+                  "label": "ICRA 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -1472,10 +2097,10 @@
         },
         "sources": [
           {
-            "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
-            "label": "IJCAI-ECAI 2026 Main Track CFP",
-            "source_type": "official_cfp",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "url": "https://2026.ijcai.org/important-dates/",
+            "label": "IJCAI-ECAI 2026 Important Dates",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -1494,10 +2119,10 @@
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
-                  "label": "IJCAI-ECAI 2026 Main Track CFP",
-                  "source_type": "official_cfp",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1511,10 +2136,25 @@
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
-                  "label": "IJCAI-ECAI 2026 Main Track CFP",
-                  "source_type": "official_cfp",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "phase-one-notification",
+                "label": "第一阶段通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-03-04",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1529,10 +2169,10 @@
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
-                  "label": "IJCAI-ECAI 2026 Main Track CFP",
-                  "source_type": "official_cfp",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1546,10 +2186,27 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
-                  "label": "IJCAI-ECAI 2026 Main Track CFP",
-                  "source_type": "official_cfp",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2026-05-20T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1561,10 +2218,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
-                  "label": "IJCAI-ECAI 2026 Main Track CFP",
-                  "source_type": "official_cfp",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1576,10 +2233,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
-                  "label": "IJCAI-ECAI 2026 Main Track CFP",
-                  "source_type": "official_cfp",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2026.ijcai.org/important-dates/",
+                  "label": "IJCAI-ECAI 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -1607,18 +2264,18 @@
     "editions": [
       {
         "year": 2027,
-        "website": "https://naacl.org/",
+        "website": "https://2027.naacl.org/",
         "venue": {
-          "city": "TBD",
-          "country": "TBD",
-          "mode": "tbd"
+          "city": "San Francisco",
+          "country": "USA",
+          "mode": "onsite"
         },
         "sources": [
           {
-            "url": "https://naacl.org/",
-            "label": "NAACL 官方网站",
+            "url": "https://2027.naacl.org/",
+            "label": "NAACL 2027 官方 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -1630,14 +2287,17 @@
                 "id": "arr-paper",
                 "label": "ARR 投稿截止",
                 "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-10-12T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://naacl.org/",
-                  "label": "NAACL 官方网站",
+                  "url": "https://2027.naacl.org/",
+                  "label": "NAACL 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1648,10 +2308,10 @@
                 "date_status": "tbd",
                 "action_required": true,
                 "source": {
-                  "url": "https://naacl.org/",
-                  "label": "NAACL 官方网站",
+                  "url": "https://2027.naacl.org/",
+                  "label": "NAACL 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1662,10 +2322,40 @@
                 "date_status": "tbd",
                 "action_required": false,
                 "source": {
-                  "url": "https://naacl.org/",
-                  "label": "NAACL 官方网站",
+                  "url": "https://2027.naacl.org/",
+                  "label": "NAACL 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-06-01",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.naacl.org/",
+                  "label": "NAACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-06-05",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.naacl.org/",
+                  "label": "NAACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]
@@ -1875,10 +2565,10 @@
         },
         "sources": [
           {
-            "url": "https://acmweb2027.org/",
-            "label": "ACM Web Conference 2027 官方网站",
+            "url": "https://acmweb2027.org/important-dates/",
+            "label": "ACM Web Conference 2027 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-03T10:08:46Z"
           }
         ],
         "tracks": [
@@ -1890,28 +2580,84 @@
                 "id": "abstract",
                 "label": "摘要注册截止",
                 "type": "abstract_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-10-11T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://acmweb2027.org/",
-                  "label": "ACM Web Conference 2027 官方网站",
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
                 "id": "paper",
                 "label": "论文截稿",
                 "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-10-18T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://acmweb2027.org/",
-                  "label": "ACM Web Conference 2027 官方网站",
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "评审结果发布",
+                "type": "review_release",
+                "kind": "date",
+                "date": "2026-12-10",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 期",
+                "type": "rebuttal_deadline",
+                "kind": "window",
+                "start_at": "2026-12-12T00:00:00",
+                "end_at": "2026-12-19T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "final-version",
+                "label": "论文最终版本截止",
+                "type": "revision_deadline",
+                "kind": "instant",
+                "at": "2027-01-31T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1922,10 +2668,10 @@
                 "date_status": "tbd",
                 "action_required": false,
                 "source": {
-                  "url": "https://acmweb2027.org/",
-                  "label": "ACM Web Conference 2027 官方网站",
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1937,10 +2683,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://acmweb2027.org/",
-                  "label": "ACM Web Conference 2027 官方网站",
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               },
               {
@@ -1952,10 +2698,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://acmweb2027.org/",
-                  "label": "ACM Web Conference 2027 官方网站",
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-03T10:08:46Z"
                 }
               }
             ]

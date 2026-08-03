@@ -54,6 +54,12 @@ describe('deadline list ordering', () => {
     expect(selectDeadlineMilestone([olderPast, recentPast], now)?.id).toBe('recent-past')
   })
 
+  it('投稿截止列表不被未来的回复或出版节点覆盖', () => {
+    const futureResponse: Milestone = { ...farFuture, id: 'response', type: 'author_response_deadline' }
+    const futureCameraReady: Milestone = { ...farFuture, id: 'camera-ready', type: 'camera_ready_deadline' }
+    expect(selectDeadlineMilestone([recentPast, futureResponse, futureCameraReady], now)?.id).toBe('recent-past')
+  })
+
   it('未来日期升序、待公布与无日期居中，并把已截止节点按最近优先放在末尾', () => {
     const values = [tbd, olderPast, farFuture, recentPast, nearFuture, null]
       .sort((a, b) => compareDeadlineMilestones(a, b, now))
