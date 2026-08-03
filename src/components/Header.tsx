@@ -18,7 +18,6 @@ export function Header() {
         <nav className={open ? 'main-nav is-open' : 'main-nav'} onClick={() => setOpen(false)}>
           <NavLink to="/" end>会议总览</NavLink>
           <NavLink to="/submissions">我的投稿</NavLink>
-          <a href={`${repository}/issues`} target="_blank" rel="noreferrer">数据纠错</a>
           <a className="github-link" href={repository} target="_blank" rel="noreferrer"><GitBranch size={16} /> GitHub</a>
         </nav>
       </div>
