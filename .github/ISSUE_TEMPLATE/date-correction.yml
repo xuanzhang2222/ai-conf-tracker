@@ -1,0 +1,25 @@
+name: 报告日期错误
+description: 提交会议日期纠错，请务必提供官方来源
+title: '[Date Correction] '
+labels: []
+body:
+  - type: input
+    id: conference
+    attributes: { label: 会议与年份, placeholder: '例如：EMNLP 2027' }
+    validations: { required: true }
+  - type: input
+    id: track
+    attributes: { label: Track, placeholder: '例如：Main Conference' }
+    validations: { required: true }
+  - type: input
+    id: event
+    attributes: { label: 事件, placeholder: '例如：Rebuttal Deadline' }
+    validations: { required: true }
+  - type: textarea
+    id: correction
+    attributes: { label: 当前日期与建议日期 }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: 官方来源 URL, placeholder: 'https://...' }
+    validations: { required: true }

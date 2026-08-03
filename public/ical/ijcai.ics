@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Conf Tracker//ZH-CN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ijcai-2026-abstract@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:IJCAI 2026 · 摘要注册截止
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+DTSTART:20260113T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2026-paper@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:IJCAI 2026 · 论文截稿
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+DTSTART:20260120T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2026-rebuttal@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:IJCAI 2026 · 作者回复期
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+DTSTART:20260407T120000Z
+DTEND:20260411T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2026-notification@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:IJCAI 2026 · 录用通知
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+DTSTART:20260430T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2026-conference-start@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:IJCAI 2026 · 会议开始
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+DTSTART;VALUE=DATE:20260815
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2026-conference-end@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:IJCAI 2026 · 会议结束
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+DTSTART;VALUE=DATE:20260821
+END:VEVENT
+END:VCALENDAR

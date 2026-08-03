@@ -1,0 +1,20 @@
+id: icaps
+name: ICAPS
+full_name: International Conference on Automated Planning and Scheduling
+description: 自动规划、调度与决策智能领域的国际核心会议。
+ccf: { edition: 2026, level: B, category: AI, curated_extra: false }
+topics: [planning, general-ai]
+dblp: conf/aips
+editions:
+  - year: 2027
+    website: https://www.icaps-conference.org/
+    venue: { city: TBD, country: TBD, mode: tbd }
+    sources:
+      - &dates { url: https://www.icaps-conference.org/, label: ICAPS 官方网站, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
+    tracks:
+      - id: main
+        name: Main Conference
+        milestones:
+          - { id: abstract, label: 摘要注册截止, type: abstract_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
+          - { id: notification, label: 录用通知, type: notification, kind: tbd, date_status: tbd, action_required: false, source: *dates }

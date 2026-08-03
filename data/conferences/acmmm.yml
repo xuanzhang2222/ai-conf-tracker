@@ -1,0 +1,26 @@
+id: acmmm
+name: ACM MM
+full_name: ACM International Conference on Multimedia
+description: 多媒体内容理解、生成、检索与交互领域的国际旗舰会议。
+ccf: { edition: 2026, level: A, category: Graphics & Multimedia, curated_extra: true }
+topics: [multimedia, machine-learning]
+dblp: conf/mm
+editions:
+  - year: 2026
+    website: https://2026.acmmm.org/
+    venue: { city: Rio de Janeiro, country: Brazil, mode: onsite }
+    sources:
+      - &dates { url: https://2026.acmmm.org/site/important-dates.html, label: ACM MM 2026 Important Dates, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
+    tracks:
+      - id: main
+        name: Main Conference
+        milestones:
+          - { id: abstract, label: Contribution 注册截止, type: abstract_deadline, kind: date, date: 2026-03-25, date_status: confirmed, action_required: true, source: *dates }
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: date, date: 2026-04-01, date_status: confirmed, action_required: true, source: *dates }
+          - { id: supplementary, label: 附录截止, type: supplementary_deadline, kind: date, date: 2026-04-08, date_status: confirmed, action_required: true, source: *dates }
+          - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: date, date: 2026-06-04, date_status: confirmed, action_required: true, source: *dates }
+          - { id: notification, label: 录用通知, type: notification, kind: date, date: 2026-07-09, date_status: confirmed, action_required: false, source: *dates }
+          - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: date, date: 2026-08-06, date_status: confirmed, action_required: true, source: *dates }
+          - { id: author-registration, label: 作者注册截止, type: author_registration_deadline, kind: date, date: 2026-08-20, date_status: confirmed, action_required: true, source: *dates }
+          - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2026-11-10, date_status: confirmed, action_required: false, source: *dates }
+          - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2026-11-14, date_status: confirmed, action_required: false, source: *dates }

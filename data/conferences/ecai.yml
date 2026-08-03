@@ -1,0 +1,19 @@
+id: ecai
+name: ECAI
+full_name: European Conference on Artificial Intelligence
+description: 欧洲人工智能学界覆盖基础理论和广泛应用的综合会议。
+ccf: { edition: 2026, level: B, category: AI, curated_extra: false }
+topics: [general-ai, knowledge-reasoning]
+dblp: conf/ecai
+editions:
+  - year: 2026
+    website: https://2026.ijcai.org/
+    venue: { city: Bremen, country: Germany, mode: onsite }
+    sources:
+      - &dates { url: https://2026.ijcai.org/at-a-glance2/, label: IJCAI-ECAI 2026 官方日程, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
+    tracks:
+      - id: main
+        name: Main Conference
+        milestones:
+          - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2026-08-15, date_status: confirmed, action_required: false, source: *dates }
+          - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2026-08-21, date_status: confirmed, action_required: false, source: *dates }

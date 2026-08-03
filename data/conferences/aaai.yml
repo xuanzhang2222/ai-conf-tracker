@@ -1,0 +1,20 @@
+id: aaai
+name: AAAI
+full_name: AAAI Conference on Artificial Intelligence
+description: 覆盖人工智能理论、方法与应用的综合性旗舰会议。
+ccf: { edition: 2026, level: A, category: AI, curated_extra: false }
+topics: [general-ai, machine-learning]
+dblp: conf/aaai
+editions:
+  - year: 2027
+    website: https://aaai.org/conference/aaai/aaai-27/
+    venue: { city: Montréal, country: Canada, mode: onsite }
+    sources:
+      - &dates { url: https://aaai.org/conference/aaai/aaai-27/, label: AAAI-27 官方页面, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
+    tracks:
+      - id: main
+        name: Main Technical Track
+        milestones:
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
+          - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-02-16, date_status: confirmed, action_required: false, source: *dates }
+          - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-02-23, date_status: confirmed, action_required: false, source: *dates }

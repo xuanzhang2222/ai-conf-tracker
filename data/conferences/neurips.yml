@@ -1,0 +1,25 @@
+id: neurips
+name: NeurIPS
+full_name: Conference on Neural Information Processing Systems
+description: 机器学习、神经科学与计算方法领域的国际旗舰会议。
+ccf: { edition: 2026, level: A, category: AI, curated_extra: false }
+topics: [machine-learning, general-ai]
+dblp: conf/nips
+editions:
+  - year: 2026
+    website: https://neurips.cc/Conferences/2026
+    venue: { city: Sydney, country: Australia, mode: onsite }
+    sources:
+      - &dates { url: https://neurips.cc/Conferences/2026/Dates, label: NeurIPS 2026 Dates and Deadlines, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
+    tracks:
+      - id: main
+        name: Main Conference
+        milestones:
+          - { id: abstract, label: 摘要注册截止, type: abstract_deadline, kind: instant, at: '2026-05-04T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: instant, at: '2026-05-06T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
+          - { id: review-release, label: 审稿意见发布, type: review_release, kind: date, date: 2026-07-22, date_status: confirmed, action_required: false, source: *dates }
+          - { id: author-discussion, label: 作者讨论期, type: author_response_deadline, kind: window, start_at: '2026-07-27T00:00:00', end_at: '2026-08-03T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
+          - { id: discussion, label: 评审讨论期, type: discussion_deadline, kind: window, start_at: '2026-08-03T00:00:00', end_at: '2026-08-10T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *dates }
+          - { id: notification, label: 录用通知, type: notification, kind: date, date: 2026-09-24, date_status: confirmed, action_required: false, source: *dates }
+          - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2026-12-06, date_status: confirmed, action_required: false, source: *dates }
+          - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2026-12-12, date_status: confirmed, action_required: false, source: *dates }

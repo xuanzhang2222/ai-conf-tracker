@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Conf Tracker//ZH-CN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:acmmm-2026-abstract@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · Contribution 注册截止
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20260325
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-paper@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · 论文截稿
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20260401
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-supplementary@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · 附录截止
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20260408
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-rebuttal@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · Rebuttal 截止
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20260604
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-notification@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · 录用通知
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20260709
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-camera-ready@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · Camera-ready 截止
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20260806
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-author-registration@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · 作者注册截止
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20260820
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-conference-start@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · 会议开始
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20261110
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-conference-end@ai-conf-tracker
+DTSTAMP:20260803T030559Z
+SUMMARY:ACM MM 2026 · 会议结束
+URL:https://2026.acmmm.org/site/important-dates.html
+DTSTART;VALUE=DATE:20261114
+END:VEVENT
+END:VCALENDAR

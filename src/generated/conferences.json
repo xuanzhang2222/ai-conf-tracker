@@ -1,0 +1,2515 @@
+[
+  {
+    "id": "aaai",
+    "name": "AAAI",
+    "full_name": "AAAI Conference on Artificial Intelligence",
+    "description": "覆盖人工智能理论、方法与应用的综合性旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "general-ai",
+      "machine-learning"
+    ],
+    "dblp": "conf/aaai",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://aaai.org/conference/aaai/aaai-27/",
+        "venue": {
+          "city": "Montréal",
+          "country": "Canada",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/",
+            "label": "AAAI-27 官方页面",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Technical Track",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-02-16",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-02-23",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aamas",
+    "name": "AAMAS",
+    "full_name": "International Conference on Autonomous Agents and Multiagent Systems",
+    "description": "自主智能体、多智能体协作与社会智能领域的核心会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "agents",
+      "general-ai"
+    ],
+    "dblp": "conf/atal",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://www.aamas-conference.org/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://www.aamas-conference.org/",
+            "label": "AAMAS 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.aamas-conference.org/",
+                  "label": "AAMAS 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.aamas-conference.org/",
+                  "label": "AAMAS 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.aamas-conference.org/",
+                  "label": "AAMAS 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.aamas-conference.org/",
+                  "label": "AAMAS 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acl",
+    "name": "ACL",
+    "full_name": "Annual Meeting of the Association for Computational Linguistics",
+    "description": "计算语言学与自然语言处理领域的国际旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "nlp",
+      "language-models"
+    ],
+    "dblp": "conf/acl",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://2027.aclweb.org/",
+        "venue": {
+          "city": "Kyoto",
+          "country": "Japan",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://2027.aclweb.org/",
+            "label": "ACL 2027 官方 Important Dates",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "arr-paper",
+                "label": "ARR 投稿截止",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.aclweb.org/",
+                  "label": "ACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "commitment",
+                "label": "ACL 承诺截止",
+                "type": "revision_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.aclweb.org/",
+                  "label": "ACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.aclweb.org/",
+                  "label": "ACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.aclweb.org/",
+                  "label": "ACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-08-17",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.aclweb.org/",
+                  "label": "ACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-08-22",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.aclweb.org/",
+                  "label": "ACL 2027 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acmmm",
+    "name": "ACM MM",
+    "full_name": "ACM International Conference on Multimedia",
+    "description": "多媒体内容理解、生成、检索与交互领域的国际旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "Graphics & Multimedia",
+      "curated_extra": true
+    },
+    "topics": [
+      "multimedia",
+      "machine-learning"
+    ],
+    "dblp": "conf/mm",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://2026.acmmm.org/",
+        "venue": {
+          "city": "Rio de Janeiro",
+          "country": "Brazil",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://2026.acmmm.org/site/important-dates.html",
+            "label": "ACM MM 2026 Important Dates",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "Contribution 注册截止",
+                "type": "abstract_deadline",
+                "kind": "date",
+                "date": "2026-03-25",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-04-01",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录截止",
+                "type": "supplementary_deadline",
+                "kind": "date",
+                "date": "2026-04-08",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "date",
+                "date": "2026-06-04",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-07-09",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2026-08-06",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "author-registration",
+                "label": "作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "date",
+                "date": "2026-08-20",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-11-10",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-11-14",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/important-dates.html",
+                  "label": "ACM MM 2026 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "coling",
+    "name": "COLING",
+    "full_name": "International Conference on Computational Linguistics",
+    "description": "计算语言学和自然语言处理全方向的重要国际会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "nlp",
+      "language-models"
+    ],
+    "dblp": "conf/coling",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://coling2026.org/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://coling2026.org/",
+            "label": "COLING 2026 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://coling2026.org/",
+                  "label": "COLING 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://coling2026.org/",
+                  "label": "COLING 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://coling2026.org/",
+                  "label": "COLING 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colt",
+    "name": "COLT",
+    "full_name": "Conference on Learning Theory",
+    "description": "机器学习理论、统计学习与优化基础研究的核心会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "machine-learning",
+      "learning-theory"
+    ],
+    "dblp": "conf/colt",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://learningtheory.org/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://learningtheory.org/",
+            "label": "COLT 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://learningtheory.org/",
+                  "label": "COLT 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "作者回复截止",
+                "type": "author_response_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://learningtheory.org/",
+                  "label": "COLT 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://learningtheory.org/",
+                  "label": "COLT 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cvpr",
+    "name": "CVPR",
+    "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "description": "计算机视觉、模式识别与视觉学习领域的旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "computer-vision",
+      "machine-learning"
+    ],
+    "dblp": "conf/cvpr",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://cvpr.thecvf.com/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://cvpr.thecvf.com/",
+            "label": "CVPR 官方页面",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/",
+                  "label": "CVPR 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录截止",
+                "type": "supplementary_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/",
+                  "label": "CVPR 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "审稿意见发布",
+                "type": "review_release",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/",
+                  "label": "CVPR 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/",
+                  "label": "CVPR 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/",
+                  "label": "CVPR 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ecai",
+    "name": "ECAI",
+    "full_name": "European Conference on Artificial Intelligence",
+    "description": "欧洲人工智能学界覆盖基础理论和广泛应用的综合会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "general-ai",
+      "knowledge-reasoning"
+    ],
+    "dblp": "conf/ecai",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://2026.ijcai.org/",
+        "venue": {
+          "city": "Bremen",
+          "country": "Germany",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://2026.ijcai.org/at-a-glance2/",
+            "label": "IJCAI-ECAI 2026 官方日程",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-08-15",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/at-a-glance2/",
+                  "label": "IJCAI-ECAI 2026 官方日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-08-21",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/at-a-glance2/",
+                  "label": "IJCAI-ECAI 2026 官方日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eccv",
+    "name": "ECCV",
+    "full_name": "European Conference on Computer Vision",
+    "description": "欧洲计算机视觉领域最具影响力的国际旗舰会议之一。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "computer-vision",
+      "machine-learning"
+    ],
+    "dblp": "conf/eccv",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://eccv.ecva.net/Conferences/2026",
+        "venue": {
+          "city": "Malmö",
+          "country": "Sweden",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://eccv.ecva.net/Conferences/2026",
+            "label": "ECCV 2026 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026",
+                  "label": "ECCV 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026",
+                  "label": "ECCV 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-09-08",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026",
+                  "label": "ECCV 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-09-12",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026",
+                  "label": "ECCV 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "emnlp",
+    "name": "EMNLP",
+    "full_name": "Conference on Empirical Methods in Natural Language Processing",
+    "description": "以实证方法驱动自然语言处理研究的国际核心会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "nlp",
+      "language-models"
+    ],
+    "dblp": "conf/emnlp",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://2026.emnlp.org/",
+        "venue": {
+          "city": "Budapest",
+          "country": "Hungary",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://2026.emnlp.org/",
+            "label": "EMNLP 2026 官方 Important Dates",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "arr-paper",
+                "label": "ARR 投稿截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-05-25T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "author-discussion",
+                "label": "作者回复与讨论",
+                "type": "author_response_deadline",
+                "kind": "window",
+                "start_at": "2026-07-07T00:00:00",
+                "end_at": "2026-07-13T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "meta-review",
+                "label": "Meta Review 发布",
+                "type": "review_release",
+                "kind": "date",
+                "date": "2026-07-30",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "commitment",
+                "label": "EMNLP 承诺截止",
+                "type": "revision_deadline",
+                "kind": "instant",
+                "at": "2026-08-02T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-08-20",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2026-08-30T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-10-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-10-29",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.emnlp.org/",
+                  "label": "EMNLP 2026 官方 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "icaps",
+    "name": "ICAPS",
+    "full_name": "International Conference on Automated Planning and Scheduling",
+    "description": "自动规划、调度与决策智能领域的国际核心会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "planning",
+      "general-ai"
+    ],
+    "dblp": "conf/aips",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://www.icaps-conference.org/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://www.icaps-conference.org/",
+            "label": "ICAPS 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.icaps-conference.org/",
+                  "label": "ICAPS 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.icaps-conference.org/",
+                  "label": "ICAPS 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.icaps-conference.org/",
+                  "label": "ICAPS 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iccbr",
+    "name": "ICCBR",
+    "full_name": "International Conference on Case-Based Reasoning",
+    "description": "基于案例推理、经验学习与知识系统领域的专业会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "knowledge-reasoning",
+      "general-ai"
+    ],
+    "dblp": "conf/iccbr",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://www.iccbr.org/",
+        "venue": {
+          "city": "Bremen",
+          "country": "Germany",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://www.iccbr.org/",
+            "label": "ICCBR 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.iccbr.org/",
+                  "label": "ICCBR 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.iccbr.org/",
+                  "label": "ICCBR 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-08-13",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.iccbr.org/",
+                  "label": "ICCBR 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-08-16",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.iccbr.org/",
+                  "label": "ICCBR 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iccv",
+    "name": "ICCV",
+    "full_name": "IEEE/CVF International Conference on Computer Vision",
+    "description": "聚焦计算机视觉基础理论、方法和真实世界应用的旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "computer-vision",
+      "machine-learning"
+    ],
+    "dblp": "conf/iccv",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://iccv.thecvf.com/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://iccv.thecvf.com/",
+            "label": "ICCV 官方页面",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://iccv.thecvf.com/",
+                  "label": "ICCV 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录截止",
+                "type": "supplementary_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://iccv.thecvf.com/",
+                  "label": "ICCV 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://iccv.thecvf.com/",
+                  "label": "ICCV 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iclr",
+    "name": "ICLR",
+    "full_name": "International Conference on Learning Representations",
+    "description": "深度学习、表征学习及其理论与应用领域的国际旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "machine-learning",
+      "representation-learning"
+    ],
+    "dblp": "conf/iclr",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://iclr.cc/Conferences/2027",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://iclr.cc/Conferences/2027",
+            "label": "ICLR 2027 官方页面",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027",
+                  "label": "ICLR 2027 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027",
+                  "label": "ICLR 2027 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "审稿意见发布",
+                "type": "review_release",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027",
+                  "label": "ICLR 2027 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "作者回复截止",
+                "type": "author_response_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027",
+                  "label": "ICLR 2027 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027",
+                  "label": "ICLR 2027 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "icml",
+    "name": "ICML",
+    "full_name": "International Conference on Machine Learning",
+    "description": "机器学习理论、算法、系统和应用领域的国际旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "machine-learning",
+      "general-ai"
+    ],
+    "dblp": "conf/icml",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://icml.cc/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://icml.cc/",
+            "label": "ICML 官方页面",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://icml.cc/",
+                  "label": "ICML 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://icml.cc/",
+                  "label": "ICML 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "审稿意见发布",
+                "type": "review_release",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/",
+                  "label": "ICML 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "作者回复截止",
+                "type": "author_response_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://icml.cc/",
+                  "label": "ICML 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/",
+                  "label": "ICML 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "icra",
+    "name": "ICRA",
+    "full_name": "IEEE International Conference on Robotics and Automation",
+    "description": "机器人、自动化、感知与智能系统领域的国际旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "robotics",
+      "general-ai"
+    ],
+    "dblp": "conf/icra",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://2027.ieee-icra.org/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://2027.ieee-icra.org/",
+            "label": "ICRA 2027 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/",
+                  "label": "ICRA 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录与视频截止",
+                "type": "supplementary_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/",
+                  "label": "ICRA 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/",
+                  "label": "ICRA 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ijcai",
+    "name": "IJCAI",
+    "full_name": "International Joint Conference on Artificial Intelligence",
+    "description": "覆盖人工智能基础理论与应用的国际综合性旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "general-ai",
+      "knowledge-reasoning"
+    ],
+    "dblp": "conf/ijcai",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://2026.ijcai.org/",
+        "venue": {
+          "city": "Bremen",
+          "country": "Germany",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+            "label": "IJCAI-ECAI 2026 Main Track CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Track",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "instant",
+                "at": "2026-01-12T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+                  "label": "IJCAI-ECAI 2026 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-01-19T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+                  "label": "IJCAI-ECAI 2026 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "作者回复期",
+                "type": "author_response_deadline",
+                "kind": "window",
+                "start_at": "2026-04-07T00:00:00",
+                "end_at": "2026-04-10T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+                  "label": "IJCAI-ECAI 2026 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "instant",
+                "at": "2026-04-29T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+                  "label": "IJCAI-ECAI 2026 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-08-15",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+                  "label": "IJCAI-ECAI 2026 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-08-21",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+                  "label": "IJCAI-ECAI 2026 Main Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kr",
+    "name": "KR",
+    "full_name": "International Conference on Principles of Knowledge Representation and Reasoning",
+    "description": "知识表示、逻辑推理与智能系统基础研究的国际核心会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "knowledge-reasoning",
+      "general-ai"
+    ],
+    "dblp": "conf/kr",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://kr.org/KR2026/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://kr.org/KR2026/",
+            "label": "KR 2026 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://kr.org/KR2026/",
+                  "label": "KR 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://kr.org/KR2026/",
+                  "label": "KR 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference",
+                "label": "会议日期",
+                "type": "conference_start",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://kr.org/KR2026/",
+                  "label": "KR 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naacl",
+    "name": "NAACL",
+    "full_name": "Annual Conference of the Nations of the Americas Chapter of the ACL",
+    "description": "美洲计算语言学与自然语言处理社群的旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "nlp",
+      "language-models"
+    ],
+    "dblp": "conf/naacl",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://naacl.org/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://naacl.org/",
+            "label": "NAACL 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "arr-paper",
+                "label": "ARR 投稿截止",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://naacl.org/",
+                  "label": "NAACL 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "commitment",
+                "label": "NAACL 承诺截止",
+                "type": "revision_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://naacl.org/",
+                  "label": "NAACL 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://naacl.org/",
+                  "label": "NAACL 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "neurips",
+    "name": "NeurIPS",
+    "full_name": "Conference on Neural Information Processing Systems",
+    "description": "机器学习、神经科学与计算方法领域的国际旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "machine-learning",
+      "general-ai"
+    ],
+    "dblp": "conf/nips",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://neurips.cc/Conferences/2026",
+        "venue": {
+          "city": "Sydney",
+          "country": "Australia",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://neurips.cc/Conferences/2026/Dates",
+            "label": "NeurIPS 2026 Dates and Deadlines",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "instant",
+                "at": "2026-05-04T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-05-06T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "审稿意见发布",
+                "type": "review_release",
+                "kind": "date",
+                "date": "2026-07-22",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "author-discussion",
+                "label": "作者讨论期",
+                "type": "author_response_deadline",
+                "kind": "window",
+                "start_at": "2026-07-27T00:00:00",
+                "end_at": "2026-08-03T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "discussion",
+                "label": "评审讨论期",
+                "type": "discussion_deadline",
+                "kind": "window",
+                "start_at": "2026-08-03T00:00:00",
+                "end_at": "2026-08-10T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-09-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-12-06",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-12-12",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ppsn",
+    "name": "PPSN",
+    "full_name": "Parallel Problem Solving from Nature",
+    "description": "进化计算、群体智能和自然启发式优化领域的重要会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "evolutionary-computation",
+      "machine-learning"
+    ],
+    "dblp": "conf/ppsn",
+    "editions": [
+      {
+        "year": 2026,
+        "website": "https://ppsn2026.disi.unitn.it/",
+        "venue": {
+          "city": "Trento",
+          "country": "Italy",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://ppsn2026.disi.unitn.it/",
+            "label": "PPSN 2026 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://ppsn2026.disi.unitn.it/",
+                  "label": "PPSN 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://ppsn2026.disi.unitn.it/",
+                  "label": "PPSN 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-08-29",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://ppsn2026.disi.unitn.it/",
+                  "label": "PPSN 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-09-02",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://ppsn2026.disi.unitn.it/",
+                  "label": "PPSN 2026 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uai",
+    "name": "UAI",
+    "full_name": "Conference on Uncertainty in Artificial Intelligence",
+    "description": "概率建模、因果推断和不确定性智能领域的国际核心会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "B",
+      "category": "AI",
+      "curated_extra": false
+    },
+    "topics": [
+      "machine-learning",
+      "knowledge-reasoning"
+    ],
+    "dblp": "conf/uai",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://www.auai.org/",
+        "venue": {
+          "city": "TBD",
+          "country": "TBD",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://www.auai.org/",
+            "label": "UAI 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.auai.org/",
+                  "label": "UAI 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "author-response",
+                "label": "作者回复截止",
+                "type": "author_response_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.auai.org/",
+                  "label": "UAI 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.auai.org/",
+                  "label": "UAI 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "www",
+    "name": "WWW",
+    "full_name": "ACM Web Conference",
+    "description": "Web 技术、网络科学、搜索推荐与在线社会研究的旗舰会议。",
+    "ccf": {
+      "edition": 2026,
+      "level": "A",
+      "category": "Cross-disciplinary",
+      "curated_extra": true
+    },
+    "topics": [
+      "web",
+      "machine-learning"
+    ],
+    "dblp": "conf/www",
+    "editions": [
+      {
+        "year": 2027,
+        "website": "https://acmweb2027.org/",
+        "venue": {
+          "city": "Dublin",
+          "country": "Ireland",
+          "mode": "onsite"
+        },
+        "sources": [
+          {
+            "url": "https://acmweb2027.org/",
+            "label": "ACM Web Conference 2027 官方网站",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-03T04:00:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "research",
+            "name": "Research Tracks",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://acmweb2027.org/",
+                  "label": "ACM Web Conference 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://acmweb2027.org/",
+                  "label": "ACM Web Conference 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://acmweb2027.org/",
+                  "label": "ACM Web Conference 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-05-10",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://acmweb2027.org/",
+                  "label": "ACM Web Conference 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-05-14",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://acmweb2027.org/",
+                  "label": "ACM Web Conference 2027 官方网站",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-03T04:00:00Z"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

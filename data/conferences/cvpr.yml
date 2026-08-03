@@ -1,0 +1,22 @@
+id: cvpr
+name: CVPR
+full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+description: 计算机视觉、模式识别与视觉学习领域的旗舰会议。
+ccf: { edition: 2026, level: A, category: AI, curated_extra: false }
+topics: [computer-vision, machine-learning]
+dblp: conf/cvpr
+editions:
+  - year: 2027
+    website: https://cvpr.thecvf.com/
+    venue: { city: TBD, country: TBD, mode: tbd }
+    sources:
+      - &dates { url: https://cvpr.thecvf.com/, label: CVPR 官方页面, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
+    tracks:
+      - id: main
+        name: Main Conference
+        milestones:
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
+          - { id: supplementary, label: 附录截止, type: supplementary_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
+          - { id: review-release, label: 审稿意见发布, type: review_release, kind: tbd, date_status: tbd, action_required: false, source: *dates }
+          - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
+          - { id: notification, label: 录用通知, type: notification, kind: tbd, date_status: tbd, action_required: false, source: *dates }

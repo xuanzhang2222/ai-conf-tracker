@@ -1,0 +1,17 @@
+name: 补充会议届次
+description: 建议新增已公布的会议届次
+title: '[Add Edition] '
+labels: []
+body:
+  - type: input
+    id: conference
+    attributes: { label: 会议与年份, placeholder: '例如：ICML 2027' }
+    validations: { required: true }
+  - type: input
+    id: website
+    attributes: { label: 官方网站 URL, placeholder: 'https://...' }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: 已公布信息 }
+    validations: { required: true }
