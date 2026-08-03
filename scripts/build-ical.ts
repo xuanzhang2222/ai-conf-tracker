@@ -8,7 +8,8 @@ type Milestone = ConferenceData['editions'][number]['tracks'][number]['milestone
 function eventLines(conference: ConferenceData, year: number, milestone: Milestone): string[] {
   if (milestone.date_status === 'tbd' || milestone.date_status === 'cancelled' || milestone.date_status === 'superseded') return []
   const summary = `${conference.name} ${year} · ${milestone.label}`
-  const lines = ['BEGIN:VEVENT', `UID:${conference.id}-${year}-${milestone.id}@ai-conf-tracker`, `DTSTAMP:${icsDate(new Date())}`, `SUMMARY:${escapeIcs(summary)}`, `URL:${milestone.source?.url ?? conference.editions[0].website}`]
+  const stamp = new Date(milestone.source?.verified_at ?? '2026-01-01T00:00:00Z')
+  const lines = ['BEGIN:VEVENT', `UID:${conference.id}-${year}-${milestone.id}@ai-conf-tracker`, `DTSTAMP:${icsDate(stamp)}`, `SUMMARY:${escapeIcs(summary)}`, `URL:${milestone.source?.url ?? conference.editions[0].website}`]
   if (milestone.kind === 'date' && milestone.date) {
     lines.push(`DTSTART;VALUE=DATE:${milestone.date.replace(/-/g, '')}`)
   } else if (milestone.kind === 'instant' && milestone.at) {

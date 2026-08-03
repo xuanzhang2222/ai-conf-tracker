@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Milestone } from '../types/conference'
-import { formatMilestoneDate, milestoneState, selectNextMilestone, zonedLocalToUtc } from './milestone'
+import { formatCountdown, formatMilestoneDate, milestoneState, selectNextMilestone, zonedLocalToUtc } from './milestone'
 
 const source = { url: 'https://example.com/dates', label: 'Official dates', source_type: 'official_dates', verified_at: '2026-08-03T00:00:00Z' }
 const instant = (id: string, at: string, action_required = true): Milestone => ({ id, label: id, type: 'paper_deadline', kind: 'instant', at, timezone: 'UTC', date_status: 'confirmed', action_required, source })
@@ -32,5 +32,10 @@ describe('timezone and precision', () => {
   it('仅日期事件明确提示具体时间未公布', () => {
     const date: Milestone = { id: 'notification', label: 'Notification', type: 'notification', kind: 'date', date: '2026-09-24', date_status: 'confirmed', action_required: false, source }
     expect(formatMilestoneDate(date)).toContain('具体时间未公布')
+  })
+
+  it('倒计时精确到秒', () => {
+    const deadline = instant('deadline', '2026-08-04T18:02:03')
+    expect(formatCountdown(deadline, new Date('2026-08-03T10:00:00Z'))).toBe('1 天 8 小时 2 分 3 秒')
   })
 })

@@ -74,9 +74,11 @@ export function formatCountdown(milestone: Milestone, now = new Date()): string 
   const days = Math.floor(diff / 86_400_000)
   const hours = Math.floor((diff % 86_400_000) / 3_600_000)
   const minutes = Math.floor((diff % 3_600_000) / 60_000)
-  if (days > 0) return `${days} 天 ${hours} 小时`
-  if (hours > 0) return `${hours} 小时 ${minutes} 分`
-  return `${Math.max(minutes, 1)} 分钟`
+  const seconds = Math.floor((diff % 60_000) / 1_000)
+  if (days > 0) return `${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`
+  if (hours > 0) return `${hours} 小时 ${minutes} 分 ${seconds} 秒`
+  if (minutes > 0) return `${minutes} 分 ${seconds} 秒`
+  return `${Math.max(seconds, 0)} 秒`
 }
 
 export function formatMilestoneDate(milestone: Milestone, locale = 'zh-CN'): string {

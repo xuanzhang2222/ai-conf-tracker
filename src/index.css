@@ -68,6 +68,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .signal-countdown { gap: 8px; margin: 25px 0 22px; padding: 16px; border: 1px solid rgba(255,255,255,.1); border-radius: 11px; background: rgba(255,255,255,.055); }
 .signal-countdown span { color: #9fb5b1; font-size: 12px; }
 .signal-countdown strong { margin-left: auto; color: #ffd681; font-size: 18px; }
+.signal-countdown strong, .countdown b, .big-countdown { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .hero-signal > a { display: flex; align-items: center; justify-content: space-between; padding: 12px 0 22px; color: #f5fbf9; font-size: 13px; font-weight: 600; }
 .signal-footer { gap: 7px; margin: 0 -28px; padding: 12px 28px; border-radius: 0 0 17px 17px; color: #98aea9; background: rgba(0,0,0,.15); font-size: 10px; }
 .empty-signal { min-height: 210px; display: grid; place-items: center; align-content: center; gap: 12px; color: #b9ccc8; text-align: center; }

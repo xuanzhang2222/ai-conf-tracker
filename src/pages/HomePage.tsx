@@ -19,7 +19,7 @@ export function HomePage() {
   const [filters, setFilters] = useState<Filters>(defaultFilters)
   const [now, setNow] = useState(() => new Date())
   const { records, toggleFollow } = useSubmissions()
-  useEffect(() => { const timer = window.setInterval(() => setNow(new Date()), 30_000); return () => window.clearInterval(timer) }, [])
+  useEffect(() => { const timer = window.setInterval(() => setNow(new Date()), 1_000); return () => window.clearInterval(timer) }, [])
 
   const entries = useMemo(() => latestEditions(conferences), [])
   const followed = (item: ConferenceEdition) => records.some((record) => record.conference === item.conference.id && record.year === item.edition.year && record.followed)
