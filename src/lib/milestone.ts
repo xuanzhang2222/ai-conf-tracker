@@ -87,6 +87,21 @@ export function compareDeadlineMilestones(left: Milestone | null, right: Milesto
   return group(left) === 2 ? rightTime - leftTime : leftTime - rightTime
 }
 
+export function compareNextMilestones(left: Milestone | null, right: Milestone | null, now = new Date()): number {
+  const group = (milestone: Milestone | null) => {
+    if (!milestone) return 2
+    const state = milestoneState(milestone, now)
+    if (state === 'open' || state === 'upcoming') return 0
+    if (state === 'tbd') return 1
+    return 2
+  }
+  const groupDifference = group(left) - group(right)
+  if (groupDifference) return groupDifference
+  const leftTime = left ? milestoneTarget(left, now)?.getTime() ?? Infinity : Infinity
+  const rightTime = right ? milestoneTarget(right, now)?.getTime() ?? Infinity : Infinity
+  return leftTime - rightTime
+}
+
 export function latestEditions(items: Conference[]): ConferenceEdition[] {
   return items.map((conference) => {
     const edition = [...conference.editions].sort((a, b) => b.year - a.year)[0]
@@ -94,8 +109,8 @@ export function latestEditions(items: Conference[]): ConferenceEdition[] {
   })
 }
 
-export function milestoneTarget(milestone: Milestone): Date | null {
-  return milestoneState(milestone) === 'open' ? milestoneEnd(milestone) : milestoneStart(milestone)
+export function milestoneTarget(milestone: Milestone, now = new Date()): Date | null {
+  return milestoneState(milestone, now) === 'open' ? milestoneEnd(milestone) : milestoneStart(milestone)
 }
 
 export function formatCountdown(milestone: Milestone, now = new Date()): string {

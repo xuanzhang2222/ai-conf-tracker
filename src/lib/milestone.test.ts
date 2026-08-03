@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Milestone } from '../types/conference'
-import { compareDeadlineMilestones, formatCountdown, formatMilestoneDate, milestoneState, selectDeadlineMilestone, selectNextMilestone, zonedLocalToUtc } from './milestone'
+import { compareDeadlineMilestones, compareNextMilestones, formatCountdown, formatMilestoneDate, milestoneState, selectDeadlineMilestone, selectNextMilestone, zonedLocalToUtc } from './milestone'
 
 const source = { url: 'https://example.com/dates', label: 'Official dates', source_type: 'official_dates', verified_at: '2026-08-03T00:00:00Z' }
 const instant = (id: string, at: string, action_required = true): Milestone => ({ id, label: id, type: 'paper_deadline', kind: 'instant', at, timezone: 'UTC', date_status: 'confirmed', action_required, source })
@@ -65,5 +65,20 @@ describe('deadline list ordering', () => {
       .sort((a, b) => compareDeadlineMilestones(a, b, now))
       .map((item) => item?.id ?? 'missing')
     expect(values).toEqual(['near-future', 'far-future', 'tbd', 'missing', 'recent-past', 'older-past'])
+  })
+})
+
+describe('next milestone ordering', () => {
+  const now = new Date('2026-08-03T10:00:00Z')
+  const nearFuture = instant('near-future', '2026-08-04T00:00:00')
+  const farFuture = instant('far-future', '2026-09-01T00:00:00')
+  const open: Milestone = { id: 'open', label: 'open', type: 'author_response_deadline', kind: 'window', start_at: '2026-08-01T00:00:00', end_at: '2026-08-05T00:00:00', timezone: 'UTC', date_status: 'confirmed', action_required: true, source }
+  const tbd: Milestone = { id: 'tbd-next', label: 'tbd', type: 'paper_deadline', kind: 'tbd', date_status: 'tbd', action_required: true, source }
+
+  it('开放窗口按结束时间排序，而不是按已经过去的开始时间排序', () => {
+    const values = [tbd, open, farFuture, nearFuture, null]
+      .sort((a, b) => compareNextMilestones(a, b, now))
+      .map((item) => item?.id ?? 'missing')
+    expect(values).toEqual(['near-future', 'open', 'far-future', 'tbd-next', 'missing'])
   })
 })

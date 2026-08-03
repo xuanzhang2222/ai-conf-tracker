@@ -5,7 +5,7 @@ import { ConferenceCard } from '../components/ConferenceCard'
 import { DeadlineList } from '../components/DeadlineList'
 import { FilterBar, type Filters } from '../components/FilterBar'
 import { conferences, topicLabels } from '../data'
-import { compareDeadlineMilestones, formatCountdown, formatMilestoneDate, latestEditions, milestoneStart, milestoneState, selectDeadlineMilestone, selectNextMilestone } from '../lib/milestone'
+import { compareDeadlineMilestones, compareNextMilestones, formatCountdown, formatMilestoneDate, latestEditions, milestoneStart, milestoneState, milestoneTarget, selectDeadlineMilestone, selectNextMilestone } from '../lib/milestone'
 import { useSubmissions } from '../lib/storage'
 import type { ConferenceEdition } from '../types/conference'
 
@@ -42,13 +42,13 @@ export function HomePage() {
   }
   const ordered = [...filtered].sort((a, b) => {
     const left = selected(a); const right = selected(b)
-    return (left ? milestoneStart(left)?.getTime() ?? Infinity : Infinity) - (right ? milestoneStart(right)?.getTime() ?? Infinity : Infinity)
+    return compareNextMilestones(left, right, now) || a.conference.name.localeCompare(b.conference.name)
   })
   const deadlineItems = filtered.map((item) => {
     const milestones = item.milestones.filter((milestone) => submissionTypes.has(milestone.type) && (filters.eventType === 'all' || milestone.type === filters.eventType))
     return { item, milestone: selectDeadlineMilestone(milestones, now) }
   }).sort((a, b) => compareDeadlineMilestones(a.milestone, b.milestone, now) || a.item.conference.name.localeCompare(b.item.conference.name))
-  const upcomingEvents = entries.flatMap((item) => item.milestones.map((milestone) => ({ item, milestone }))).filter(({ milestone }) => ['upcoming', 'open'].includes(milestoneState(milestone, now))).sort((a, b) => (milestoneStart(a.milestone)?.getTime() ?? Infinity) - (milestoneStart(b.milestone)?.getTime() ?? Infinity))
+  const upcomingEvents = entries.flatMap((item) => item.milestones.map((milestone) => ({ item, milestone }))).filter(({ milestone }) => ['upcoming', 'open'].includes(milestoneState(milestone, now))).sort((a, b) => (milestoneTarget(a.milestone, now)?.getTime() ?? Infinity) - (milestoneTarget(b.milestone, now)?.getTime() ?? Infinity))
   const featured = upcomingEvents[0]
   const confirmedCount = entries.flatMap((item) => item.milestones).filter((milestone) => milestone.date_status === 'confirmed').length
   const withinThirtyDays = upcomingEvents.filter(({ milestone }) => { const date = milestoneStart(milestone); return date && date.getTime() - now.getTime() <= 30 * 86_400_000 }).length
