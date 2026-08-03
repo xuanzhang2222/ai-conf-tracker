@@ -105,7 +105,7 @@ export async function loadConferenceData(root = process.cwd()): Promise<Conferen
       }
     }
   }
-  if (files.length !== 23) errors.push(`应有 23 个会议文件，当前为 ${files.length}`)
+  if (files.length !== 17) errors.push(`应有 17 个会议文件，当前为 ${files.length}`)
   if (errors.length) throw new Error(errors.join('\n\n'))
   return conferences
 }

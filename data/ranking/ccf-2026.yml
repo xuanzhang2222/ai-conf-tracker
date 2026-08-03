@@ -2,7 +2,7 @@ edition: 2026
 scope: AI conference tracker
 groups:
   ai_a: [aaai, neurips, acl, cvpr, iccv, icml, iclr]
-  ai_b: [colt, emnlp, ecai, eccv, icra, icaps, iccbr, coling, kr, uai, aamas, ppsn, naacl, ijcai]
+  ai_b: [emnlp, ecai, eccv, icra, coling, aamas, naacl, ijcai]
   curated_extra_a: [acmmm, www]
 notes:
   - ICLR 为 2026 版 CCF 目录中的人工智能 A 类会议。

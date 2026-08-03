@@ -67,7 +67,7 @@ export function HomePage() {
         <div className="eyebrow"><Radio size={14} /> 投稿全生命周期追踪</div>
         <h1>下一场重要节点，<br /><em>提前看见。</em></h1>
         <p>专注 CCF-A/B 人工智能会议。从摘要注册到 Rebuttal、录用通知与 Camera-ready，一个时间线持续追踪。</p>
-        <div className="hero-stats"><div><b>23</b><span>精选会议</span></div><div><b>{confirmedCount}</b><span>已确认节点</span></div><div><b>{withinThirtyDays}</b><span>30 天内节点</span></div></div>
+        <div className="hero-stats"><div><b>{entries.length}</b><span>精选会议</span></div><div><b>{confirmedCount}</b><span>已确认节点</span></div><div><b>{withinThirtyDays}</b><span>30 天内节点</span></div></div>
       </div>
       <div className="hero-signal">
         <div className="signal-header"><span><CircleDot size={15} /> 最近节点</span><span className="live-pill">LIVE</span></div>

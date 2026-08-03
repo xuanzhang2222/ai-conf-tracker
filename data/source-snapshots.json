@@ -1,7 +1,7 @@
 {
   "https://2027.aclweb.org/": {
     "hash": "f8f744c420bd0ff768c17f1ed5b94b4fff5b987eed3cb0e64cba8f90da765722",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "acl",
     "conference": "ACL 2027",
     "label": "ACL 2027 官方 Important Dates",
@@ -9,7 +9,7 @@
   },
   "https://aaai.org/conference/aaai/aaai-27/": {
     "hash": "810fbf313c905e66ee3010dd598bf4e1bf1c7121bf7c398c94d651a2b4a4ca10",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "aaai",
     "conference": "AAAI 2027",
     "label": "AAAI-27 官方页面",
@@ -17,7 +17,7 @@
   },
   "https://coling2026.org/": {
     "hash": "b8c6c4b132f79e3a3c166c0dd892163a8f6dd14e260b5e6890fa43f16ba8e247",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "coling",
     "conference": "COLING 2026",
     "label": "COLING 2026 官方网站",
@@ -25,23 +25,23 @@
   },
   "https://2026.acmmm.org/site/important-dates.html": {
     "hash": "7957abeb889f7e66d7f13a10f26091d689509d1227f69eb7115743d681115de4",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "acmmm",
     "conference": "ACM MM 2026",
     "label": "ACM MM 2026 Important Dates",
     "content_bytes": 8395
   },
   "https://www.aamas-conference.org/": {
-    "hash": "c90d1c7705a08e2e7dfa86186f6c0024eb11d7ac1c73a8033de62c4208bba7af",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "hash": "2b3f2650f27cf95d132fbce20d35589deaeaddbebc9fb7c15040c6658a2530cb",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "aamas",
     "conference": "AAMAS 2027",
     "label": "AAMAS 官方网站",
-    "content_bytes": 172367
+    "content_bytes": 172366
   },
   "https://2026.emnlp.org/": {
     "hash": "806692877957311fd0625cefb51a3e0a40f9044716fce334e9918da8a45255ba",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "emnlp",
     "conference": "EMNLP 2026",
     "label": "EMNLP 2026 官方 Important Dates",
@@ -49,138 +49,90 @@
   },
   "https://2026.ijcai.org/at-a-glance2/": {
     "hash": "4c7c60f44bc246757a2c2367356889fb5f13ce5feb1a491a74ed920028f79fd2",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "ecai",
     "conference": "ECAI 2026",
     "label": "IJCAI-ECAI 2026 官方日程",
     "content_bytes": 200203
   },
-  "https://learningtheory.org/": {
-    "hash": "1cd796ccb19f91a3f99edaab9d201710933e17283e6d2b4d85847dd1dd9fa92e",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "colt",
-    "conference": "COLT 2027",
-    "label": "COLT 官方网站",
-    "content_bytes": 23055
-  },
-  "https://eccv.ecva.net/Conferences/2026": {
-    "hash": "0375e086586d0b864306dcd46bd2c211eee148daa570a9dc9328a4e7107fb6f0",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "eccv",
-    "conference": "ECCV 2026",
-    "label": "ECCV 2026 官方网站",
-    "content_bytes": 46735
-  },
   "https://cvpr.thecvf.com/": {
     "hash": "943247d63765dd91203bd5cb8232b198db73a8f3f81d61cd6d6886793f1c5318",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "cvpr",
     "conference": "CVPR 2027",
     "label": "CVPR 官方页面",
-    "content_bytes": 56680
-  },
-  "https://www.icaps-conference.org/": {
-    "hash": "76107d91fd359d994eae5f3ff8192d5e404b2041c37c47ee6e561b8426d00f79",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "icaps",
-    "conference": "ICAPS 2027",
-    "label": "ICAPS 官方网站",
-    "content_bytes": 43054
-  },
-  "https://www.iccbr.org/": {
-    "hash": "ebbb768d659b79f3de6c9a5c37bf0e02c3cf336e6653da322025588d56386e67",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "iccbr",
-    "conference": "ICCBR 2026",
-    "label": "ICCBR 官方网站",
-    "content_bytes": 12722
+    "content_bytes": 55662
   },
   "https://iccv.thecvf.com/": {
     "hash": "1a1c46c100455cf350d35e979044a7d21f63b2ea907a5659895f029335d981cc",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "iccv",
     "conference": "ICCV 2027",
     "label": "ICCV 官方页面",
-    "content_bytes": 45427
+    "content_bytes": 45403
   },
-  "https://iclr.cc/Conferences/2027": {
-    "hash": "8d0d0673365950d73f9b97ece4ab72a1bfbce8f606e69ce4fa9ff18727711675",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "iclr",
-    "conference": "ICLR 2027",
-    "label": "ICLR 2027 官方页面",
-    "content_bytes": 56685
-  },
-  "https://icml.cc/": {
-    "hash": "a109282b78d2898f17c91b8419fe41c2afb753c29982956a792a27aa7a22c2de",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "icml",
-    "conference": "ICML 2027",
-    "label": "ICML 官方页面",
-    "content_bytes": 71021
+  "https://eccv.ecva.net/Conferences/2026": {
+    "hash": "0375e086586d0b864306dcd46bd2c211eee148daa570a9dc9328a4e7107fb6f0",
+    "checked_at": "2026-08-03T03:45:41.257Z",
+    "conference_id": "eccv",
+    "conference": "ECCV 2026",
+    "label": "ECCV 2026 官方网站",
+    "content_bytes": 46746
   },
   "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/": {
     "hash": "03302dce39785cab7287b540219a4063b3e396c32e88450f387bec0f09a92d70",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "ijcai",
     "conference": "IJCAI 2026",
     "label": "IJCAI-ECAI 2026 Main Track CFP",
     "content_bytes": 220319
   },
-  "https://naacl.org/": {
-    "hash": "433db72e7cb72668f8a21d3c60db9f8739caf969eccca50a2dc986568ac0b0c9",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "naacl",
-    "conference": "NAACL 2027",
-    "label": "NAACL 官方网站",
-    "content_bytes": 17821
-  },
   "https://2027.ieee-icra.org/": {
     "hash": "3b38ec4c40c9f15ce2ca8021360e4730b9b2386a0c4ff9fe7f04722e8f0a3899",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "icra",
     "conference": "ICRA 2027",
     "label": "ICRA 2027 官方网站",
     "content_bytes": 358435
   },
-  "https://kr.org/KR2026/": {
-    "hash": "e3bc7d66364c59570029a1d4c060d41451ee0582120ff17bd9a011891d03abce",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "kr",
-    "conference": "KR 2026",
-    "label": "KR 2026 官方网站",
-    "content_bytes": 10347
+  "https://naacl.org/": {
+    "hash": "433db72e7cb72668f8a21d3c60db9f8739caf969eccca50a2dc986568ac0b0c9",
+    "checked_at": "2026-08-03T03:45:41.257Z",
+    "conference_id": "naacl",
+    "conference": "NAACL 2027",
+    "label": "NAACL 官方网站",
+    "content_bytes": 17821
   },
-  "https://neurips.cc/Conferences/2026/Dates": {
-    "hash": "2ee0b3ad6bda625506a365024320831c12a149f317917ef3d65d0ee1397354c3",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "neurips",
-    "conference": "NeurIPS 2026",
-    "label": "NeurIPS 2026 Dates and Deadlines",
-    "content_bytes": 102815
+  "https://iclr.cc/Conferences/2027": {
+    "hash": "8d0d0673365950d73f9b97ece4ab72a1bfbce8f606e69ce4fa9ff18727711675",
+    "checked_at": "2026-08-03T03:45:41.257Z",
+    "conference_id": "iclr",
+    "conference": "ICLR 2027",
+    "label": "ICLR 2027 官方页面",
+    "content_bytes": 56654
   },
-  "https://www.auai.org/": {
-    "hash": "9b62c396b5e1d6d1b6a0f4b592191cd387fe7e7a6b765e4e06783fa95ea4d3ef",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "uai",
-    "conference": "UAI 2027",
-    "label": "UAI 官方网站",
-    "content_bytes": 18586
-  },
-  "https://ppsn2026.disi.unitn.it/": {
-    "hash": "5c9263fec3b2da227dd5a8b337e9e047a92e5bb1b6aa16c3ea5cd2a0038976be",
-    "checked_at": "2026-08-03T03:05:50.106Z",
-    "conference_id": "ppsn",
-    "conference": "PPSN 2026",
-    "label": "PPSN 2026 官方网站",
-    "content_bytes": 48197
+  "https://icml.cc/": {
+    "hash": "a109282b78d2898f17c91b8419fe41c2afb753c29982956a792a27aa7a22c2de",
+    "checked_at": "2026-08-03T03:45:41.257Z",
+    "conference_id": "icml",
+    "conference": "ICML 2027",
+    "label": "ICML 官方页面",
+    "content_bytes": 70707
   },
   "https://acmweb2027.org/": {
     "hash": "002268073bc4cca9df866588ed84e0da1c9461aef78e417ccecf8332912eb2da",
-    "checked_at": "2026-08-03T03:05:50.106Z",
+    "checked_at": "2026-08-03T03:45:41.257Z",
     "conference_id": "www",
     "conference": "WWW 2027",
     "label": "ACM Web Conference 2027 官方网站",
     "content_bytes": 100661
+  },
+  "https://neurips.cc/Conferences/2026/Dates": {
+    "hash": "2ee0b3ad6bda625506a365024320831c12a149f317917ef3d65d0ee1397354c3",
+    "checked_at": "2026-08-03T03:45:41.257Z",
+    "conference_id": "neurips",
+    "conference": "NeurIPS 2026",
+    "label": "NeurIPS 2026 Dates and Deadlines",
+    "content_bytes": 102697
   }
 }
