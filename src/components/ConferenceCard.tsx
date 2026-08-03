@@ -28,7 +28,6 @@ export function ConferenceCard({ item, milestone, followed, onToggleFollow, now 
       <div className="card-topline">
         <div className="conference-identity">
           <span className={`ccf-badge ccf-${conference.ccf.level.toLowerCase()}`}>CCF-{conference.ccf.level}</span>
-          {conference.ccf.curated_extra && <span className="extra-badge">精选扩展</span>}
         </div>
         <button className={followed ? 'icon-button followed' : 'icon-button'} onClick={onToggleFollow} aria-label={followed ? `取消关注 ${conference.name}` : `关注 ${conference.name}`}>
           {followed ? <BellOff size={17} /> : <Bell size={17} />}

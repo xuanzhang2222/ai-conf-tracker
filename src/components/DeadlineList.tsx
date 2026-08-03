@@ -42,7 +42,7 @@ export function DeadlineList({ items, followed, onToggleFollow, now }: Props) {
           <span>{target ? target.getFullYear() : edition.year}</span>
         </div>
         <div className="deadline-conference">
-          <div><span className={`ccf-badge ccf-${conference.ccf.level.toLowerCase()}`}>CCF-{conference.ccf.level}</span>{conference.ccf.curated_extra && <span className="extra-badge">精选扩展</span>}</div>
+          <div><span className={`ccf-badge ccf-${conference.ccf.level.toLowerCase()}`}>CCF-{conference.ccf.level}</span></div>
           <Link to={detailPath}>{conference.name} <span>{edition.year}</span></Link>
           <p>{conference.full_name}</p>
         </div>

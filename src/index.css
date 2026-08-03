@@ -137,10 +137,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .conference-card.is-open { border-color: #7fb9ad; box-shadow: inset 0 3px 0 var(--teal); }
 .card-topline { min-height: 27px; display: flex; align-items: center; justify-content: space-between; }
 .conference-identity { display: flex; align-items: center; gap: 6px; }
-.ccf-badge, .extra-badge { width: fit-content; display: inline-flex; align-items: center; padding: 4px 7px; border-radius: 5px; font-size: 9px; font-weight: 700; letter-spacing: .5px; }
+.ccf-badge { width: fit-content; display: inline-flex; align-items: center; padding: 4px 7px; border-radius: 5px; font-size: 9px; font-weight: 700; letter-spacing: .5px; }
 .ccf-a { color: #a7482f; background: #ffe3d8; }
 .ccf-b { color: #21695e; background: #d9f1eb; }
-.extra-badge { color: #7b6020; background: #fff0bd; }
 .icon-button { width: 31px; height: 31px; display: grid; place-items: center; padding: 0; border: 1px solid #dedfd8; border-radius: 8px; color: #7b8782; background: #fff; }
 .icon-button:hover, .icon-button.followed { color: var(--teal); border-color: #acd0c8; background: var(--teal-soft); }
 .icon-button:disabled { opacity: .35; cursor: not-allowed; }

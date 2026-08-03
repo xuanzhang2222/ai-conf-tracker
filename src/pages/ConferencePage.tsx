@@ -33,7 +33,7 @@ export function ConferencePage() {
       <Link className="back-link" to="/"><ArrowLeft size={16} /> 返回会议总览</Link>
       <div className="detail-grid">
         <div>
-          <div className="detail-badges"><span className={`ccf-badge ccf-${conference.ccf.level.toLowerCase()}`}>CCF-{conference.ccf.level}</span>{conference.ccf.curated_extra && <span className="extra-badge">精选扩展 · {conference.ccf.category}</span>}<span>{edition.year}</span></div>
+          <div className="detail-badges"><span className={`ccf-badge ccf-${conference.ccf.level.toLowerCase()}`}>CCF-{conference.ccf.level}</span><span>{edition.year}</span></div>
           <h1>{conference.name} <em>{edition.year}</em></h1><h2>{conference.full_name}</h2><p>{conference.description}</p>
           <div className="topic-row">{conference.topics.map((topic) => <span key={topic}>{topicLabels[topic] ?? topic}</span>)}</div>
           <div className="detail-meta"><span><MapPin size={15} /> {venue}</span><a href={edition.website} target="_blank" rel="noreferrer">访问官方网站 <ExternalLink size={13} /></a></div>
