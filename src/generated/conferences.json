@@ -1426,7 +1426,42 @@
                   "label": "EMNLP 2026 官方 Important Dates",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-03T04:00:00Z"
-                }
+                },
+                "related_information": [
+                  {
+                    "title": "ARR May 2026 评审结果与承诺阶段后续步骤",
+                    "kind": "organizer_email",
+                    "source_label": "ARR May 2026 作者通知邮件（用户提供）",
+                    "summary": "邮件确认 EMNLP 2026 承诺截止为 2026 年 8 月 2 日，录用决定于 8 月 20 日发布；严重的 Meta-review 程序问题可在 8 月 7 日前提交报告。",
+                    "content": "Thank you for your submission to the ARR May 2026 cycle. The reviews and meta-review for your paper are visible at:\nhttps://openreview.net/group?id=aclweb.org/ACL/ARR/2026/May/Authors\n\nIf there are serious procedural issues with the metareview, you can submit an issue report as described in the author instructions. These reports are due by August 7, 2026. Please note that the meta-review recommendation score is now formulated similarly to the overall assessment score in reviews.\n\nThough it is rare, for some papers you may see two meta-reviews rather than one. This can happen when more than one Area Chair contributes a meta-review during the review process, and in those cases we retain both so that no useful assessment is lost. If your submission has two, please read them together — the Senior Area Chairs will take both into account during the commitment phase.\n\nHere are the next steps:\n\nIf you are happy with the reviews and would like your paper to be considered for publication, you can make a commitment submission. This ARR cycle is associated with the following venue(s):\n\nEMNLP 2026 (https://2026.emnlp.org/) — commit by August 2, 2026 using this link: https://openreview.net/group?id=EMNLP. You will receive an accept/reject decision by August 20, 2026.\n\nAACL 2026 (https://2026.aaclnet.org/) — commit by August 2, 2026 using the link given on this page: https://2026.aaclnet.org/calls/main_conference_papers/#paper-submission-information. You will receive an accept/reject decision by September 7, 2026.\n\nYou may commit your paper to only one of these venues. After you commit, the entire contents of your submission (reviews, author-reviewer discussion, meta-reviews, and, if applicable, ethics reviews) will be passed to the Senior Program Committee members of the chosen venue. Please see the author guidelines for further details, including some recent clarifications on the use of the optional \"Response to the Meta-Review\" field: https://aclrollingreview.org/authors#step5\n\nOn the other hand, you may choose to revise your paper for consideration in subsequent ARR cycles (taking into consideration the revisions recommended by the AC). The next ARR cycle has a deadline of 3 August AoE:\nhttps://openreview.net/group?id=aclweb.org/ACL/ARR/2026/August\n\nIf you want to go somewhere else with your paper, no action is needed. You do NOT need to withdraw your paper from ARR: the May review cycle is over, so your paper is no longer under review and you would not be violating any dual submission rules.\n\nMany thanks for submitting your work to ARR,\n\nGiovanni Da San Martino, Jing Jiang, Xiaojun Wan, Michael White, Xiaodan Zhu\nEditors-in-Chief ACL RR, May 2026\n\nSunipa Dev, Desmond Elliott, Hung-yi Lee, Jessy Li, Ayu Purwarianti, Jun Suzuki, Rong Tong, Ruifeng Xu\nProgram Committee Chairs EMNLP/AACL 2026\n\nPlease note that responding to this email will direct your reply to editors@aclrollingreview.org.",
+                    "links": [
+                      {
+                        "label": "ARR May 2026 评审与 Meta-review",
+                        "url": "https://openreview.net/group?id=aclweb.org/ACL/ARR/2026/May/Authors"
+                      },
+                      {
+                        "label": "EMNLP 2026 官网",
+                        "url": "https://2026.emnlp.org/"
+                      },
+                      {
+                        "label": "EMNLP 承诺提交入口",
+                        "url": "https://openreview.net/group?id=EMNLP"
+                      },
+                      {
+                        "label": "AACL 2026 投稿说明",
+                        "url": "https://2026.aaclnet.org/calls/main_conference_papers/#paper-submission-information"
+                      },
+                      {
+                        "label": "ARR 作者指南 Step 5",
+                        "url": "https://aclrollingreview.org/authors#step5"
+                      },
+                      {
+                        "label": "ARR 2026 August cycle",
+                        "url": "https://openreview.net/group?id=aclweb.org/ACL/ARR/2026/August"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "id": "notification",

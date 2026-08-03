@@ -4,6 +4,7 @@ import { topicLabels } from '../data'
 import { downloadCalendar } from '../lib/ical'
 import { formatCountdown, formatMilestoneDate, milestoneState, phaseForType, phaseStatus } from '../lib/milestone'
 import type { ConferenceEdition, Milestone } from '../types/conference'
+import { MilestoneInfoButton } from './MilestoneInfoButton'
 
 interface Props {
   item: ConferenceEdition
@@ -43,7 +44,7 @@ export function ConferenceCard({ item, milestone, followed, onToggleFollow, now 
         {milestone ? <>
           <div className="milestone-heading">
             <span className={`state-dot ${state}`}><CircleDot size={13} />{state === 'open' ? '当前开放' : state === 'tbd' ? '等待公布' : '下一节点'}</span>
-            <button onClick={() => downloadCalendar(conference, edition, [milestone], `${conference.id}-${edition.year}-${milestone.id}.ics`)} disabled={milestone.kind === 'tbd'} aria-label="将此节点添加到日历"><CalendarPlus size={16} /></button>
+            <div className="milestone-tools"><MilestoneInfoButton milestone={milestone} variant="icon" /><button onClick={() => downloadCalendar(conference, edition, [milestone], `${conference.id}-${edition.year}-${milestone.id}.ics`)} disabled={milestone.kind === 'tbd'} aria-label="将此节点添加到日历"><CalendarPlus size={16} /></button></div>
           </div>
           <strong>{milestone.label}</strong>
           <time>{formatMilestoneDate(milestone)}</time>

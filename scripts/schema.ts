@@ -21,6 +21,15 @@ const sourceSchema = z.object({
   verified_at: z.string().datetime(),
 })
 
+const relatedInformationSchema = z.object({
+  title: z.string().min(1),
+  kind: z.enum(['organizer_email', 'official_notice']),
+  source_label: z.string().min(1),
+  summary: z.string().min(1),
+  content: z.string().min(1),
+  links: z.array(z.object({ label: z.string().min(1), url: z.string().url() })).optional(),
+})
+
 const milestoneSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   label: z.string().min(1),
@@ -35,6 +44,7 @@ const milestoneSchema = z.object({
   date_status: z.enum(['confirmed', 'tentative', 'estimated', 'tbd', 'cancelled', 'superseded']),
   action_required: z.boolean(),
   source: sourceSchema.optional(),
+  related_information: z.array(relatedInformationSchema).min(1).optional(),
 }).superRefine((value, ctx) => {
   const formal = value.date_status === 'confirmed' || value.date_status === 'tentative'
   if (formal && !value.source) ctx.addIssue({ code: 'custom', message: 'confirmed/tentative 事件必须提供官方来源' })

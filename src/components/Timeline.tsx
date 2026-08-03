@@ -2,6 +2,7 @@ import { CalendarPlus, Check, Circle, Clock3, ExternalLink } from 'lucide-react'
 import { downloadCalendar } from '../lib/ical'
 import { formatMilestoneDate, milestoneState, phaseForType } from '../lib/milestone'
 import type { Conference, Edition, Milestone } from '../types/conference'
+import { MilestoneInfoButton } from './MilestoneInfoButton'
 
 interface Props { conference: Conference; edition: Edition; milestones: Milestone[]; now?: Date }
 const phases = ['投稿', '评审', '决定', '出版', '会议']
@@ -20,7 +21,7 @@ export function Timeline({ conference, edition, milestones, now = new Date() }: 
             return <article className={`timeline-event ${state}`} key={milestone.id}>
               <div className="event-marker">{state === 'passed' ? <Check size={14} /> : state === 'open' ? <Clock3 size={14} /> : <Circle size={12} />}</div>
               <div className="event-content">
-                <div className="event-title"><h4>{milestone.label}</h4><span className={`status-pill status-${milestone.date_status}`}>{statusLabels[milestone.date_status]}</span>{milestone.action_required && <span className="action-pill">需操作</span>}</div>
+                <div className="event-title"><h4>{milestone.label}</h4><span className={`status-pill status-${milestone.date_status}`}>{statusLabels[milestone.date_status]}</span>{milestone.action_required && <span className="action-pill">需操作</span>}<MilestoneInfoButton milestone={milestone} /></div>
                 <time>{formatMilestoneDate(milestone)}</time>
                 {milestone.source && <a href={milestone.source.url} target="_blank" rel="noreferrer">{milestone.source.label} <ExternalLink size={12} /></a>}
               </div>

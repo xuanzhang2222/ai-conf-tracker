@@ -9,6 +9,15 @@ export interface Source {
   verified_at: string
 }
 
+export interface RelatedInformation {
+  title: string
+  kind: 'organizer_email' | 'official_notice'
+  source_label: string
+  summary: string
+  content: string
+  links?: Array<{ label: string; url: string }>
+}
+
 export interface Milestone {
   id: string
   label: string
@@ -23,6 +32,7 @@ export interface Milestone {
   date_status: DateStatus
   action_required: boolean
   source?: Source
+  related_information?: RelatedInformation[]
 }
 
 export interface Track {

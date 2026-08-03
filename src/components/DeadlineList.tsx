@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { downloadCalendar } from '../lib/ical'
 import { formatCountdown, formatMilestoneDate, milestoneEnd, milestoneState } from '../lib/milestone'
 import type { ConferenceEdition, Milestone } from '../types/conference'
+import { MilestoneInfoButton } from './MilestoneInfoButton'
 
 interface DeadlineItem {
   item: ConferenceEdition
@@ -55,6 +56,7 @@ export function DeadlineList({ items, followed, onToggleFollow, now }: Props) {
           <strong><Clock3 size={14} /> {countdown}</strong>
         </div>
         <div className="deadline-actions">
+          {milestone && <MilestoneInfoButton milestone={milestone} variant="icon" />}
           <button onClick={() => milestone && downloadCalendar(conference, edition, [milestone], `${conference.id}-${edition.year}-${milestone.id}.ics`)} disabled={!milestone || milestone.kind === 'tbd'} aria-label={`将 ${conference.name} 投稿截止添加到日历`} title="添加到日历"><CalendarPlus size={16} /></button>
           <button className={isFollowed ? 'followed' : ''} onClick={() => onToggleFollow(item)} aria-label={isFollowed ? `取消关注 ${conference.name}` : `关注 ${conference.name}`} title={isFollowed ? '取消关注' : '关注会议'}>{isFollowed ? <BellOff size={16} /> : <Bell size={16} />}</button>
           <Link to={detailPath}>详情 <ArrowUpRight size={14} /></Link>
