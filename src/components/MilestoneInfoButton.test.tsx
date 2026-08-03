@@ -16,7 +16,7 @@ const milestone: Milestone = {
     kind: 'organizer_email',
     source_label: '作者通知邮件',
     summary: '承诺截止与录用通知说明。',
-    content: 'Commit by August 2, 2026.',
+    content: '请在 **2026 年 8 月 2 日** 前提交承诺。',
     links: [{ label: '提交入口', url: 'https://openreview.net/group?id=EMNLP' }],
   }],
 }
@@ -28,7 +28,7 @@ describe('MilestoneInfoButton', () => {
     render(<MilestoneInfoButton milestone={milestone} />)
     fireEvent.click(screen.getByRole('button', { name: '查看 EMNLP 承诺截止 的相关信息' }))
     expect(screen.getByRole('dialog')).toBeTruthy()
-    expect(screen.getByText('Commit by August 2, 2026.')).toBeTruthy()
+    expect(screen.getByText('2026 年 8 月 2 日').tagName).toBe('STRONG')
     expect(screen.getByRole('link', { name: /提交入口/ }).getAttribute('href')).toBe('https://openreview.net/group?id=EMNLP')
     fireEvent.keyDown(document, { key: 'Escape' })
     expect(screen.queryByRole('dialog')).toBeNull()

@@ -32,39 +32,38 @@ editions:
               - title: ARR May 2026 评审结果与承诺阶段后续步骤
                 kind: organizer_email
                 source_label: ARR May 2026 作者通知邮件（用户提供）
-                summary: 邮件确认 EMNLP 2026 承诺截止为 2026 年 8 月 2 日，录用决定于 8 月 20 日发布；严重的 Meta-review 程序问题可在 8 月 7 日前提交报告。
+                summary: >-
+                  邮件确认 EMNLP 2026 **承诺截止为 2026 年 8 月 2 日**，**录用决定于 8 月 20 日发布**；严重的 Meta-review 程序问题可在 **8 月 7 日前**提交报告。
                 content: |-
-                  Thank you for your submission to the ARR May 2026 cycle. The reviews and meta-review for your paper are visible at:
-                  https://openreview.net/group?id=aclweb.org/ACL/ARR/2026/May/Authors
+                  感谢您向 ARR 2026 年 5 月评审周期投稿。您论文的评审意见和 Meta-review 已经可以查看，入口见下方“邮件中的相关链接”。
 
-                  If there are serious procedural issues with the metareview, you can submit an issue report as described in the author instructions. These reports are due by August 7, 2026. Please note that the meta-review recommendation score is now formulated similarly to the overall assessment score in reviews.
+                  如果 Meta-review 存在严重的程序性问题，您可以按照作者指南提交问题报告。**问题报告截止日期为 2026 年 8 月 7 日**。请注意，Meta-review 的推荐分数现在采用与评审意见中“总体评价分数”相近的表述方式。
 
-                  Though it is rare, for some papers you may see two meta-reviews rather than one. This can happen when more than one Area Chair contributes a meta-review during the review process, and in those cases we retain both so that no useful assessment is lost. If your submission has two, please read them together — the Senior Area Chairs will take both into account during the commitment phase.
+                  极少数论文可能会看到两份而不是一份 Meta-review。这通常是因为评审过程中有多位领域主席参与撰写 Meta-review；ARR 会同时保留两份，以免丢失有用意见。如果您的论文有两份 Meta-review，请结合阅读，**高级领域主席会在承诺阶段同时考虑两份意见**。
 
-                  Here are the next steps:
+                  后续步骤如下：
 
-                  If you are happy with the reviews and would like your paper to be considered for publication, you can make a commitment submission. This ARR cycle is associated with the following venue(s):
+                  如果您认可当前评审意见，并希望论文进入正式发表考虑，可以提交承诺。本 ARR 周期关联以下会议：
 
-                  EMNLP 2026 (https://2026.emnlp.org/) — commit by August 2, 2026 using this link: https://openreview.net/group?id=EMNLP. You will receive an accept/reject decision by August 20, 2026.
+                  EMNLP 2026：请通过下方入口，**最迟于 2026 年 8 月 2 日提交承诺**。**录用或拒稿决定将在 2026 年 8 月 20 日发布**。
 
-                  AACL 2026 (https://2026.aaclnet.org/) — commit by August 2, 2026 using the link given on this page: https://2026.aaclnet.org/calls/main_conference_papers/#paper-submission-information. You will receive an accept/reject decision by September 7, 2026.
+                  AACL 2026：请按照下方投稿说明页面提供的入口，**最迟于 2026 年 8 月 2 日提交承诺**。**录用或拒稿决定将在 2026 年 9 月 7 日发布**。
 
-                  You may commit your paper to only one of these venues. After you commit, the entire contents of your submission (reviews, author-reviewer discussion, meta-reviews, and, if applicable, ethics reviews) will be passed to the Senior Program Committee members of the chosen venue. Please see the author guidelines for further details, including some recent clarifications on the use of the optional "Response to the Meta-Review" field: https://aclrollingreview.org/authors#step5
+                  **同一篇论文只能承诺给上述会议中的一个。**提交承诺后，论文的全部评审材料——包括评审意见、作者与评审讨论、Meta-review，以及适用时的伦理评审——会转交给所选会议的高级程序委员会成员。可在下方 ARR 作者指南 Step 5 中查看详情，其中也包含可选“对 Meta-review 的回复”字段的最新说明。
 
-                  On the other hand, you may choose to revise your paper for consideration in subsequent ARR cycles (taking into consideration the revisions recommended by the AC). The next ARR cycle has a deadline of 3 August AoE:
-                  https://openreview.net/group?id=aclweb.org/ACL/ARR/2026/August
+                  您也可以根据领域主席建议修改论文，转投后续 ARR 周期。**下一次 ARR 周期的截止时间为 2026 年 8 月 3 日 AoE。**
 
-                  If you want to go somewhere else with your paper, no action is needed. You do NOT need to withdraw your paper from ARR: the May review cycle is over, so your paper is no longer under review and you would not be violating any dual submission rules.
+                  如果您打算将论文投往其他地方，**无需采取任何操作，也无需从 ARR 撤稿**。2026 年 5 月评审周期已经结束，论文不再处于评审状态，因此不会违反双重投稿规则。
 
-                  Many thanks for submitting your work to ARR,
+                  感谢您向 ARR 投稿。
 
-                  Giovanni Da San Martino, Jing Jiang, Xiaojun Wan, Michael White, Xiaodan Zhu
-                  Editors-in-Chief ACL RR, May 2026
+                  Giovanni Da San Martino、Jing Jiang、Xiaojun Wan、Michael White、Xiaodan Zhu
+                  ACL RR 2026 年 5 月周期主编
 
-                  Sunipa Dev, Desmond Elliott, Hung-yi Lee, Jessy Li, Ayu Purwarianti, Jun Suzuki, Rong Tong, Ruifeng Xu
-                  Program Committee Chairs EMNLP/AACL 2026
+                  Sunipa Dev、Desmond Elliott、Hung-yi Lee、Jessy Li、Ayu Purwarianti、Jun Suzuki、Rong Tong、Ruifeng Xu
+                  EMNLP/AACL 2026 程序委员会主席
 
-                  Please note that responding to this email will direct your reply to editors@aclrollingreview.org.
+                  请注意：回复该邮件会将邮件发送至 editors@aclrollingreview.org。
                 links:
                   - { label: ARR May 2026 评审与 Meta-review, url: 'https://openreview.net/group?id=aclweb.org/ACL/ARR/2026/May/Authors' }
                   - { label: EMNLP 2026 官网, url: https://2026.emnlp.org/ }

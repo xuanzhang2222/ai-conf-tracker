@@ -1,5 +1,5 @@
 import { ExternalLink, MailOpen, X } from 'lucide-react'
-import { useEffect, useId, useRef, useState } from 'react'
+import { Fragment, useEffect, useId, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import type { Milestone } from '../types/conference'
 
@@ -11,6 +11,16 @@ interface Props {
 const kindLabels = {
   organizer_email: '主办方邮件',
   official_notice: '官方通知',
+}
+
+function richText(value: string) {
+  const lines = value.split('\n')
+  return lines.map((line, lineIndex) => <Fragment key={`${lineIndex}-${line.slice(0, 16)}`}>
+    {line.split(/(\*\*[^*]+\*\*)/g).filter(Boolean).map((part, partIndex) => part.startsWith('**') && part.endsWith('**')
+      ? <strong key={partIndex}>{part.slice(2, -2)}</strong>
+      : <Fragment key={partIndex}>{part}</Fragment>)}
+    {lineIndex < lines.length - 1 && <br />}
+  </Fragment>)
 }
 
 export function MilestoneInfoButton({ milestone, variant = 'label' }: Props) {
@@ -49,8 +59,8 @@ export function MilestoneInfoButton({ milestone, variant = 'label' }: Props) {
             {information.map((entry, index) => <article key={`${entry.title}-${index}`}>
               <div className="milestone-info-source"><MailOpen size={14} /><b>{kindLabels[entry.kind]}</b><span>{entry.source_label}</span></div>
               <h3>{entry.title}</h3>
-              <p className="milestone-info-summary">{entry.summary}</p>
-              <div className="milestone-info-message">{entry.content}</div>
+              <p className="milestone-info-summary">{richText(entry.summary)}</p>
+              <div className="milestone-info-message">{richText(entry.content)}</div>
               {!!entry.links?.length && <div className="milestone-info-links"><b>邮件中的相关链接</b>{entry.links.map((link) => <a href={link.url} target="_blank" rel="noreferrer" key={link.url}>{link.label}<ExternalLink size={13} /></a>)}</div>}
             </article>)}
           </div>
