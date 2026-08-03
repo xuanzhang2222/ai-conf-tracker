@@ -2,9 +2,10 @@ import { ArrowRight, CalendarClock, CalendarRange, CheckCircle2, CircleDot, Cloc
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ConferenceCard } from '../components/ConferenceCard'
+import { DeadlineList } from '../components/DeadlineList'
 import { FilterBar, type Filters } from '../components/FilterBar'
 import { conferences, topicLabels } from '../data'
-import { formatCountdown, formatMilestoneDate, latestEditions, milestoneStart, milestoneState, selectNextMilestone } from '../lib/milestone'
+import { compareDeadlineMilestones, formatCountdown, formatMilestoneDate, latestEditions, milestoneStart, milestoneState, selectDeadlineMilestone, selectNextMilestone } from '../lib/milestone'
 import { useSubmissions } from '../lib/storage'
 import type { ConferenceEdition } from '../types/conference'
 
@@ -37,12 +38,16 @@ export function HomePage() {
 
   const selected = (item: ConferenceEdition) => {
     const byEvent = filters.eventType === 'all' ? item.milestones : item.milestones.filter((milestone) => milestone.type === filters.eventType)
-    return selectNextMilestone(view === 'deadlines' ? byEvent.filter((milestone) => submissionTypes.has(milestone.type)) : byEvent, now)
+    return selectNextMilestone(byEvent, now)
   }
   const ordered = [...filtered].sort((a, b) => {
     const left = selected(a); const right = selected(b)
     return (left ? milestoneStart(left)?.getTime() ?? Infinity : Infinity) - (right ? milestoneStart(right)?.getTime() ?? Infinity : Infinity)
   })
+  const deadlineItems = filtered.map((item) => {
+    const milestones = item.milestones.filter((milestone) => submissionTypes.has(milestone.type) && (filters.eventType === 'all' || milestone.type === filters.eventType))
+    return { item, milestone: selectDeadlineMilestone(milestones, now) }
+  }).sort((a, b) => compareDeadlineMilestones(a.milestone, b.milestone, now) || a.item.conference.name.localeCompare(b.item.conference.name))
   const upcomingEvents = entries.flatMap((item) => item.milestones.map((milestone) => ({ item, milestone }))).filter(({ milestone }) => ['upcoming', 'open'].includes(milestoneState(milestone, now))).sort((a, b) => (milestoneStart(a.milestone)?.getTime() ?? Infinity) - (milestoneStart(b.milestone)?.getTime() ?? Infinity))
   const featured = upcomingEvents[0]
   const confirmedCount = entries.flatMap((item) => item.milestones).filter((milestone) => milestone.date_status === 'confirmed').length
@@ -79,7 +84,7 @@ export function HomePage() {
     <main className="shell main-content">
       <div className="section-heading"><div><span className="section-kicker">CONFERENCE BOARD</span><h2>会议生命周期</h2><p>日期以官方来源为准，下一节点会随时间自动切换。</p></div><div className="view-tabs" role="tablist" aria-label="首页视图"><button className={view === 'next' ? 'active' : ''} onClick={() => setView('next')}><CalendarClock size={16} /> 下一节点</button><button className={view === 'deadlines' ? 'active' : ''} onClick={() => setView('deadlines')}><ListFilter size={16} /> 投稿截止</button><button className={view === 'calendar' ? 'active' : ''} onClick={() => setView('calendar')}><CalendarRange size={16} /> 完整日历</button></div></div>
       <FilterBar value={filters} onChange={setFilters} resultCount={filtered.length} />
-      {view !== 'calendar' ? <><div className="board-caption"><span>{view === 'next' ? '按最近有效节点排序' : '仅摘要、论文与附录截止'}</span><span>本地时间 · 自动更新</span></div><div className="conference-grid">{ordered.map((item) => <ConferenceCard key={item.conference.id} item={item} milestone={selected(item)} followed={followed(item)} onToggleFollow={() => toggleFollow(item.conference.id, item.edition.year)} now={now} />)}</div></> : <section className="calendar-board">
+      {view !== 'calendar' ? <><div className="board-caption"><span>{view === 'next' ? '按最近有效节点排序' : '未来截稿由近到远 · 已截止后置'}</span><span>本地时间 · 每秒更新</span></div>{view === 'next' ? <div className="conference-grid">{ordered.map((item) => <ConferenceCard key={item.conference.id} item={item} milestone={selected(item)} followed={followed(item)} onToggleFollow={() => toggleFollow(item.conference.id, item.edition.year)} now={now} />)}</div> : <DeadlineList items={deadlineItems} followed={followed} onToggleFollow={(item) => toggleFollow(item.conference.id, item.edition.year)} now={now} />}</> : <section className="calendar-board">
         <div className="calendar-toolbar"><div><b>{agenda.length}</b> 个已公布节点</div><div className="calendar-modes"><button className={calendarMode === 'month' ? 'active' : ''} onClick={() => setCalendarMode('month')}>月视图</button><button className={calendarMode === 'timeline' ? 'active' : ''} onClick={() => setCalendarMode('timeline')}>时间线</button><button className={calendarMode === 'list' ? 'active' : ''} onClick={() => setCalendarMode('list')}><Rows3 size={14} /> 列表</button></div></div>
         <div className={`agenda agenda-${calendarMode}`}>{[...agendaGroups.entries()].map(([month, events]) => <section className="agenda-month" key={month}><h3>{month}<span>{events.length} 个节点</span></h3><div className="agenda-events">{events.map(({ item, milestone, date }) => <Link to={`/conference/${item.conference.id}/${item.edition.year}`} className={`agenda-event ${milestoneState(milestone, now)}`} key={`${item.conference.id}-${milestone.id}`}><time><b>{date.getDate().toString().padStart(2, '0')}</b><span>{new Intl.DateTimeFormat('zh-CN', { weekday: 'short' }).format(date)}</span></time><i /><div><strong>{item.conference.name} {item.edition.year}</strong><span>{milestone.label}</span></div><span className={`ccf-badge ccf-${item.conference.ccf.level.toLowerCase()}`}>CCF-{item.conference.ccf.level}</span></Link>)}</div></section>)}</div>
       </section>}

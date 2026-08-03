@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Milestone } from '../types/conference'
-import { formatCountdown, formatMilestoneDate, milestoneState, selectNextMilestone, zonedLocalToUtc } from './milestone'
+import { compareDeadlineMilestones, formatCountdown, formatMilestoneDate, milestoneState, selectDeadlineMilestone, selectNextMilestone, zonedLocalToUtc } from './milestone'
 
 const source = { url: 'https://example.com/dates', label: 'Official dates', source_type: 'official_dates', verified_at: '2026-08-03T00:00:00Z' }
 const instant = (id: string, at: string, action_required = true): Milestone => ({ id, label: id, type: 'paper_deadline', kind: 'instant', at, timezone: 'UTC', date_status: 'confirmed', action_required, source })
@@ -37,5 +37,27 @@ describe('timezone and precision', () => {
   it('倒计时精确到秒', () => {
     const deadline = instant('deadline', '2026-08-04T18:02:03')
     expect(formatCountdown(deadline, new Date('2026-08-03T10:00:00Z'))).toBe('1 天 8 小时 2 分 3 秒')
+  })
+})
+
+describe('deadline list ordering', () => {
+  const now = new Date('2026-08-03T10:00:00Z')
+  const recentPast = instant('recent-past', '2026-08-02T00:00:00')
+  const olderPast = instant('older-past', '2026-07-01T00:00:00')
+  const nearFuture = instant('near-future', '2026-08-04T00:00:00')
+  const farFuture = instant('far-future', '2026-09-01T00:00:00')
+  const tbd: Milestone = { id: 'tbd', label: 'tbd', type: 'paper_deadline', kind: 'tbd', date_status: 'tbd', action_required: true, source }
+
+  it('选择最近的未来截止；没有未来日期时保留待公布或最近已截止节点', () => {
+    expect(selectDeadlineMilestone([farFuture, nearFuture, recentPast], now)?.id).toBe('near-future')
+    expect(selectDeadlineMilestone([olderPast, tbd, recentPast], now)?.id).toBe('tbd')
+    expect(selectDeadlineMilestone([olderPast, recentPast], now)?.id).toBe('recent-past')
+  })
+
+  it('未来日期升序、待公布与无日期居中，并把已截止节点按最近优先放在末尾', () => {
+    const values = [tbd, olderPast, farFuture, recentPast, nearFuture, null]
+      .sort((a, b) => compareDeadlineMilestones(a, b, now))
+      .map((item) => item?.id ?? 'missing')
+    expect(values).toEqual(['near-future', 'far-future', 'tbd', 'missing', 'recent-past', 'older-past'])
   })
 })

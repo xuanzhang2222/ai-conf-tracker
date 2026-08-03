@@ -55,6 +55,33 @@ export function selectNextMilestone(milestones: Milestone[], now = new Date()): 
     ?? null
 }
 
+export function selectDeadlineMilestone(milestones: Milestone[], now = new Date()): Milestone | null {
+  const usable = milestones.filter((item) => !['cancelled', 'superseded', 'estimated'].includes(item.date_status))
+  const byDeadline = (a: Milestone, b: Milestone) => (milestoneEnd(a)?.getTime() ?? Infinity) - (milestoneEnd(b)?.getTime() ?? Infinity)
+  const future = usable.filter((item) => ['open', 'upcoming'].includes(milestoneState(item, now))).sort(byDeadline)
+  if (future.length) return future[0]
+  const pending = usable.find((item) => milestoneState(item, now) === 'tbd')
+  if (pending) return pending
+  return usable.filter((item) => milestoneState(item, now) === 'passed').sort((a, b) => byDeadline(b, a))[0] ?? null
+}
+
+export function compareDeadlineMilestones(left: Milestone | null, right: Milestone | null, now = new Date()): number {
+  const group = (milestone: Milestone | null) => {
+    if (!milestone) return 1
+    const state = milestoneState(milestone, now)
+    if (state === 'open' || state === 'upcoming') return 0
+    if (state === 'tbd') return 1
+    return 2
+  }
+  const groupDifference = group(left) - group(right)
+  if (groupDifference) return groupDifference
+  if (!left || !right) return 0
+  const leftTime = milestoneEnd(left)?.getTime() ?? Infinity
+  const rightTime = milestoneEnd(right)?.getTime() ?? Infinity
+  if (!Number.isFinite(leftTime) || !Number.isFinite(rightTime)) return 0
+  return group(left) === 2 ? rightTime - leftTime : leftTime - rightTime
+}
+
 export function latestEditions(items: Conference[]): ConferenceEdition[] {
   return items.map((conference) => {
     const edition = [...conference.editions].sort((a, b) => b.year - a.year)[0]
