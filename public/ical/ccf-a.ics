@@ -228,28 +228,28 @@ DTSTART;VALUE=DATE:20270430
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-abstract@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260806T010319Z
 SUMMARY:NeurIPS 2026 · 摘要注册截止
 URL:https://neurips.cc/Conferences/2026/Dates
 DTSTART:20260505T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-paper@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260806T010319Z
 SUMMARY:NeurIPS 2026 · 论文截稿
 URL:https://neurips.cc/Conferences/2026/Dates
 DTSTART:20260507T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-review-release@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260806T010319Z
 SUMMARY:NeurIPS 2026 · 审稿意见发布
 URL:https://neurips.cc/Conferences/2026/Dates
 DTSTART;VALUE=DATE:20260722
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-author-discussion@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260806T010319Z
 SUMMARY:NeurIPS 2026 · 作者讨论期
 URL:https://neurips.cc/Conferences/2026/Dates
 DTSTART:20260727T120000Z
@@ -257,7 +257,7 @@ DTEND:20260804T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-discussion@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260806T010319Z
 SUMMARY:NeurIPS 2026 · 评审讨论期
 URL:https://neurips.cc/Conferences/2026/Dates
 DTSTART:20260803T120000Z
@@ -265,24 +265,52 @@ DTEND:20260811T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-notification@ai-conf-tracker
-DTSTAMP:20260803T040000Z
+DTSTAMP:20260806T010319Z
 SUMMARY:NeurIPS 2026 · 录用通知
 URL:https://neurips.cc/Conferences/2026/Dates
 DTSTART;VALUE=DATE:20260924
 END:VEVENT
 BEGIN:VEVENT
-UID:neurips-2026-conference-start@ai-conf-tracker
-DTSTAMP:20260803T040000Z
-SUMMARY:NeurIPS 2026 · 会议开始
-URL:https://neurips.cc/Conferences/2026/Dates
+UID:neurips-2026-sydney-start@ai-conf-tracker
+DTSTAMP:20260806T010319Z
+SUMMARY:NeurIPS 2026 · 悉尼主会场开始
+URL:https://neurips.cc/Conferences/2026
 DTSTART;VALUE=DATE:20261206
 END:VEVENT
 BEGIN:VEVENT
-UID:neurips-2026-conference-end@ai-conf-tracker
-DTSTAMP:20260803T040000Z
-SUMMARY:NeurIPS 2026 · 会议结束
-URL:https://neurips.cc/Conferences/2026/Dates
+UID:neurips-2026-sydney-end@ai-conf-tracker
+DTSTAMP:20260806T010319Z
+SUMMARY:NeurIPS 2026 · 悉尼主会场结束
+URL:https://neurips.cc/Conferences/2026
 DTSTART;VALUE=DATE:20261212
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-atlanta-start@ai-conf-tracker
+DTSTAMP:20260806T010319Z
+SUMMARY:NeurIPS 2026 · 亚特兰大卫星会场开始
+URL:https://neurips.cc/Conferences/2026
+DTSTART;VALUE=DATE:20261209
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-atlanta-end@ai-conf-tracker
+DTSTAMP:20260806T010319Z
+SUMMARY:NeurIPS 2026 · 亚特兰大卫星会场结束
+URL:https://neurips.cc/Conferences/2026
+DTSTART;VALUE=DATE:20261213
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-paris-start@ai-conf-tracker
+DTSTAMP:20260806T010319Z
+SUMMARY:NeurIPS 2026 · 巴黎卫星会场开始
+URL:https://neurips.cc/Conferences/2026
+DTSTART;VALUE=DATE:20261209
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-paris-end@ai-conf-tracker
+DTSTAMP:20260806T010319Z
+SUMMARY:NeurIPS 2026 · 巴黎卫星会场结束
+URL:https://neurips.cc/Conferences/2026
+DTSTART;VALUE=DATE:20261213
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-abstract@ai-conf-tracker

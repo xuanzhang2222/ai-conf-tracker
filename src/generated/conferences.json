@@ -2420,8 +2420,8 @@
         "year": 2026,
         "website": "https://neurips.cc/Conferences/2026",
         "venue": {
-          "city": "Sydney",
-          "country": "Australia",
+          "city": "Sydney / Atlanta / Paris",
+          "country": "Australia / USA / France",
           "mode": "onsite"
         },
         "sources": [
@@ -2429,7 +2429,13 @@
             "url": "https://neurips.cc/Conferences/2026/Dates",
             "label": "NeurIPS 2026 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-06T01:03:19Z"
+          },
+          {
+            "url": "https://neurips.cc/Conferences/2026",
+            "label": "NeurIPS 2026 Official Conference Page",
+            "source_type": "official_announcement",
+            "verified_at": "2026-08-06T01:03:19Z"
           }
         ],
         "tracks": [
@@ -2451,7 +2457,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
               },
               {
@@ -2468,7 +2474,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
               },
               {
@@ -2483,7 +2489,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
               },
               {
@@ -2501,7 +2507,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
               },
               {
@@ -2519,7 +2525,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
               },
               {
@@ -2534,37 +2540,115 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
-              },
+              }
+            ]
+          },
+          {
+            "id": "sydney",
+            "name": "Sydney Main Site",
+            "milestones": [
               {
-                "id": "conference-start",
-                "label": "会议开始",
+                "id": "sydney-start",
+                "label": "悉尼主会场开始",
                 "type": "conference_start",
                 "kind": "date",
                 "date": "2026-12-06",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://neurips.cc/Conferences/2026/Dates",
-                  "label": "NeurIPS 2026 Dates and Deadlines",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://neurips.cc/Conferences/2026",
+                  "label": "NeurIPS 2026 Official Conference Page",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
               },
               {
-                "id": "conference-end",
-                "label": "会议结束",
+                "id": "sydney-end",
+                "label": "悉尼主会场结束",
                 "type": "conference_end",
                 "kind": "date",
                 "date": "2026-12-12",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://neurips.cc/Conferences/2026/Dates",
-                  "label": "NeurIPS 2026 Dates and Deadlines",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://neurips.cc/Conferences/2026",
+                  "label": "NeurIPS 2026 Official Conference Page",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-06T01:03:19Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "atlanta",
+            "name": "Atlanta Satellite",
+            "milestones": [
+              {
+                "id": "atlanta-start",
+                "label": "亚特兰大卫星会场开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-12-09",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026",
+                  "label": "NeurIPS 2026 Official Conference Page",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-06T01:03:19Z"
+                }
+              },
+              {
+                "id": "atlanta-end",
+                "label": "亚特兰大卫星会场结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-12-13",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026",
+                  "label": "NeurIPS 2026 Official Conference Page",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-06T01:03:19Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "paris",
+            "name": "Paris Satellite",
+            "milestones": [
+              {
+                "id": "paris-start",
+                "label": "巴黎卫星会场开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2026-12-09",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026",
+                  "label": "NeurIPS 2026 Official Conference Page",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-06T01:03:19Z"
+                }
+              },
+              {
+                "id": "paris-end",
+                "label": "巴黎卫星会场结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2026-12-13",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026",
+                  "label": "NeurIPS 2026 Official Conference Page",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-06T01:03:19Z"
                 }
               }
             ]
