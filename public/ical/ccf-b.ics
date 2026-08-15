@@ -386,21 +386,49 @@ DTSTART;VALUE=DATE:20260821
 END:VEVENT
 BEGIN:VEVENT
 UID:naacl-2027-arr-paper@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260815T010203Z
 SUMMARY:NAACL 2027 · ARR 投稿截止
-URL:https://2027.naacl.org/
+URL:https://2027.naacl.org/calls/main_conference_papers/
 DTSTART:20261013T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:naacl-2027-reviewer-registration@ai-conf-tracker
+DTSTAMP:20260815T010203Z
+SUMMARY:NAACL 2027 · 全体作者评审注册截止
+URL:https://2027.naacl.org/calls/main_conference_papers/
+DTSTART:20261013T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-meta-review@ai-conf-tracker
+DTSTAMP:20260815T010203Z
+SUMMARY:NAACL 2027 · Meta-review 发布
+URL:https://2027.naacl.org/calls/main_conference_papers/
+DTSTART;VALUE=DATE:20261218
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-commitment@ai-conf-tracker
+DTSTAMP:20260815T010203Z
+SUMMARY:NAACL 2027 · NAACL 承诺截止
+URL:https://2027.naacl.org/calls/main_conference_papers/
+DTSTART:20261224T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-notification@ai-conf-tracker
+DTSTAMP:20260815T010203Z
+SUMMARY:NAACL 2027 · 录用通知
+URL:https://2027.naacl.org/calls/main_conference_papers/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
 UID:naacl-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260815T010203Z
 SUMMARY:NAACL 2027 · 会议开始
 URL:https://2027.naacl.org/
 DTSTART;VALUE=DATE:20270601
 END:VEVENT
 BEGIN:VEVENT
 UID:naacl-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260815T010203Z
 SUMMARY:NAACL 2027 · 会议结束
 URL:https://2027.naacl.org/
 DTSTART;VALUE=DATE:20270605
