@@ -1,9 +1,9 @@
 import { ArrowRight, CalendarClock, CalendarRange, CheckCircle2, CircleDot, Clock3, Globe2, ListFilter, Radio, Rows3 } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ConferenceCard } from '../components/ConferenceCard'
 import { DeadlineList } from '../components/DeadlineList'
 import { FilterBar, type Filters } from '../components/FilterBar'
+import { FourWeekCalendar } from '../components/FourWeekCalendar'
 import { conferences, topicLabels } from '../data'
 import { compareDeadlineMilestones, compareNextMilestones, formatCountdown, formatMilestoneDate, latestEditions, milestoneStart, milestoneState, milestoneTarget, selectDeadlineMilestone, selectNextMilestone } from '../lib/milestone'
 import { useSubmissions } from '../lib/storage'
@@ -44,6 +44,7 @@ export function HomePage() {
     const left = selected(a); const right = selected(b)
     return compareNextMilestones(left, right, now) || a.conference.name.localeCompare(b.conference.name)
   })
+  const nextItems = ordered.map((item) => ({ item, milestone: selected(item) }))
   const deadlineItems = filtered.map((item) => {
     const milestones = item.milestones.filter((milestone) => submissionTypes.has(milestone.type) && (filters.eventType === 'all' || milestone.type === filters.eventType))
     return { item, milestone: selectDeadlineMilestone(milestones, now) }
@@ -84,7 +85,7 @@ export function HomePage() {
     <main className="shell main-content">
       <div className="section-heading"><div><span className="section-kicker">CONFERENCE BOARD</span><h2>会议生命周期</h2><p>日期以官方来源为准，下一节点会随时间自动切换。</p></div><div className="view-tabs" role="tablist" aria-label="首页视图"><button className={view === 'next' ? 'active' : ''} onClick={() => setView('next')}><CalendarClock size={16} /> 下一节点</button><button className={view === 'deadlines' ? 'active' : ''} onClick={() => setView('deadlines')}><ListFilter size={16} /> 投稿截止</button><button className={view === 'calendar' ? 'active' : ''} onClick={() => setView('calendar')}><CalendarRange size={16} /> 完整日历</button></div></div>
       <FilterBar value={filters} onChange={setFilters} resultCount={filtered.length} />
-      {view !== 'calendar' ? <><div className="board-caption"><span>{view === 'next' ? '按最近有效节点排序' : '未来截稿由近到远 · 已截止后置'}</span><span>本地时间 · 每秒更新</span></div>{view === 'next' ? <div className="conference-grid">{ordered.map((item) => <ConferenceCard key={item.conference.id} item={item} milestone={selected(item)} followed={followed(item)} onToggleFollow={() => toggleFollow(item.conference.id, item.edition.year)} now={now} />)}</div> : <DeadlineList items={deadlineItems} followed={followed} onToggleFollow={(item) => toggleFollow(item.conference.id, item.edition.year)} now={now} />}</> : <section className="calendar-board">
+      {view !== 'calendar' ? <><div className="board-caption"><span>{view === 'next' ? '固定展示本周与未来 3 周' : '未来截稿由近到远 · 已截止后置'}</span><span>本地时间 · 每秒更新</span></div>{view === 'next' ? <FourWeekCalendar items={nextItems} followed={followed} onToggleFollow={(item) => toggleFollow(item.conference.id, item.edition.year)} now={now} /> : <DeadlineList items={deadlineItems} followed={followed} onToggleFollow={(item) => toggleFollow(item.conference.id, item.edition.year)} now={now} />}</> : <section className="calendar-board">
         <div className="calendar-toolbar"><div><b>{agenda.length}</b> 个已公布节点</div><div className="calendar-modes"><button className={calendarMode === 'month' ? 'active' : ''} onClick={() => setCalendarMode('month')}>月视图</button><button className={calendarMode === 'timeline' ? 'active' : ''} onClick={() => setCalendarMode('timeline')}>时间线</button><button className={calendarMode === 'list' ? 'active' : ''} onClick={() => setCalendarMode('list')}><Rows3 size={14} /> 列表</button></div></div>
         <div className={`agenda agenda-${calendarMode}`}>{[...agendaGroups.entries()].map(([month, events]) => <section className="agenda-month" key={month}><h3>{month}<span>{events.length} 个节点</span></h3><div className="agenda-events">{events.map(({ item, milestone, date }) => <Link to={`/conference/${item.conference.id}/${item.edition.year}`} className={`agenda-event ${milestoneState(milestone, now)}`} key={`${item.conference.id}-${milestone.id}`}><time><b>{date.getDate().toString().padStart(2, '0')}</b><span>{new Intl.DateTimeFormat('zh-CN', { weekday: 'short' }).format(date)}</span></time><i /><div><strong>{item.conference.name} {item.edition.year}</strong><span>{milestone.label}</span></div><span className={`ccf-badge ccf-${item.conference.ccf.level.toLowerCase()}`}>CCF-{item.conference.ccf.level}</span></Link>)}</div></section>)}</div>
       </section>}
