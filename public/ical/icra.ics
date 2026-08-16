@@ -4,56 +4,63 @@ PRODID:-//AI Conf Tracker//ZH-CN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:icra-2027-video-first-window@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 附加视频第一窗口截止
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART:20260910T075900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-paper@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 论文截稿
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART:20260916T075900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-video-final-window@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 附加视频最终截止
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART:20260923T075900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-notification@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 录用通知
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART;VALUE=DATE:20270131
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-author-registration@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 作者注册截止
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART;VALUE=DATE:20270305
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-early-registration@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 早鸟注册截止
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART;VALUE=DATE:20270331
 END:VEVENT
 BEGIN:VEVENT
+UID:icra-2027-standard-registration@ai-conf-tracker
+DTSTAMP:20260816T010116Z
+SUMMARY:ICRA 2027 · 标准注册截止
+URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+DTSTART;VALUE=DATE:20270514
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 会议开始
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART;VALUE=DATE:20270524
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 会议结束
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART;VALUE=DATE:20270528

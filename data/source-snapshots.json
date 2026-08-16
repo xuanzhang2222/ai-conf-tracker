@@ -17,7 +17,7 @@
   },
   "https://2027.coling-iccl.org/": {
     "hash": "f17c174cd05e156a649f94ee2a3dd00dc0309e7862c2e4d419d170d927c416a7",
-    "checked_at": "2026-08-15T03:07:57.399Z",
+    "checked_at": "2026-08-16T01:01:16.730Z",
     "conference_id": "coling",
     "conference": "COLING 2027",
     "label": "COLING 2027 官方 Important Dates",
@@ -89,7 +89,7 @@
   },
   "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/": {
     "hash": "d320ed1d59a0040e48f6d9905905abb8a25fa4992f44aa25247646de6979474d",
-    "checked_at": "2026-08-15T03:07:57.399Z",
+    "checked_at": "2026-08-16T01:01:16.730Z",
     "conference_id": "icra",
     "conference": "ICRA 2027",
     "label": "ICRA 2027 Call for Papers",
