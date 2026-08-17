@@ -271,11 +271,32 @@ URL:https://2026.ijcai.org/important-dates/
 DTSTART:20260521T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:ecai-2026-early-registration@ai-conf-tracker
+DTSTAMP:20260817T010350Z
+SUMMARY:ECAI 2026 · 早期注册截止
+URL:https://2026.ijcai.org/registration/
+DTSTART:20260616T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-late-registration@ai-conf-tracker
+DTSTAMP:20260817T010350Z
+SUMMARY:ECAI 2026 · 晚期注册截止
+URL:https://2026.ijcai.org/registration/
+DTSTART:20260716T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:ecai-2026-conference-start@ai-conf-tracker
 DTSTAMP:20260803T100846Z
 SUMMARY:ECAI 2026 · 会议开始
 URL:https://2026.ijcai.org/important-dates/
 DTSTART;VALUE=DATE:20260815
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2026-onsite-registration@ai-conf-tracker
+DTSTAMP:20260817T010350Z
+SUMMARY:ECAI 2026 · 现场注册截止
+URL:https://2026.ijcai.org/registration/
+DTSTART:20260821T100000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ecai-2026-conference-end@ai-conf-tracker
@@ -332,6 +353,13 @@ DTSTAMP:20260803T100846Z
 SUMMARY:ECCV 2026 · Camera-ready 截止
 URL:https://eccv.ecva.net/Conferences/2026/Dates
 DTSTART:20260701T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:eccv-2026-author-registration@ai-conf-tracker
+DTSTAMP:20260817T010350Z
+SUMMARY:ECCV 2026 · 主会论文作者注册截止
+URL:https://eccv.ecva.net/Conferences/2026/Registration
+DTSTART;VALUE=DATE:20260717
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2026-conference-start@ai-conf-tracker
@@ -581,11 +609,32 @@ URL:https://2026.ijcai.org/important-dates/
 DTSTART:20260521T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcai-2026-early-registration@ai-conf-tracker
+DTSTAMP:20260817T010350Z
+SUMMARY:IJCAI 2026 · 早期注册截止
+URL:https://2026.ijcai.org/registration/
+DTSTART:20260616T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2026-late-registration@ai-conf-tracker
+DTSTAMP:20260817T010350Z
+SUMMARY:IJCAI 2026 · 晚期注册截止
+URL:https://2026.ijcai.org/registration/
+DTSTART:20260716T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2026-conference-start@ai-conf-tracker
 DTSTAMP:20260803T100846Z
 SUMMARY:IJCAI 2026 · 会议开始
 URL:https://2026.ijcai.org/important-dates/
 DTSTART;VALUE=DATE:20260815
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2026-onsite-registration@ai-conf-tracker
+DTSTAMP:20260817T010350Z
+SUMMARY:IJCAI 2026 · 现场注册截止
+URL:https://2026.ijcai.org/registration/
+DTSTART:20260821T100000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2026-conference-end@ai-conf-tracker

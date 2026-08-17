@@ -983,6 +983,12 @@
             "label": "IJCAI-ECAI 2026 Important Dates",
             "source_type": "official_dates",
             "verified_at": "2026-08-03T10:08:46Z"
+          },
+          {
+            "url": "https://2026.ijcai.org/registration/",
+            "label": "IJCAI-ECAI 2026 Registration Information",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-17T01:03:50Z"
           }
         ],
         "tracks": [
@@ -1092,6 +1098,40 @@
                 }
               },
               {
+                "id": "early-registration",
+                "label": "早期注册截止",
+                "type": "early_registration_deadline",
+                "kind": "instant",
+                "at": "2026-06-15T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/registration/",
+                  "label": "IJCAI-ECAI 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-17T01:03:50Z"
+                }
+              },
+              {
+                "id": "late-registration",
+                "label": "晚期注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "instant",
+                "at": "2026-07-15T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/registration/",
+                  "label": "IJCAI-ECAI 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-17T01:03:50Z"
+                }
+              },
+              {
                 "id": "conference-start",
                 "label": "会议开始",
                 "type": "conference_start",
@@ -1104,6 +1144,23 @@
                   "label": "IJCAI-ECAI 2026 Important Dates",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "onsite-registration",
+                "label": "现场注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "instant",
+                "at": "2026-08-21T12:00:00",
+                "timezone": "Europe/Berlin",
+                "original_timezone": "CEST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/registration/",
+                  "label": "IJCAI-ECAI 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-17T01:03:50Z"
                 }
               },
               {
@@ -1158,6 +1215,12 @@
             "label": "ECCV 2026 Dates and Deadlines",
             "source_type": "official_dates",
             "verified_at": "2026-08-03T10:08:46Z"
+          },
+          {
+            "url": "https://eccv.ecva.net/Conferences/2026/Registration",
+            "label": "ECCV 2026 Registration Information",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-17T01:03:50Z"
           }
         ],
         "tracks": [
@@ -1278,6 +1341,21 @@
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "author-registration",
+                "label": "主会论文作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "date",
+                "date": "2026-07-17",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Registration",
+                  "label": "ECCV 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-17T01:03:50Z"
                 }
               },
               {
@@ -2144,6 +2222,12 @@
             "label": "IJCAI-ECAI 2026 Important Dates",
             "source_type": "official_dates",
             "verified_at": "2026-08-03T10:08:46Z"
+          },
+          {
+            "url": "https://2026.ijcai.org/registration/",
+            "label": "IJCAI-ECAI 2026 Registration Information",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-17T01:03:50Z"
           }
         ],
         "tracks": [
@@ -2253,6 +2337,40 @@
                 }
               },
               {
+                "id": "early-registration",
+                "label": "早期注册截止",
+                "type": "early_registration_deadline",
+                "kind": "instant",
+                "at": "2026-06-15T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/registration/",
+                  "label": "IJCAI-ECAI 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-17T01:03:50Z"
+                }
+              },
+              {
+                "id": "late-registration",
+                "label": "晚期注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "instant",
+                "at": "2026-07-15T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/registration/",
+                  "label": "IJCAI-ECAI 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-17T01:03:50Z"
+                }
+              },
+              {
                 "id": "conference-start",
                 "label": "会议开始",
                 "type": "conference_start",
@@ -2265,6 +2383,23 @@
                   "label": "IJCAI-ECAI 2026 Important Dates",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-03T10:08:46Z"
+                }
+              },
+              {
+                "id": "onsite-registration",
+                "label": "现场注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "instant",
+                "at": "2026-08-21T12:00:00",
+                "timezone": "Europe/Berlin",
+                "original_timezone": "CEST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.ijcai.org/registration/",
+                  "label": "IJCAI-ECAI 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-17T01:03:50Z"
                 }
               },
               {
