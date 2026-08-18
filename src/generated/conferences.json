@@ -1417,7 +1417,7 @@
         "venue": {
           "city": "Budapest",
           "country": "Hungary",
-          "mode": "onsite"
+          "mode": "hybrid"
         },
         "sources": [
           {
@@ -1425,6 +1425,12 @@
             "label": "EMNLP 2026 官方 Important Dates",
             "source_type": "official_dates",
             "verified_at": "2026-08-03T04:00:00Z"
+          },
+          {
+            "url": "https://2026.emnlp.org/registration/",
+            "label": "EMNLP 2026 Registration Information",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-18T01:04:35Z"
           }
         ],
         "tracks": [
@@ -1567,6 +1573,55 @@
                 }
               },
               {
+                "id": "author-registration",
+                "label": "主会论文作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "instant",
+                "at": "2026-09-11T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/registration/",
+                  "label": "EMNLP 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-18T01:04:35Z"
+                }
+              },
+              {
+                "id": "early-registration",
+                "label": "早期参会注册截止",
+                "type": "early_registration_deadline",
+                "kind": "instant",
+                "at": "2026-09-24T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/registration/",
+                  "label": "EMNLP 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-18T01:04:35Z"
+                }
+              },
+              {
+                "id": "late-in-person-registration",
+                "label": "晚期线下注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "date",
+                "date": "2026-10-23",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/registration/",
+                  "label": "EMNLP 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-18T01:04:35Z"
+                }
+              },
+              {
                 "id": "conference-start",
                 "label": "会议开始",
                 "type": "conference_start",
@@ -1579,6 +1634,36 @@
                   "label": "EMNLP 2026 官方 Important Dates",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-03T04:00:00Z"
+                }
+              },
+              {
+                "id": "late-virtual-registration",
+                "label": "晚期线上注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "date",
+                "date": "2026-10-29",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/registration/",
+                  "label": "EMNLP 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-18T01:04:35Z"
+                }
+              },
+              {
+                "id": "onsite-registration",
+                "label": "现场注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "date",
+                "date": "2026-10-29",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/registration/",
+                  "label": "EMNLP 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-18T01:04:35Z"
                 }
               },
               {

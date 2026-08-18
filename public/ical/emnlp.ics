@@ -46,11 +46,46 @@ URL:https://2026.emnlp.org/
 DTSTART:20260831T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:emnlp-2026-author-registration@ai-conf-tracker
+DTSTAMP:20260818T010435Z
+SUMMARY:EMNLP 2026 · 主会论文作者注册截止
+URL:https://2026.emnlp.org/registration/
+DTSTART:20260912T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2026-early-registration@ai-conf-tracker
+DTSTAMP:20260818T010435Z
+SUMMARY:EMNLP 2026 · 早期参会注册截止
+URL:https://2026.emnlp.org/registration/
+DTSTART:20260925T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2026-late-in-person-registration@ai-conf-tracker
+DTSTAMP:20260818T010435Z
+SUMMARY:EMNLP 2026 · 晚期线下注册截止
+URL:https://2026.emnlp.org/registration/
+DTSTART;VALUE=DATE:20261023
+END:VEVENT
+BEGIN:VEVENT
 UID:emnlp-2026-conference-start@ai-conf-tracker
 DTSTAMP:20260803T040000Z
 SUMMARY:EMNLP 2026 · 会议开始
 URL:https://2026.emnlp.org/
 DTSTART;VALUE=DATE:20261024
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2026-late-virtual-registration@ai-conf-tracker
+DTSTAMP:20260818T010435Z
+SUMMARY:EMNLP 2026 · 晚期线上注册截止
+URL:https://2026.emnlp.org/registration/
+DTSTART;VALUE=DATE:20261029
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2026-onsite-registration@ai-conf-tracker
+DTSTAMP:20260818T010435Z
+SUMMARY:EMNLP 2026 · 现场注册截止
+URL:https://2026.emnlp.org/registration/
+DTSTART;VALUE=DATE:20261029
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-2026-conference-end@ai-conf-tracker
