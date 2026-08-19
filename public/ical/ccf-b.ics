@@ -60,15 +60,29 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
 DTSTART;VALUE=DATE:20270507
 END:VEVENT
 BEGIN:VEVENT
+UID:coling-2027-paper@ai-conf-tracker
+DTSTAMP:20260819T010416Z
+SUMMARY:COLING 2027 · ARR 投稿截止
+URL:https://2027.coling-iccl.org/calls/main_conference_papers/
+DTSTART:20261013T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-notification@ai-conf-tracker
+DTSTAMP:20260819T010416Z
+SUMMARY:COLING 2027 · 录用通知
+URL:https://2027.coling-iccl.org/calls/main_conference_papers/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
 UID:coling-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260816T010116Z
+DTSTAMP:20260819T010416Z
 SUMMARY:COLING 2027 · 会议开始
 URL:https://2027.coling-iccl.org/
 DTSTART;VALUE=DATE:20270509
 END:VEVENT
 BEGIN:VEVENT
 UID:coling-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260816T010116Z
+DTSTAMP:20260819T010416Z
 SUMMARY:COLING 2027 · 会议结束
 URL:https://2027.coling-iccl.org/
 DTSTART;VALUE=DATE:20270514
