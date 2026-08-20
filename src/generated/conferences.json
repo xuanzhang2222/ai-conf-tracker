@@ -523,7 +523,7 @@
             "url": "https://2026.acmmm.org/site/important-dates.html",
             "label": "ACM MM 2026 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-08-20T01:04:23Z"
           }
         ],
         "tracks": [
@@ -543,7 +543,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -558,7 +558,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -573,7 +573,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -588,7 +588,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -603,7 +603,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -618,7 +618,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -626,14 +626,14 @@
                 "label": "作者注册截止",
                 "type": "author_registration_deadline",
                 "kind": "date",
-                "date": "2026-08-20",
+                "date": "2026-08-31",
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -648,7 +648,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               },
               {
@@ -663,7 +663,7 @@
                   "url": "https://2026.acmmm.org/site/important-dates.html",
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-08-20T01:04:23Z"
                 }
               }
             ]
