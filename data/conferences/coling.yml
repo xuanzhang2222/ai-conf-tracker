@@ -8,10 +8,11 @@ dblp: conf/coling
 editions:
   - year: 2027
     website: https://2027.coling-iccl.org/
-    venue: { city: Macau, country: China, mode: tbd }
+    venue: { city: Macau, country: China, mode: hybrid }
     sources:
       - &dates { url: https://2027.coling-iccl.org/, label: COLING 2027 官方 Important Dates, source_type: official_dates, verified_at: 2026-08-19T01:04:16Z }
       - &cfp { url: https://2027.coling-iccl.org/calls/main_conference_papers/, label: COLING 2027 Main Conference CFP, source_type: official_cfp, verified_at: 2026-08-19T01:04:16Z }
+      - { url: https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027, label: COLING 2027 Joint Workshop Call, source_type: official_announcement, verified_at: 2026-08-21T01:05:22Z }
     tracks:
       - id: main
         name: Main Conference

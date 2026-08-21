@@ -386,7 +386,7 @@
         "venue": {
           "city": "Kyoto",
           "country": "Japan",
-          "mode": "onsite"
+          "mode": "hybrid"
         },
         "sources": [
           {
@@ -394,6 +394,12 @@
             "label": "ACL 2027 官方 Important Dates",
             "source_type": "official_dates",
             "verified_at": "2026-08-03T04:00:00Z"
+          },
+          {
+            "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
+            "label": "ACL 2027 Joint Workshop Call",
+            "source_type": "official_announcement",
+            "verified_at": "2026-08-21T01:05:22Z"
           }
         ],
         "tracks": [
@@ -695,7 +701,7 @@
         "venue": {
           "city": "Macau",
           "country": "China",
-          "mode": "tbd"
+          "mode": "hybrid"
         },
         "sources": [
           {
@@ -709,6 +715,12 @@
             "label": "COLING 2027 Main Conference CFP",
             "source_type": "official_cfp",
             "verified_at": "2026-08-19T01:04:16Z"
+          },
+          {
+            "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
+            "label": "COLING 2027 Joint Workshop Call",
+            "source_type": "official_announcement",
+            "verified_at": "2026-08-21T01:05:22Z"
           }
         ],
         "tracks": [
