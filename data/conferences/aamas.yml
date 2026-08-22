@@ -10,7 +10,7 @@ editions:
     website: https://warwick.ac.uk/fac/sci/dcs/aamas2027/
     venue: { city: Hanoi, country: Vietnam, mode: onsite }
     sources:
-      - &dates { url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/, label: AAMAS 2027 Main Track CFP, source_type: official_cfp, verified_at: 2026-08-03T10:08:46Z }
+      - &dates { url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/, label: AAMAS 2027 Main Track CFP, source_type: official_cfp, verified_at: 2026-08-22T01:05:13Z }
     tracks:
       - id: main
         name: Main Conference
