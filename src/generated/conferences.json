@@ -2965,35 +2965,18 @@
             "url": "https://acmweb2027.org/important-dates/",
             "label": "ACM Web Conference 2027 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T10:08:46Z"
+            "verified_at": "2026-08-25T01:04:05Z"
           }
         ],
         "tracks": [
           {
             "id": "research",
-            "name": "Research Tracks",
+            "name": "Research & Industry Track Papers",
             "milestones": [
               {
                 "id": "abstract",
                 "label": "摘要注册截止",
                 "type": "abstract_deadline",
-                "kind": "instant",
-                "at": "2026-10-11T23:59:00",
-                "timezone": "Etc/GMT+12",
-                "original_timezone": "AoE",
-                "date_status": "confirmed",
-                "action_required": true,
-                "source": {
-                  "url": "https://acmweb2027.org/important-dates/",
-                  "label": "ACM Web Conference 2027 Important Dates",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
-                }
-              },
-              {
-                "id": "paper",
-                "label": "论文截稿",
-                "type": "paper_deadline",
                 "kind": "instant",
                 "at": "2026-10-18T23:59:00",
                 "timezone": "Etc/GMT+12",
@@ -3004,31 +2987,15 @@
                   "url": "https://acmweb2027.org/important-dates/",
                   "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-25T01:04:05Z"
                 }
               },
               {
-                "id": "review-release",
-                "label": "评审结果发布",
-                "type": "review_release",
-                "kind": "date",
-                "date": "2026-12-10",
-                "date_status": "confirmed",
-                "action_required": false,
-                "source": {
-                  "url": "https://acmweb2027.org/important-dates/",
-                  "label": "ACM Web Conference 2027 Important Dates",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
-                }
-              },
-              {
-                "id": "rebuttal",
-                "label": "Rebuttal 期",
-                "type": "rebuttal_deadline",
-                "kind": "window",
-                "start_at": "2026-12-12T00:00:00",
-                "end_at": "2026-12-19T23:59:00",
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-10-25T23:59:00",
                 "timezone": "Etc/GMT+12",
                 "original_timezone": "AoE",
                 "date_status": "confirmed",
@@ -3037,7 +3004,69 @@
                   "url": "https://acmweb2027.org/important-dates/",
                   "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-25T01:04:05Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "评审结果发布",
+                "type": "review_release",
+                "kind": "date",
+                "date": "2026-12-21",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-25T01:04:05Z"
+                }
+              },
+              {
+                "id": "rebuttal-open",
+                "label": "Rebuttal 开始",
+                "type": "rebuttal_open",
+                "kind": "date",
+                "date": "2026-12-21",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-25T01:04:05Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "instant",
+                "at": "2026-12-31T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-25T01:04:05Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-04",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-25T01:04:05Z"
                 }
               },
               {
@@ -3054,21 +3083,7 @@
                   "url": "https://acmweb2027.org/important-dates/",
                   "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
-                }
-              },
-              {
-                "id": "notification",
-                "label": "录用通知",
-                "type": "notification",
-                "kind": "tbd",
-                "date_status": "tbd",
-                "action_required": false,
-                "source": {
-                  "url": "https://acmweb2027.org/important-dates/",
-                  "label": "ACM Web Conference 2027 Important Dates",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-25T01:04:05Z"
                 }
               },
               {
@@ -3083,7 +3098,7 @@
                   "url": "https://acmweb2027.org/important-dates/",
                   "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-25T01:04:05Z"
                 }
               },
               {
@@ -3098,7 +3113,7 @@
                   "url": "https://acmweb2027.org/important-dates/",
                   "label": "ACM Web Conference 2027 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-25T01:04:05Z"
                 }
               }
             ]
