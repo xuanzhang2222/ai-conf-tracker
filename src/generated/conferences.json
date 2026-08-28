@@ -2697,6 +2697,12 @@
             "label": "NeurIPS 2026 Official Conference Page",
             "source_type": "official_announcement",
             "verified_at": "2026-08-06T01:03:19Z"
+          },
+          {
+            "url": "https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/",
+            "label": "NeurIPS 2026 Multi-Site Registration Process",
+            "source_type": "official_announcement",
+            "verified_at": "2026-08-28T01:03:21Z"
           }
         ],
         "tracks": [
@@ -2787,6 +2793,37 @@
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-19T01:04:16Z"
+                }
+              },
+              {
+                "id": "public-registration-open",
+                "label": "悉尼与亚特兰大公众注册开放",
+                "type": "registration_open",
+                "kind": "instant",
+                "at": "2026-09-03T23:00:00",
+                "timezone": "Australia/Sydney",
+                "original_timezone": "AEST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/",
+                  "label": "NeurIPS 2026 Multi-Site Registration Process",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-28T01:03:21Z"
+                }
+              },
+              {
+                "id": "paris-registration-open",
+                "label": "巴黎公众注册开放",
+                "type": "registration_open",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/",
+                  "label": "NeurIPS 2026 Multi-Site Registration Process",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-08-28T01:03:21Z"
                 }
               },
               {

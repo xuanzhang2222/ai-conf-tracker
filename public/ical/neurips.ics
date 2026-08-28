@@ -40,6 +40,13 @@ DTSTART:20260803T120000Z
 DTEND:20260811T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:neurips-2026-public-registration-open@ai-conf-tracker
+DTSTAMP:20260828T010321Z
+SUMMARY:NeurIPS 2026 · 悉尼与亚特兰大公众注册开放
+URL:https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/
+DTSTART:20260903T130000Z
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2026-notification@ai-conf-tracker
 DTSTAMP:20260819T010416Z
 SUMMARY:NeurIPS 2026 · 录用通知
