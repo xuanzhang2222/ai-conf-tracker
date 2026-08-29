@@ -10,7 +10,8 @@ const eventTypes = [
   'author_response_deadline', 'discussion_open', 'discussion_deadline', 'revision_deadline',
   'notification', 'conditional_acceptance', 'final_notification', 'withdrawal_deadline',
   'camera_ready_deadline', 'copyright_deadline', 'artifact_deadline',
-  'registration_open', 'author_registration_deadline', 'early_registration_deadline', 'standard_registration_deadline', 'conference_start',
+  'registration_open', 'author_registration_deadline', 'early_registration_deadline', 'standard_registration_deadline',
+  'registration_refund_deadline', 'conference_start',
   'conference_end', 'workshop_start', 'workshop_end',
 ] as const
 

@@ -11,7 +11,7 @@ editions:
     venue: { city: Budapest, country: Hungary, mode: hybrid }
     sources:
       - &dates { url: https://2026.emnlp.org/, label: EMNLP 2026 官方 Important Dates, source_type: official_dates, verified_at: 2026-08-03T04:00:00Z }
-      - &registration { url: https://2026.emnlp.org/registration/, label: EMNLP 2026 Registration Information, source_type: official_dates, verified_at: 2026-08-18T01:04:35Z }
+      - &registration { url: https://2026.emnlp.org/registration/, label: EMNLP 2026 Registration Information, source_type: official_dates, verified_at: 2026-08-29T01:26:38Z }
     tracks:
       - id: main
         name: Main Conference
@@ -76,6 +76,7 @@ editions:
           - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2026-08-30T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: author-registration, label: 主会论文作者注册截止, type: author_registration_deadline, kind: instant, at: '2026-09-11T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *registration }
           - { id: early-registration, label: 早期参会注册截止, type: early_registration_deadline, kind: instant, at: '2026-09-24T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *registration }
+          - { id: full-refund-deadline, label: 全额退款（扣除手续费）截止, type: registration_refund_deadline, kind: date, date: 2026-09-24, date_status: confirmed, action_required: true, source: *registration }
           - { id: late-in-person-registration, label: 晚期线下注册截止, type: standard_registration_deadline, kind: date, date: 2026-10-23, date_status: confirmed, action_required: true, source: *registration }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2026-10-24, date_status: confirmed, action_required: false, source: *dates }
           - { id: late-virtual-registration, label: 晚期线上注册截止, type: standard_registration_deadline, kind: date, date: 2026-10-29, date_status: confirmed, action_required: true, source: *registration }

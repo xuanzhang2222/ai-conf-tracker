@@ -52,11 +52,32 @@ URL:https://2026.acmmm.org/site/important-dates.html
 DTSTART;VALUE=DATE:20260831
 END:VEVENT
 BEGIN:VEVENT
+UID:acmmm-2026-early-registration@ai-conf-tracker
+DTSTAMP:20260829T012638Z
+SUMMARY:ACM MM 2026 · 早鸟注册截止
+URL:https://2026.acmmm.org/site/registration.html
+DTSTART;VALUE=DATE:20260831
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-standard-registration@ai-conf-tracker
+DTSTAMP:20260829T012638Z
+SUMMARY:ACM MM 2026 · 标准注册截止
+URL:https://2026.acmmm.org/site/registration.html
+DTSTART;VALUE=DATE:20260930
+END:VEVENT
+BEGIN:VEVENT
 UID:acmmm-2026-conference-start@ai-conf-tracker
 DTSTAMP:20260820T010423Z
 SUMMARY:ACM MM 2026 · 会议开始
 URL:https://2026.acmmm.org/site/important-dates.html
 DTSTART;VALUE=DATE:20261110
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2026-late-registration@ai-conf-tracker
+DTSTAMP:20260829T012638Z
+SUMMARY:ACM MM 2026 · 晚期注册截止
+URL:https://2026.acmmm.org/site/registration.html
+DTSTART;VALUE=DATE:20261114
 END:VEVENT
 BEGIN:VEVENT
 UID:acmmm-2026-conference-end@ai-conf-tracker

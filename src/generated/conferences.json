@@ -530,6 +530,12 @@
             "label": "ACM MM 2026 Important Dates",
             "source_type": "official_dates",
             "verified_at": "2026-08-20T01:04:23Z"
+          },
+          {
+            "url": "https://2026.acmmm.org/site/registration.html",
+            "label": "ACM MM 2026 Registration Information",
+            "source_type": "official_dates",
+            "verified_at": "2026-08-29T01:26:38Z"
           }
         ],
         "tracks": [
@@ -643,6 +649,36 @@
                 }
               },
               {
+                "id": "early-registration",
+                "label": "早鸟注册截止",
+                "type": "early_registration_deadline",
+                "kind": "date",
+                "date": "2026-08-31",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/registration.html",
+                  "label": "ACM MM 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
+                }
+              },
+              {
+                "id": "standard-registration",
+                "label": "标准注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "date",
+                "date": "2026-09-30",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/registration.html",
+                  "label": "ACM MM 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
+                }
+              },
+              {
                 "id": "conference-start",
                 "label": "会议开始",
                 "type": "conference_start",
@@ -655,6 +691,21 @@
                   "label": "ACM MM 2026 Important Dates",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-20T01:04:23Z"
+                }
+              },
+              {
+                "id": "late-registration",
+                "label": "晚期注册截止",
+                "type": "standard_registration_deadline",
+                "kind": "date",
+                "date": "2026-11-14",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.acmmm.org/site/registration.html",
+                  "label": "ACM MM 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1239,13 +1290,13 @@
             "url": "https://eccv.ecva.net/Conferences/2026/Dates",
             "label": "ECCV 2026 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T10:08:46Z"
+            "verified_at": "2026-08-29T01:26:38Z"
           },
           {
             "url": "https://eccv.ecva.net/Conferences/2026/Registration",
             "label": "ECCV 2026 Registration Information",
             "source_type": "official_dates",
-            "verified_at": "2026-08-17T01:03:50Z"
+            "verified_at": "2026-08-29T01:26:38Z"
           }
         ],
         "tracks": [
@@ -1267,7 +1318,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1284,7 +1335,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1301,7 +1352,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1316,7 +1367,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1333,7 +1384,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1348,7 +1399,24 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
+                }
+              },
+              {
+                "id": "public-registration-open",
+                "label": "公众注册开放",
+                "type": "registration_open",
+                "kind": "date",
+                "date": "2026-06-17",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+                  "label": "ECCV 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1365,7 +1433,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1374,13 +1442,49 @@
                 "type": "author_registration_deadline",
                 "kind": "date",
                 "date": "2026-07-17",
+                "timezone": "Europe/Stockholm",
+                "original_timezone": "CEST",
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
                   "url": "https://eccv.ecva.net/Conferences/2026/Registration",
                   "label": "ECCV 2026 Registration Information",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-17T01:03:50Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
+                }
+              },
+              {
+                "id": "early-registration",
+                "label": "早鸟注册截止",
+                "type": "early_registration_deadline",
+                "kind": "date",
+                "date": "2026-07-17",
+                "timezone": "Europe/Stockholm",
+                "original_timezone": "CEST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Registration",
+                  "label": "ECCV 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
+                }
+              },
+              {
+                "id": "registration-refund",
+                "label": "注册退款截止",
+                "type": "registration_refund_deadline",
+                "kind": "instant",
+                "at": "2026-08-10T23:59:00",
+                "timezone": "Europe/Stockholm",
+                "original_timezone": "CEST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://eccv.ecva.net/Conferences/2026/Registration",
+                  "label": "ECCV 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1395,7 +1499,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1410,7 +1514,7 @@
                   "url": "https://eccv.ecva.net/Conferences/2026/Dates",
                   "label": "ECCV 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               }
             ]
@@ -1455,7 +1559,7 @@
             "url": "https://2026.emnlp.org/registration/",
             "label": "EMNLP 2026 Registration Information",
             "source_type": "official_dates",
-            "verified_at": "2026-08-18T01:04:35Z"
+            "verified_at": "2026-08-29T01:26:38Z"
           }
         ],
         "tracks": [
@@ -1611,7 +1715,7 @@
                   "url": "https://2026.emnlp.org/registration/",
                   "label": "EMNLP 2026 Registration Information",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-18T01:04:35Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1628,7 +1732,22 @@
                   "url": "https://2026.emnlp.org/registration/",
                   "label": "EMNLP 2026 Registration Information",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-18T01:04:35Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
+                }
+              },
+              {
+                "id": "full-refund-deadline",
+                "label": "全额退款（扣除手续费）截止",
+                "type": "registration_refund_deadline",
+                "kind": "date",
+                "date": "2026-09-24",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2026.emnlp.org/registration/",
+                  "label": "EMNLP 2026 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1643,7 +1762,7 @@
                   "url": "https://2026.emnlp.org/registration/",
                   "label": "EMNLP 2026 Registration Information",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-18T01:04:35Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1673,7 +1792,7 @@
                   "url": "https://2026.emnlp.org/registration/",
                   "label": "EMNLP 2026 Registration Information",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-18T01:04:35Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -1688,7 +1807,7 @@
                   "url": "https://2026.emnlp.org/registration/",
                   "label": "EMNLP 2026 Registration Information",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-18T01:04:35Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -2690,7 +2809,7 @@
             "url": "https://neurips.cc/Conferences/2026/Dates",
             "label": "NeurIPS 2026 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-08-19T01:04:16Z"
+            "verified_at": "2026-08-29T01:26:38Z"
           },
           {
             "url": "https://neurips.cc/Conferences/2026",
@@ -2724,7 +2843,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -2741,7 +2860,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -2756,7 +2875,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -2774,7 +2893,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -2792,7 +2911,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -2838,7 +2957,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               },
               {
@@ -2855,7 +2974,24 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-08-29T01:26:38Z"
+                }
+              },
+              {
+                "id": "registration-refund",
+                "label": "全额注册退款截止",
+                "type": "registration_refund_deadline",
+                "kind": "date",
+                "date": "2026-11-04",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-08-29T01:26:38Z"
                 }
               }
             ]

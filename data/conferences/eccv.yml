@@ -10,8 +10,8 @@ editions:
     website: https://eccv.ecva.net/Conferences/2026
     venue: { city: Malmö, country: Sweden, mode: onsite }
     sources:
-      - &dates { url: https://eccv.ecva.net/Conferences/2026/Dates, label: ECCV 2026 Dates and Deadlines, source_type: official_dates, verified_at: 2026-08-03T10:08:46Z }
-      - &registration { url: https://eccv.ecva.net/Conferences/2026/Registration, label: ECCV 2026 Registration Information, source_type: official_dates, verified_at: 2026-08-17T01:03:50Z }
+      - &dates { url: https://eccv.ecva.net/Conferences/2026/Dates, label: ECCV 2026 Dates and Deadlines, source_type: official_dates, verified_at: 2026-08-29T01:26:38Z }
+      - &registration { url: https://eccv.ecva.net/Conferences/2026/Registration, label: ECCV 2026 Registration Information, source_type: official_dates, verified_at: 2026-08-29T01:26:38Z }
     tracks:
       - id: main
         name: Main Conference
@@ -22,7 +22,10 @@ editions:
           - { id: review-release, label: 审稿意见发布, type: review_release, kind: date, date: 2026-05-02, date_status: confirmed, action_required: false, source: *dates }
           - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: instant, at: '2026-05-11T21:00:00', timezone: UTC, original_timezone: UTC, date_status: confirmed, action_required: true, source: *dates }
           - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-06-17, date_status: confirmed, action_required: false, source: *dates }
+          - { id: public-registration-open, label: 公众注册开放, type: registration_open, kind: date, date: 2026-06-17, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2026-06-30T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
-          - { id: author-registration, label: 主会论文作者注册截止, type: author_registration_deadline, kind: date, date: 2026-07-17, date_status: confirmed, action_required: true, source: *registration }
+          - { id: author-registration, label: 主会论文作者注册截止, type: author_registration_deadline, kind: date, date: 2026-07-17, timezone: Europe/Stockholm, original_timezone: CEST, date_status: confirmed, action_required: true, source: *registration }
+          - { id: early-registration, label: 早鸟注册截止, type: early_registration_deadline, kind: date, date: 2026-07-17, timezone: Europe/Stockholm, original_timezone: CEST, date_status: confirmed, action_required: true, source: *registration }
+          - { id: registration-refund, label: 注册退款截止, type: registration_refund_deadline, kind: instant, at: '2026-08-10T23:59:00', timezone: Europe/Stockholm, original_timezone: CEST, date_status: confirmed, action_required: true, source: *registration }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2026-09-08, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2026-09-12, date_status: confirmed, action_required: false, source: *dates }
