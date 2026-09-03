@@ -905,7 +905,7 @@
             "url": "https://cvpr.thecvf.com/",
             "label": "CVPR 官方页面",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T10:08:46Z"
+            "verified_at": "2026-09-03T01:02:21Z"
           },
           {
             "url": "https://www.thecvf.com/?p=137",
@@ -930,7 +930,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-09-03T01:02:21Z"
                 }
               },
               {
@@ -944,7 +944,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-09-03T01:02:21Z"
                 }
               },
               {
@@ -958,7 +958,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-09-03T01:02:21Z"
                 }
               },
               {
@@ -972,7 +972,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-09-03T01:02:21Z"
                 }
               },
               {
@@ -986,7 +986,7 @@
                   "url": "https://cvpr.thecvf.com/",
                   "label": "CVPR 官方页面",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-09-03T01:02:21Z"
                 }
               },
               {
@@ -998,10 +998,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://www.thecvf.com/?p=137",
-                  "label": "CVF Upcoming Conferences",
-                  "source_type": "official_announcement",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "url": "https://cvpr.thecvf.com/",
+                  "label": "CVPR 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-09-03T01:02:21Z"
                 }
               },
               {
@@ -1009,14 +1009,14 @@
                 "label": "会议结束",
                 "type": "conference_end",
                 "kind": "date",
-                "date": "2027-06-24",
+                "date": "2027-06-25",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://www.thecvf.com/?p=137",
-                  "label": "CVF Upcoming Conferences",
-                  "source_type": "official_announcement",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "url": "https://cvpr.thecvf.com/",
+                  "label": "CVPR 官方页面",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-09-03T01:02:21Z"
                 }
               }
             ]
