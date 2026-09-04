@@ -649,6 +649,34 @@ URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acceptin
 DTSTART;VALUE=DATE:20270528
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcai-2027-conference-start@ai-conf-tracker
+DTSTAMP:20260904T011804Z
+SUMMARY:IJCAI 2027 · 京都主会场开始
+URL:https://2026.ijcai.org/press/
+DTSTART;VALUE=DATE:20270807
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-conference-end@ai-conf-tracker
+DTSTAMP:20260904T011804Z
+SUMMARY:IJCAI 2027 · 京都主会场结束
+URL:https://2026.ijcai.org/press/
+DTSTART;VALUE=DATE:20270813
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-hengqin-start@ai-conf-tracker
+DTSTAMP:20260904T011804Z
+SUMMARY:IJCAI 2027 · 横琴岛卫星活动开始
+URL:https://2026.ijcai.org/press/
+DTSTART;VALUE=DATE:20270815
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-hengqin-end@ai-conf-tracker
+DTSTAMP:20260904T011804Z
+SUMMARY:IJCAI 2027 · 横琴岛卫星活动结束
+URL:https://2026.ijcai.org/press/
+DTSTART;VALUE=DATE:20270817
+END:VEVENT
+BEGIN:VEVENT
 UID:naacl-2027-arr-paper@ai-conf-tracker
 DTSTAMP:20260815T010203Z
 SUMMARY:NAACL 2027 · ARR 投稿截止

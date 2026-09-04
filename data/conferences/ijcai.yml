@@ -8,9 +8,10 @@ dblp: conf/ijcai
 editions:
   - year: 2027
     website: https://www.ijcai.org/future_conferences
-    venue: { city: TBD, country: TBD, mode: tbd }
+    venue: { city: Kyoto / Hengqin Island, country: Japan / China, mode: tbd }
     sources:
       - &dates { url: https://www.ijcai.org/future_conferences, label: IJCAI Future Conferences, source_type: official_announcement, verified_at: 2026-08-22T01:05:13Z }
+      - &meeting { url: https://2026.ijcai.org/press/, label: IJCAI-ECAI 2026 Closing Press Report, source_type: official_announcement, verified_at: 2026-09-04T01:18:04Z }
     tracks:
       - id: main
         name: Main Track
@@ -23,5 +24,10 @@ editions:
           - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
           - { id: early-registration, label: 早期注册截止, type: early_registration_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
           - { id: late-registration, label: 晚期注册截止, type: standard_registration_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
-          - { id: conference-start, label: 会议开始, type: conference_start, kind: tbd, date_status: tbd, action_required: false, source: *dates }
-          - { id: conference-end, label: 会议结束, type: conference_end, kind: tbd, date_status: tbd, action_required: false, source: *dates }
+          - { id: conference-start, label: 京都主会场开始, type: conference_start, kind: date, date: 2027-08-07, date_status: confirmed, action_required: false, source: *meeting }
+          - { id: conference-end, label: 京都主会场结束, type: conference_end, kind: date, date: 2027-08-13, date_status: confirmed, action_required: false, source: *meeting }
+      - id: hengqin
+        name: Hengqin Island Satellite
+        milestones:
+          - { id: hengqin-start, label: 横琴岛卫星活动开始, type: conference_start, kind: date, date: 2027-08-15, date_status: confirmed, action_required: false, source: *meeting }
+          - { id: hengqin-end, label: 横琴岛卫星活动结束, type: conference_end, kind: date, date: 2027-08-17, date_status: confirmed, action_required: false, source: *meeting }
