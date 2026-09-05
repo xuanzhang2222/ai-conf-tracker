@@ -383,6 +383,13 @@ URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acceptin
 DTSTART;VALUE=DATE:20270331
 END:VEVENT
 BEGIN:VEVENT
+UID:icra-2027-registration-refund@ai-conf-tracker
+DTSTAMP:20260905T010207Z
+SUMMARY:ICRA 2027 · 全额退款（扣除 50 美元手续费）截止
+URL:https://2027.ieee-icra.org/attend/registration-information/
+DTSTART;VALUE=DATE:20270409
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2027-standard-registration@ai-conf-tracker
 DTSTAMP:20260816T010116Z
 SUMMARY:ICRA 2027 · 标准注册截止

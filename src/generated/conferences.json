@@ -2266,6 +2266,12 @@
             "label": "ICRA 2027 Call for Papers",
             "source_type": "official_cfp",
             "verified_at": "2026-08-16T01:01:16Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/attend/registration-information/",
+            "label": "ICRA 2027 Registration Information",
+            "source_type": "official_dates",
+            "verified_at": "2026-09-05T01:02:07Z"
           }
         ],
         "tracks": [
@@ -2367,6 +2373,21 @@
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
                   "verified_at": "2026-08-16T01:01:16Z"
+                }
+              },
+              {
+                "id": "registration-refund",
+                "label": "全额退款（扣除 50 美元手续费）截止",
+                "type": "registration_refund_deadline",
+                "kind": "date",
+                "date": "2027-04-09",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/attend/registration-information/",
+                  "label": "ICRA 2027 Registration Information",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-09-05T01:02:07Z"
                 }
               },
               {
