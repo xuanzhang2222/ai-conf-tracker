@@ -249,6 +249,55 @@ URL:https://2027.coling-iccl.org/
 DTSTART;VALUE=DATE:20270514
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2027-abstract@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 论文注册截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261110
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-paper@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 论文截稿
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261116
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-supplementary@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 附录截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261123
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-review-release@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 审稿意见发布
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270125
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-rebuttal-open@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · Rebuttal 开始
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270125
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-rebuttal@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · Rebuttal 截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-notification@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 最终录用通知
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270225
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-conference-start@ai-conf-tracker
 DTSTAMP:20260903T010221Z
 SUMMARY:CVPR 2027 · 会议开始
@@ -657,30 +706,30 @@ DTSTART;VALUE=DATE:20270528
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260904T011804Z
+DTSTAMP:20260908T010125Z
 SUMMARY:IJCAI 2027 · 京都主会场开始
-URL:https://2026.ijcai.org/press/
+URL:https://www.ijcai.org/future_conferences
 DTSTART;VALUE=DATE:20270807
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260904T011804Z
+DTSTAMP:20260908T010125Z
 SUMMARY:IJCAI 2027 · 京都主会场结束
-URL:https://2026.ijcai.org/press/
+URL:https://www.ijcai.org/future_conferences
 DTSTART;VALUE=DATE:20270813
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-hengqin-start@ai-conf-tracker
-DTSTAMP:20260904T011804Z
+DTSTAMP:20260908T010125Z
 SUMMARY:IJCAI 2027 · 横琴岛卫星活动开始
-URL:https://2026.ijcai.org/press/
+URL:https://www.ijcai.org/future_conferences
 DTSTART;VALUE=DATE:20270815
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-hengqin-end@ai-conf-tracker
-DTSTAMP:20260904T011804Z
+DTSTAMP:20260908T010125Z
 SUMMARY:IJCAI 2027 · 横琴岛卫星活动结束
-URL:https://2026.ijcai.org/press/
+URL:https://www.ijcai.org/future_conferences
 DTSTART;VALUE=DATE:20270817
 END:VEVENT
 BEGIN:VEVENT

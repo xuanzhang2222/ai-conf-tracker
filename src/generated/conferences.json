@@ -908,6 +908,12 @@
             "verified_at": "2026-09-03T01:02:21Z"
           },
           {
+            "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+            "label": "CVPR 2027 Call for Papers",
+            "source_type": "official_cfp",
+            "verified_at": "2026-09-08T01:04:00Z"
+          },
+          {
             "url": "https://www.thecvf.com/?p=137",
             "label": "CVF Upcoming Conferences",
             "source_type": "official_announcement",
@@ -920,73 +926,122 @@
             "name": "Main Conference",
             "milestones": [
               {
+                "id": "abstract",
+                "label": "论文注册截止",
+                "type": "abstract_registration",
+                "kind": "date",
+                "date": "2026-11-10",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+                  "label": "CVPR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-08T01:04:00Z"
+                }
+              },
+              {
                 "id": "paper",
                 "label": "论文截稿",
                 "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2026-11-16",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://cvpr.thecvf.com/",
-                  "label": "CVPR 官方页面",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-09-03T01:02:21Z"
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+                  "label": "CVPR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-08T01:04:00Z"
                 }
               },
               {
                 "id": "supplementary",
                 "label": "附录截止",
                 "type": "supplementary_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2026-11-23",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://cvpr.thecvf.com/",
-                  "label": "CVPR 官方页面",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-09-03T01:02:21Z"
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+                  "label": "CVPR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-08T01:04:00Z"
                 }
               },
               {
                 "id": "review-release",
                 "label": "审稿意见发布",
                 "type": "review_release",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2027-01-25",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://cvpr.thecvf.com/",
-                  "label": "CVPR 官方页面",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-09-03T01:02:21Z"
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+                  "label": "CVPR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-08T01:04:00Z"
+                }
+              },
+              {
+                "id": "rebuttal-open",
+                "label": "Rebuttal 开始",
+                "type": "rebuttal_open",
+                "kind": "date",
+                "date": "2027-01-25",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+                  "label": "CVPR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-08T01:04:00Z"
                 }
               },
               {
                 "id": "rebuttal",
                 "label": "Rebuttal 截止",
                 "type": "rebuttal_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2027-02-01",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://cvpr.thecvf.com/",
-                  "label": "CVPR 官方页面",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-09-03T01:02:21Z"
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+                  "label": "CVPR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-08T01:04:00Z"
                 }
               },
               {
                 "id": "notification",
-                "label": "录用通知",
-                "type": "notification",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "date",
+                "date": "2027-02-25",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://cvpr.thecvf.com/",
-                  "label": "CVPR 官方页面",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-09-03T01:02:21Z"
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+                  "label": "CVPR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-08T01:04:00Z"
                 }
               },
               {
@@ -2471,7 +2526,7 @@
             "url": "https://www.ijcai.org/future_conferences",
             "label": "IJCAI Future Conferences",
             "source_type": "official_announcement",
-            "verified_at": "2026-08-22T01:05:13Z"
+            "verified_at": "2026-09-08T01:01:25Z"
           },
           {
             "url": "https://2026.ijcai.org/press/",
@@ -2496,7 +2551,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2510,7 +2565,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2524,7 +2579,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2538,7 +2593,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2552,7 +2607,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2566,7 +2621,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2580,7 +2635,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2594,7 +2649,7 @@
                   "url": "https://www.ijcai.org/future_conferences",
                   "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-08-22T01:05:13Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2606,10 +2661,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/press/",
-                  "label": "IJCAI-ECAI 2026 Closing Press Report",
+                  "url": "https://www.ijcai.org/future_conferences",
+                  "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-04T01:18:04Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2621,10 +2676,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/press/",
-                  "label": "IJCAI-ECAI 2026 Closing Press Report",
+                  "url": "https://www.ijcai.org/future_conferences",
+                  "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-04T01:18:04Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               }
             ]
@@ -2642,10 +2697,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/press/",
-                  "label": "IJCAI-ECAI 2026 Closing Press Report",
+                  "url": "https://www.ijcai.org/future_conferences",
+                  "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-04T01:18:04Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               },
               {
@@ -2657,10 +2712,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2026.ijcai.org/press/",
-                  "label": "IJCAI-ECAI 2026 Closing Press Report",
+                  "url": "https://www.ijcai.org/future_conferences",
+                  "label": "IJCAI Future Conferences",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-04T01:18:04Z"
+                  "verified_at": "2026-09-08T01:01:25Z"
                 }
               }
             ]

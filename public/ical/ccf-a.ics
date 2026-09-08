@@ -164,6 +164,55 @@ URL:https://2026.acmmm.org/site/important-dates.html
 DTSTART;VALUE=DATE:20261114
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2027-abstract@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 论文注册截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261110
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-paper@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 论文截稿
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261116
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-supplementary@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 附录截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261123
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-review-release@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 审稿意见发布
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270125
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-rebuttal-open@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · Rebuttal 开始
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270125
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-rebuttal@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · Rebuttal 截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-notification@ai-conf-tracker
+DTSTAMP:20260908T010400Z
+SUMMARY:CVPR 2027 · 最终录用通知
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20270225
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-conference-start@ai-conf-tracker
 DTSTAMP:20260903T010221Z
 SUMMARY:CVPR 2027 · 会议开始
