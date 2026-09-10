@@ -759,13 +759,19 @@
             "url": "https://2027.coling-iccl.org/",
             "label": "COLING 2027 官方 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-19T01:04:16Z"
+            "verified_at": "2026-09-10T01:05:13Z"
           },
           {
             "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
             "label": "COLING 2027 Main Conference CFP",
             "source_type": "official_cfp",
-            "verified_at": "2026-08-19T01:04:16Z"
+            "verified_at": "2026-09-10T01:05:13Z"
+          },
+          {
+            "url": "https://aclrollingreview.org/dates",
+            "label": "ACL Rolling Review Dates and Venues",
+            "source_type": "official_dates",
+            "verified_at": "2026-09-10T01:05:13Z"
           },
           {
             "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
@@ -793,21 +799,24 @@
                   "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
                   "label": "COLING 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-09-10T01:05:13Z"
                 }
               },
               {
                 "id": "commitment",
                 "label": "COLING 承诺截止",
                 "type": "revision_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2026-12-23T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2027.coling-iccl.org/",
-                  "label": "COLING 2027 官方 Important Dates",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
+                  "label": "COLING 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-10T01:05:13Z"
                 }
               },
               {
@@ -822,7 +831,7 @@
                   "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
                   "label": "COLING 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-09-10T01:05:13Z"
                 }
               },
               {
@@ -836,7 +845,7 @@
                   "url": "https://2027.coling-iccl.org/",
                   "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-09-10T01:05:13Z"
                 }
               },
               {
@@ -851,7 +860,7 @@
                   "url": "https://2027.coling-iccl.org/",
                   "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-09-10T01:05:13Z"
                 }
               },
               {
@@ -866,7 +875,7 @@
                   "url": "https://2027.coling-iccl.org/",
                   "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-19T01:04:16Z"
+                  "verified_at": "2026-09-10T01:05:13Z"
                 }
               }
             ]
