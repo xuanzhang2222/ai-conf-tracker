@@ -2944,7 +2944,7 @@
             "url": "https://neurips.cc/Conferences/2026",
             "label": "NeurIPS 2026 Official Conference Page",
             "source_type": "official_announcement",
-            "verified_at": "2026-09-12T01:02:42Z"
+            "verified_at": "2026-09-14T01:02:38Z"
           },
           {
             "url": "https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/",
@@ -3064,17 +3064,17 @@
                 "id": "paris-registration-open",
                 "label": "巴黎公众注册开放",
                 "type": "registration_open",
-                "kind": "date",
-                "date": "2026-09-14",
-                "timezone": "Etc/GMT+12",
-                "original_timezone": "AoE",
+                "kind": "instant",
+                "at": "2026-09-15T14:00:00",
+                "timezone": "Europe/Paris",
+                "original_timezone": "CEST",
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               },
               {
@@ -3106,7 +3106,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               },
               {
@@ -3161,7 +3161,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               },
               {
@@ -3176,7 +3176,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               }
             ]
@@ -3197,7 +3197,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               },
               {
@@ -3212,7 +3212,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               }
             ]
@@ -3233,7 +3233,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               },
               {
@@ -3248,7 +3248,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-09-12T01:02:42Z"
+                  "verified_at": "2026-09-14T01:02:38Z"
                 }
               }
             ]
