@@ -48,20 +48,20 @@
     "content_bytes": 12743
   },
   "https://2027.coling-iccl.org/": {
-    "hash": "f17c174cd05e156a649f94ee2a3dd00dc0309e7862c2e4d419d170d927c416a7",
-    "checked_at": "2026-09-15T07:50:46.508Z",
+    "hash": "de1b29b38cd221231d71e2ccc4d1b2d8f946ea63ea87a28d9e41ea120c2cc4be",
+    "checked_at": "2026-09-16T01:01:46.313Z",
     "conference_id": "coling",
     "conference": "COLING 2027",
     "label": "COLING 2027 官方 Important Dates",
-    "content_bytes": 10205
+    "content_bytes": 10477
   },
   "https://2027.coling-iccl.org/calls/main_conference_papers/": {
-    "hash": "2665ae42824575e87701bedfa3c4c815ac4dc25942a159e6c4e34231c0473209",
-    "checked_at": "2026-09-15T07:50:46.508Z",
+    "hash": "fa67d589276f1ef0d4fc50e69bbdb8e5975283f956ce7087a093c219eb55dbad",
+    "checked_at": "2026-09-16T01:01:46.313Z",
     "conference_id": "coling",
     "conference": "COLING 2027",
     "label": "COLING 2027 Main Conference CFP",
-    "content_bytes": 14102
+    "content_bytes": 16710
   },
   "https://aclrollingreview.org/dates": {
     "hash": "99a9d8f21b2545830de90cfc07ba87b68d2bbe84b7f0b3c9d97bb9f46722d2ea",

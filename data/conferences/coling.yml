@@ -10,8 +10,8 @@ editions:
     website: https://2027.coling-iccl.org/
     venue: { city: Macau, country: China, mode: hybrid }
     sources:
-      - &dates { url: https://2027.coling-iccl.org/, label: COLING 2027 官方 Important Dates, source_type: official_dates, verified_at: 2026-09-10T01:05:13Z }
-      - &cfp { url: https://2027.coling-iccl.org/calls/main_conference_papers/, label: COLING 2027 Main Conference CFP, source_type: official_cfp, verified_at: 2026-09-10T01:05:13Z }
+      - &dates { url: https://2027.coling-iccl.org/, label: COLING 2027 官方 Important Dates, source_type: official_dates, verified_at: 2026-09-16T01:01:46Z }
+      - &cfp { url: https://2027.coling-iccl.org/calls/main_conference_papers/, label: COLING 2027 Main Conference CFP, source_type: official_cfp, verified_at: 2026-09-16T01:01:46Z }
       - { url: https://aclrollingreview.org/dates, label: ACL Rolling Review Dates and Venues, source_type: official_dates, verified_at: 2026-09-10T01:05:13Z }
       - { url: https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027, label: COLING 2027 Joint Workshop Call, source_type: official_announcement, verified_at: 2026-08-21T01:05:22Z }
     tracks:
@@ -24,3 +24,8 @@ editions:
           - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-05-09, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-05-14, date_status: confirmed, action_required: false, source: *dates }
+      - id: virtual
+        name: Virtual Conference
+        milestones:
+          - { id: virtual-start, label: 线上会议开始, type: conference_start, kind: date, date: 2027-05-06, date_status: confirmed, action_required: false, source: *cfp }
+          - { id: virtual-end, label: 线上会议结束, type: conference_end, kind: date, date: 2027-05-07, date_status: confirmed, action_required: false, source: *cfp }

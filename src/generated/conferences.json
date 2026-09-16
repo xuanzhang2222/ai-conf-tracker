@@ -759,13 +759,13 @@
             "url": "https://2027.coling-iccl.org/",
             "label": "COLING 2027 官方 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-09-10T01:05:13Z"
+            "verified_at": "2026-09-16T01:01:46Z"
           },
           {
             "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
             "label": "COLING 2027 Main Conference CFP",
             "source_type": "official_cfp",
-            "verified_at": "2026-09-10T01:05:13Z"
+            "verified_at": "2026-09-16T01:01:46Z"
           },
           {
             "url": "https://aclrollingreview.org/dates",
@@ -799,7 +799,7 @@
                   "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
                   "label": "COLING 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-09-10T01:05:13Z"
+                  "verified_at": "2026-09-16T01:01:46Z"
                 }
               },
               {
@@ -816,7 +816,7 @@
                   "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
                   "label": "COLING 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-09-10T01:05:13Z"
+                  "verified_at": "2026-09-16T01:01:46Z"
                 }
               },
               {
@@ -831,7 +831,7 @@
                   "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
                   "label": "COLING 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-09-10T01:05:13Z"
+                  "verified_at": "2026-09-16T01:01:46Z"
                 }
               },
               {
@@ -845,7 +845,7 @@
                   "url": "https://2027.coling-iccl.org/",
                   "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-10T01:05:13Z"
+                  "verified_at": "2026-09-16T01:01:46Z"
                 }
               },
               {
@@ -860,7 +860,7 @@
                   "url": "https://2027.coling-iccl.org/",
                   "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-10T01:05:13Z"
+                  "verified_at": "2026-09-16T01:01:46Z"
                 }
               },
               {
@@ -875,7 +875,43 @@
                   "url": "https://2027.coling-iccl.org/",
                   "label": "COLING 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-10T01:05:13Z"
+                  "verified_at": "2026-09-16T01:01:46Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "virtual",
+            "name": "Virtual Conference",
+            "milestones": [
+              {
+                "id": "virtual-start",
+                "label": "线上会议开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-05-06",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
+                  "label": "COLING 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-16T01:01:46Z"
+                }
+              },
+              {
+                "id": "virtual-end",
+                "label": "线上会议结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-05-07",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/main_conference_papers/",
+                  "label": "COLING 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-09-16T01:01:46Z"
                 }
               }
             ]
