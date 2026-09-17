@@ -168,12 +168,20 @@
     "content_bytes": 155893
   },
   "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/": {
-    "hash": "f4d563e8de8398f10936bf8d2101936e56c88e3e240d0ba39755fceb7e57d3d4",
-    "checked_at": "2026-09-16T07:45:01.018Z",
+    "hash": "846f6b71deed5023fae79267ec7b020136fe83b685382c5fc2fc59ed25f880ab",
+    "checked_at": "2026-09-17T01:04:57.441Z",
     "conference_id": "icra",
     "conference": "ICRA 2027",
     "label": "ICRA 2027 Call for Papers",
-    "content_bytes": 256957
+    "content_bytes": 257029
+  },
+  "https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/": {
+    "hash": "2f1ee637c7c1778a12c92720e07e65567105d0f1055db87119e0a3bb80128f1a",
+    "checked_at": "2026-09-17T01:04:57.441Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Paper Deadline Extension",
+    "content_bytes": 131626
   },
   "https://2027.naacl.org/": {
     "hash": "f290c1367d97735579bb2f33b20c861be0c3f559d692ddc3abc0f70db880651d",

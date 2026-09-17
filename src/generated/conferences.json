@@ -2365,7 +2365,13 @@
             "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
             "label": "ICRA 2027 Call for Papers",
             "source_type": "official_cfp",
-            "verified_at": "2026-08-16T01:01:16Z"
+            "verified_at": "2026-09-17T01:02:34Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/",
+            "label": "ICRA 2027 Paper Deadline Extension",
+            "source_type": "official_announcement",
+            "verified_at": "2026-09-17T01:04:30Z"
           },
           {
             "url": "https://2027.ieee-icra.org/attend/registration-information/",
@@ -2393,24 +2399,41 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               },
               {
-                "id": "paper",
-                "label": "论文截稿",
+                "id": "paper-original",
+                "label": "原论文截稿（已延期）",
                 "type": "paper_deadline",
                 "kind": "instant",
                 "at": "2026-09-15T23:59:00",
                 "timezone": "Etc/GMT+8",
                 "original_timezone": "PST",
+                "date_status": "superseded",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/",
+                  "label": "ICRA 2027 Paper Deadline Extension",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-09-17T01:04:30Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿（延期）",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-09-16T23:59:00",
+                "timezone": "Etc/GMT+8",
+                "original_timezone": "PST",
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
-                  "label": "ICRA 2027 Call for Papers",
-                  "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "url": "https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/",
+                  "label": "ICRA 2027 Paper Deadline Extension",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-09-17T01:04:30Z"
                 }
               },
               {
@@ -2427,7 +2450,7 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               },
               {
@@ -2442,7 +2465,7 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               },
               {
@@ -2457,7 +2480,7 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               },
               {
@@ -2472,7 +2495,7 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               },
               {
@@ -2502,7 +2525,7 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               },
               {
@@ -2517,7 +2540,7 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               },
               {
@@ -2532,7 +2555,7 @@
                   "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-16T01:01:16Z"
+                  "verified_at": "2026-09-17T01:02:34Z"
                 }
               }
             ]
