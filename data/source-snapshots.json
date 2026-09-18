@@ -168,12 +168,20 @@
     "content_bytes": 131627
   },
   "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/": {
-    "hash": "846f6b71deed5023fae79267ec7b020136fe83b685382c5fc2fc59ed25f880ab",
-    "checked_at": "2026-09-17T07:46:15.881Z",
+    "hash": "2fce03bbcad1b4b20377ede15050a5d1366a5a5b89e61f47b077dad4ea964c20",
+    "checked_at": "2026-09-18T01:04:42.246Z",
     "conference_id": "icra",
     "conference": "ICRA 2027",
     "label": "ICRA 2027 Call for Papers",
-    "content_bytes": 257030
+    "content_bytes": 257161
+  },
+  "https://2027.ieee-icra.org/announcements/call-for-papers-accompanying-video-submission-period-updated/": {
+    "hash": "48cd8cbc2779b7ca008931db13802edc2b4ada2b117c925aadfc055003b629eb",
+    "checked_at": "2026-09-18T01:04:42.246Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Accompanying Video Submission Update",
+    "content_bytes": 132476
   },
   "https://2027.ieee-icra.org/attend/registration-information/": {
     "hash": "11cc125b1eb5e503254752a61b318d0c073adb2a1b0aa54f8c3cb3858c85fffd",
