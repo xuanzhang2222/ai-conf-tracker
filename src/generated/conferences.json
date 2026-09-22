@@ -2843,7 +2843,7 @@
             "url": "https://2027.naacl.org/calls/main_conference_papers/",
             "label": "NAACL 2027 Main Conference CFP",
             "source_type": "official_cfp",
-            "verified_at": "2026-08-15T01:02:03Z"
+            "verified_at": "2026-09-22T01:02:42Z"
           }
         ],
         "tracks": [
@@ -2865,7 +2865,7 @@
                   "url": "https://2027.naacl.org/calls/main_conference_papers/",
                   "label": "NAACL 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-15T01:02:03Z"
+                  "verified_at": "2026-09-22T01:02:42Z"
                 }
               },
               {
@@ -2882,7 +2882,7 @@
                   "url": "https://2027.naacl.org/calls/main_conference_papers/",
                   "label": "NAACL 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-15T01:02:03Z"
+                  "verified_at": "2026-09-22T01:02:42Z"
                 }
               },
               {
@@ -2897,7 +2897,7 @@
                   "url": "https://2027.naacl.org/calls/main_conference_papers/",
                   "label": "NAACL 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-15T01:02:03Z"
+                  "verified_at": "2026-09-22T01:02:42Z"
                 }
               },
               {
@@ -2914,7 +2914,7 @@
                   "url": "https://2027.naacl.org/calls/main_conference_papers/",
                   "label": "NAACL 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-15T01:02:03Z"
+                  "verified_at": "2026-09-22T01:02:42Z"
                 }
               },
               {
@@ -2929,21 +2929,24 @@
                   "url": "https://2027.naacl.org/calls/main_conference_papers/",
                   "label": "NAACL 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-15T01:02:03Z"
+                  "verified_at": "2026-09-22T01:02:42Z"
                 }
               },
               {
                 "id": "camera-ready",
                 "label": "Camera-ready 截止",
                 "type": "camera_ready_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2027-03-03T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
                   "url": "https://2027.naacl.org/calls/main_conference_papers/",
                   "label": "NAACL 2027 Main Conference CFP",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-08-15T01:02:03Z"
+                  "verified_at": "2026-09-22T01:02:42Z"
                 }
               },
               {
