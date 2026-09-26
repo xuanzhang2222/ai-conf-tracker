@@ -11,6 +11,7 @@ editions:
     venue: { city: Montréal, country: Canada, mode: onsite }
     sources:
       - &dates { url: https://aaai.org/conference/aaai/aaai-27/, label: AAAI-27 官方作者日程, source_type: official_dates, verified_at: 2026-08-03T10:08:46Z }
+      - &registration { url: https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/, label: AAAI-27 官方注册信息, source_type: official_dates, verified_at: 2026-09-26T01:02:39Z }
     tracks:
       - id: main
         name: Main Technical Track
@@ -22,5 +23,7 @@ editions:
           - { id: author-feedback, label: 作者反馈截止, type: author_response_deadline, kind: instant, at: '2026-10-25T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-11-30, date_status: confirmed, action_required: false, source: *dates }
           - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2026-12-14T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
+          - { id: early-registration, label: 早鸟注册截止, type: early_registration_deadline, kind: instant, at: '2026-12-15T23:59:00', timezone: Etc/GMT+5, original_timezone: EST, date_status: confirmed, action_required: true, source: *registration }
+          - { id: standard-registration, label: 标准注册截止, type: standard_registration_deadline, kind: instant, at: '2027-01-10T23:59:00', timezone: Etc/GMT+5, original_timezone: EST, date_status: confirmed, action_required: true, source: *registration }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-02-16, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-02-23, date_status: confirmed, action_required: false, source: *dates }

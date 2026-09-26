@@ -52,6 +52,20 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 DTSTART:20261215T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-early-registration@ai-conf-tracker
+DTSTAMP:20260926T010239Z
+SUMMARY:AAAI 2027 · 早鸟注册截止
+URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
+DTSTART:20261216T045900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-standard-registration@ai-conf-tracker
+DTSTAMP:20260926T010239Z
+SUMMARY:AAAI 2027 · 标准注册截止
+URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
+DTSTART:20270111T045900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:aaai-2027-conference-start@ai-conf-tracker
 DTSTAMP:20260803T100846Z
 SUMMARY:AAAI 2027 · 会议开始
