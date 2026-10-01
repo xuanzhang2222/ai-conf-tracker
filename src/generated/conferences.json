@@ -433,7 +433,13 @@
             "url": "https://2027.aclweb.org/",
             "label": "ACL 2027 官方 Important Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-10-01T01:00:16Z"
+          },
+          {
+            "url": "https://2027.aclweb.org/calls/main/",
+            "label": "ACL 2027 Main Conference CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-10-01T01:00:16Z"
           },
           {
             "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
@@ -451,14 +457,17 @@
                 "id": "arr-paper",
                 "label": "ARR 投稿截止",
                 "type": "paper_deadline",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "instant",
+                "at": "2027-01-04T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://2027.aclweb.org/",
-                  "label": "ACL 2027 官方 Important Dates",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2027.aclweb.org/calls/main/",
+                  "label": "ACL 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-10-01T01:00:16Z"
                 }
               },
               {
@@ -472,7 +481,7 @@
                   "url": "https://2027.aclweb.org/",
                   "label": "ACL 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-10-01T01:00:16Z"
                 }
               },
               {
@@ -486,7 +495,7 @@
                   "url": "https://2027.aclweb.org/",
                   "label": "ACL 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-10-01T01:00:16Z"
                 }
               },
               {
@@ -500,37 +509,67 @@
                   "url": "https://2027.aclweb.org/",
                   "label": "ACL 2027 官方 Important Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-10-01T01:00:16Z"
+                }
+              },
+              {
+                "id": "workshop-start",
+                "label": "Workshop 开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-08-18",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.aclweb.org/calls/main/",
+                  "label": "ACL 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-10-01T01:00:16Z"
+                }
+              },
+              {
+                "id": "workshop-end",
+                "label": "Workshop 结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-08-19",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.aclweb.org/calls/main/",
+                  "label": "ACL 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-10-01T01:00:16Z"
                 }
               },
               {
                 "id": "conference-start",
-                "label": "会议开始",
+                "label": "主会开始",
                 "type": "conference_start",
                 "kind": "date",
-                "date": "2027-08-17",
+                "date": "2027-08-20",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2027.aclweb.org/",
-                  "label": "ACL 2027 官方 Important Dates",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2027.aclweb.org/calls/main/",
+                  "label": "ACL 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-10-01T01:00:16Z"
                 }
               },
               {
                 "id": "conference-end",
-                "label": "会议结束",
+                "label": "主会结束",
                 "type": "conference_end",
                 "kind": "date",
                 "date": "2027-08-22",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://2027.aclweb.org/",
-                  "label": "ACL 2027 官方 Important Dates",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "url": "https://2027.aclweb.org/calls/main/",
+                  "label": "ACL 2027 Main Conference CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-10-01T01:00:16Z"
                 }
               }
             ]
