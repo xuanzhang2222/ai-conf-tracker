@@ -46,6 +46,13 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 DTSTART:20270126T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:aamas-2027-early-registration@ai-conf-tracker
+DTSTAMP:20261007T010040Z
+SUMMARY:AAMAS 2027 · 早鸟注册截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+DTSTART;VALUE=DATE:20270317
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-2027-conference-start@ai-conf-tracker
 DTSTAMP:20260822T010513Z
 SUMMARY:AAMAS 2027 · 会议开始

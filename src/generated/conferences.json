@@ -259,6 +259,12 @@
             "label": "AAMAS 2027 Main Track CFP",
             "source_type": "official_cfp",
             "verified_at": "2026-08-22T01:05:13Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+            "label": "AAMAS 2027 Official Website",
+            "source_type": "official_dates",
+            "verified_at": "2026-10-07T01:00:40Z"
           }
         ],
         "tracks": [
@@ -365,6 +371,21 @@
                   "label": "AAMAS 2027 Main Track CFP",
                   "source_type": "official_cfp",
                   "verified_at": "2026-08-22T01:05:13Z"
+                }
+              },
+              {
+                "id": "early-registration",
+                "label": "早鸟注册截止",
+                "type": "early_registration_deadline",
+                "kind": "date",
+                "date": "2027-03-17",
+                "date_status": "tentative",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+                  "label": "AAMAS 2027 Official Website",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-10-07T01:00:40Z"
                 }
               },
               {
