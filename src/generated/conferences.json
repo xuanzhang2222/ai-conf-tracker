@@ -3130,7 +3130,7 @@
             "url": "https://neurips.cc/Conferences/2026/Dates",
             "label": "NeurIPS 2026 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-09-23T01:00:50Z"
+            "verified_at": "2026-10-10T01:01:15Z"
           },
           {
             "url": "https://neurips.cc/Conferences/2026",
@@ -3164,7 +3164,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3181,7 +3181,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3196,7 +3196,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3214,7 +3214,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3232,7 +3232,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3281,7 +3281,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3315,7 +3315,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3332,7 +3332,7 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               },
               {
@@ -3349,7 +3349,24 @@
                   "url": "https://neurips.cc/Conferences/2026/Dates",
                   "label": "NeurIPS 2026 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-23T01:00:50Z"
+                  "verified_at": "2026-10-10T01:01:15Z"
+                }
+              },
+              {
+                "id": "poster-topics",
+                "label": "海报主题选择截止",
+                "type": "artifact_deadline",
+                "kind": "date",
+                "date": "2026-11-15",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://neurips.cc/Conferences/2026/Dates",
+                  "label": "NeurIPS 2026 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-10-10T01:01:15Z"
                 }
               }
             ]

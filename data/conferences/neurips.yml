@@ -10,7 +10,7 @@ editions:
     website: https://neurips.cc/Conferences/2026
     venue: { city: Sydney / Atlanta / Paris, country: Australia / USA / France, mode: onsite }
     sources:
-      - &dates { url: https://neurips.cc/Conferences/2026/Dates, label: NeurIPS 2026 Dates and Deadlines, source_type: official_dates, verified_at: 2026-09-23T01:00:50Z }
+      - &dates { url: https://neurips.cc/Conferences/2026/Dates, label: NeurIPS 2026 Dates and Deadlines, source_type: official_dates, verified_at: 2026-10-10T01:01:15Z }
       - &meeting { url: https://neurips.cc/Conferences/2026, label: NeurIPS 2026 Official Conference Page, source_type: official_announcement, verified_at: 2026-09-14T01:02:38Z }
       - &registration { url: https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/, label: NeurIPS 2026 Multi-Site Registration Process, source_type: official_announcement, verified_at: 2026-08-28T01:03:21Z }
     tracks:
@@ -29,6 +29,7 @@ editions:
           - { id: location-assignment, label: 论文会场分配通知, type: notification, kind: instant, at: '2026-10-06T17:00:00', timezone: UTC, original_timezone: UTC, date_status: confirmed, action_required: false, source: *dates }
           - { id: early-registration, label: 早期注册截止, type: early_registration_deadline, kind: date, date: 2026-10-30, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: registration-refund, label: 全额注册退款截止, type: registration_refund_deadline, kind: date, date: 2026-11-04, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
+          - { id: poster-topics, label: 海报主题选择截止, type: artifact_deadline, kind: date, date: 2026-11-15, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
       - id: sydney
         name: Sydney Main Site
         milestones:
