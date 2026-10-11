@@ -29,7 +29,7 @@
             "url": "https://aaai.org/conference/aaai/aaai-27/",
             "label": "AAAI-27 官方作者日程",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T10:08:46Z"
+            "verified_at": "2026-10-11T01:00:20Z"
           },
           {
             "url": "https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/",
@@ -57,7 +57,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
@@ -74,7 +74,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
@@ -91,7 +91,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
@@ -106,15 +106,32 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
+                }
+              },
+              {
+                "id": "author-feedback-open",
+                "label": "作者反馈开始",
+                "type": "author_response_open",
+                "kind": "date",
+                "date": "2026-10-24",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/",
+                  "label": "AAAI-27 官方作者日程",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
                 "id": "author-feedback",
                 "label": "作者反馈截止",
                 "type": "author_response_deadline",
-                "kind": "instant",
-                "at": "2026-10-25T23:59:00",
+                "kind": "date",
+                "date": "2026-10-31",
                 "timezone": "Etc/GMT+12",
                 "original_timezone": "AoE",
                 "date_status": "confirmed",
@@ -123,7 +140,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
@@ -138,7 +155,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
@@ -155,7 +172,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
@@ -204,7 +221,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               },
               {
@@ -219,7 +236,7 @@
                   "url": "https://aaai.org/conference/aaai/aaai-27/",
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-10-11T01:00:20Z"
                 }
               }
             ]
