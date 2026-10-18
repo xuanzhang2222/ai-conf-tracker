@@ -775,6 +775,27 @@ URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acceptin
 DTSTART;VALUE=DATE:20270528
 END:VEVENT
 BEGIN:VEVENT
+UID:icra-2028-paper@ai-conf-tracker
+DTSTAMP:20261018T010219Z
+SUMMARY:ICRA 2028 · 论文截稿
+URL:https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/
+DTSTART;VALUE=DATE:20270915
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-conference-start@ai-conf-tracker
+DTSTAMP:20261018T010219Z
+SUMMARY:ICRA 2028 · 会议开始
+URL:https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/
+DTSTART;VALUE=DATE:20280515
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2028-conference-end@ai-conf-tracker
+DTSTAMP:20261018T010219Z
+SUMMARY:ICRA 2028 · 会议结束
+URL:https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/
+DTSTART;VALUE=DATE:20280519
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2027-abstract@ai-conf-tracker
 DTSTAMP:20261002T013933Z
 SUMMARY:IJCAI 2027 · 摘要注册截止

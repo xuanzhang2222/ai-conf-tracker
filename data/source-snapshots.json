@@ -239,6 +239,14 @@
     "label": "ICRA 2027 Registration Information",
     "content_bytes": 159973
   },
+  "https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/": {
+    "hash": "799555d7cbf9335aa5e69f7f5312a5152a05353ad73d95a1400235605805d7f2",
+    "checked_at": "2026-10-18T01:04:50.671Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2028",
+    "label": "ICRA 2028 IEEE RAS Official Event Page",
+    "content_bytes": 813687
+  },
   "https://2027.naacl.org/": {
     "hash": "88c3e5940cbe12b817dbcc02d358cf707224d62fdd1be5a764bc9764130d35db",
     "checked_at": "2026-10-17T07:01:25.145Z",
