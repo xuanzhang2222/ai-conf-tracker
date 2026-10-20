@@ -56,12 +56,20 @@
     "content_bytes": 37381
   },
   "https://2026.acmmm.org/site/important-dates.html": {
-    "hash": "c1bf9e4e9d26c655dd9495fbce96b43ae5ef015d68f2f523cb1012f99c1ce7a4",
-    "checked_at": "2026-10-19T07:53:23.344Z",
+    "hash": "f71fb029bd5553ea9e092fcee7c327e6f592789db0cb9169a7c1e62cccb435ac",
+    "checked_at": "2026-10-20T01:06:16.151Z",
     "conference_id": "acmmm",
     "conference": "ACM MM 2026",
     "label": "ACM MM 2026 Important Dates",
-    "content_bytes": 8395
+    "content_bytes": 8755
+  },
+  "https://2026.acmmm.org/site/call-emerging-world-symposium.html": {
+    "hash": "894647a491ad99f9311290a47715ecbcaea46a74b41cba2f75c6f86272b08c5b",
+    "checked_at": "2026-10-20T01:06:16.151Z",
+    "conference_id": "acmmm",
+    "conference": "ACM MM 2026",
+    "label": "ACM MM 2026 Emerging World Symposium Call",
+    "content_bytes": 11470
   },
   "https://2026.acmmm.org/site/registration.html": {
     "hash": "5b177feda2b27ca0506589349f556aeeb4fee74e9e7c9acec88a08bf320c5a6c",
@@ -238,6 +246,14 @@
     "conference": "ICRA 2028",
     "label": "ICRA 2028 IEEE RAS Official Event Page",
     "content_bytes": 813723
+  },
+  "https://www.ieee-ras.org/event/2029-ieee-international-conference-on-robotics-and-automation-icra-68559/": {
+    "hash": "7918ddb3af7c18a5d5a44a646beffc1f586e6c0c50f81c81e0da1f30aa9d05c5",
+    "checked_at": "2026-10-20T01:08:19.431Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2029",
+    "label": "ICRA 2029 IEEE RAS Official Event Page",
+    "content_bytes": 813862
   },
   "https://2027.naacl.org/": {
     "hash": "88c3e5940cbe12b817dbcc02d358cf707224d62fdd1be5a764bc9764130d35db",

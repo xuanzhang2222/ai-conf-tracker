@@ -10,8 +10,9 @@ editions:
     website: https://2026.acmmm.org/
     venue: { city: Rio de Janeiro, country: Brazil, mode: onsite }
     sources:
-      - &dates { url: https://2026.acmmm.org/site/important-dates.html, label: ACM MM 2026 Important Dates, source_type: official_dates, verified_at: 2026-08-20T01:04:23Z }
+      - &dates { url: https://2026.acmmm.org/site/important-dates.html, label: ACM MM 2026 Important Dates, source_type: official_dates, verified_at: 2026-10-20T01:03:36Z }
       - &registration { url: https://2026.acmmm.org/site/registration.html, label: ACM MM 2026 Registration Information, source_type: official_dates, verified_at: 2026-08-29T01:26:38Z }
+      - &emerging-world { url: https://2026.acmmm.org/site/call-emerging-world-symposium.html, label: ACM MM 2026 Emerging World Symposium Call, source_type: official_cfp, verified_at: 2026-10-20T01:03:36Z }
     tracks:
       - id: main
         name: Main Conference
@@ -28,3 +29,8 @@ editions:
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2026-11-10, date_status: confirmed, action_required: false, source: *dates }
           - { id: late-registration, label: 晚期注册截止, type: standard_registration_deadline, kind: date, date: 2026-11-14, date_status: confirmed, action_required: true, source: *registration }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2026-11-14, date_status: confirmed, action_required: false, source: *dates }
+      - id: emerging-world-symposium
+        name: Emerging World Symposium – Latin America
+        milestones:
+          - { id: participation-lightning-talk-application, label: 参与及闪电演讲申请截止, type: paper_deadline, kind: date, date: 2026-10-25, date_status: confirmed, action_required: true, source: *emerging-world }
+          - { id: mentor-registration, label: 导师注册截止, type: standard_registration_deadline, kind: date, date: 2026-10-25, date_status: confirmed, action_required: true, source: *emerging-world }

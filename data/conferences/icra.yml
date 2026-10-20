@@ -61,3 +61,20 @@ editions:
           - { id: standard-registration, label: 标准注册截止, type: standard_registration_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2028 }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2028-05-15, date_status: confirmed, action_required: false, source: *dates-2028 }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2028-05-19, date_status: confirmed, action_required: false, source: *dates-2028 }
+  - year: 2029
+    website: https://2029.ieee-icra.org/
+    venue: { city: Milan, country: Italy, mode: onsite }
+    sources:
+      - &dates-2029 { url: https://www.ieee-ras.org/event/2029-ieee-international-conference-on-robotics-and-automation-icra-68559/, label: ICRA 2029 IEEE RAS Official Event Page, source_type: official_dates, verified_at: 2026-10-20T01:03:36Z }
+    tracks:
+      - id: main
+        name: Main Conference
+        milestones:
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: date, date: 2028-09-15, date_status: confirmed, action_required: true, source: *dates-2029 }
+          - { id: notification, label: 录用通知, type: notification, kind: tbd, date_status: tbd, action_required: false, source: *dates-2029 }
+          - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2029 }
+          - { id: author-registration, label: 作者注册截止, type: author_registration_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2029 }
+          - { id: early-registration, label: 早鸟注册截止, type: early_registration_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2029 }
+          - { id: standard-registration, label: 标准注册截止, type: standard_registration_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2029 }
+          - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2029-05-07, date_status: confirmed, action_required: false, source: *dates-2029 }
+          - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2029-05-12, date_status: confirmed, action_required: false, source: *dates-2029 }
