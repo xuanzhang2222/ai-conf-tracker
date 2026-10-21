@@ -48,12 +48,12 @@
     "content_bytes": 22152
   },
   "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027": {
-    "hash": "b108a9bf086034296b13b29cd32dd1ec6f7124845340f98270f3ca6991ed6fd9",
-    "checked_at": "2026-10-20T07:42:11.835Z",
+    "hash": "2e65e96a62750385a903dba06f5c9597fc8cc1514900a898865053b4a137189f",
+    "checked_at": "2026-10-21T01:05:37.648Z",
     "conference_id": "acl",
     "conference": "ACL 2027",
     "label": "ACL 2027 Joint Workshop Call",
-    "content_bytes": 37396
+    "content_bytes": 37375
   },
   "https://2026.acmmm.org/site/important-dates.html": {
     "hash": "f71fb029bd5553ea9e092fcee7c327e6f592789db0cb9169a7c1e62cccb435ac",
@@ -264,12 +264,12 @@
     "content_bytes": 23886
   },
   "https://2027.ijcai.org/": {
-    "hash": "b9419ac947bf0385492a722081c4fdd11b547ee86ee49a0a6b49422aff06370b",
-    "checked_at": "2026-10-20T07:42:11.835Z",
+    "hash": "a59d582fe48c49a954c9a55027feb24b07047b50b025d00409895a03c0ece844",
+    "checked_at": "2026-10-21T01:05:37.648Z",
     "conference_id": "ijcai",
     "conference": "IJCAI 2027",
     "label": "IJCAI 2027 Official Website",
-    "content_bytes": 120801
+    "content_bytes": 125703
   },
   "https://2026.ijcai.org/press/": {
     "hash": "5f2107c2c847f72d221716a6f81874b1ec1afffaab1f3cd785c1472797365649",
@@ -288,12 +288,12 @@
     "content_bytes": 60470
   },
   "https://neurips.cc/Conferences/2026": {
-    "hash": "f65f8346c0ee84ecdf427b436542eb5c93c674f71ba0cd3a67a8eb7d43f0a1ec",
-    "checked_at": "2026-10-20T07:42:11.835Z",
+    "hash": "816ba4472d6e0b7b99e82b3f55b38c3b2cc1e42de770f6ca9f17b384514294d6",
+    "checked_at": "2026-10-21T01:05:37.648Z",
     "conference_id": "neurips",
     "conference": "NeurIPS 2026",
     "label": "NeurIPS 2026 Official Conference Page",
-    "content_bytes": 173463
+    "content_bytes": 173448
   },
   "https://neurips.cc/Conferences/2026/Dates": {
     "hash": "ac15d382228d428af6966efc32975273d8c5941069979c0e33b3afea9dfdf6f9",
@@ -310,5 +310,21 @@
     "conference": "WWW 2027",
     "label": "ACM Web Conference 2027 Important Dates",
     "content_bytes": 103456
+  },
+  "https://ecai2028.eu/": {
+    "hash": "9d972e7cb88941fd09337296f65fa80228f0e4e05896c72ef7c83a1f8f637ec5",
+    "checked_at": "2026-10-21T01:05:37.648Z",
+    "conference_id": "ecai",
+    "conference": "ECAI 2028",
+    "label": "ECAI 2028 Official Website",
+    "content_bytes": 707
+  },
+  "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/": {
+    "hash": "c3ab35dd7a9b10655fd8d10fdca071c9efc360184e6fce5da55be97a17643b7e",
+    "checked_at": "2026-10-21T01:05:37.648Z",
+    "conference_id": "ijcai",
+    "conference": "IJCAI 2027",
+    "label": "IJCAI 2027 Main Track CFP",
+    "content_bytes": 137779
   }
 }
