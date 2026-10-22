@@ -48,12 +48,12 @@
     "content_bytes": 22152
   },
   "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027": {
-    "hash": "2e65e96a62750385a903dba06f5c9597fc8cc1514900a898865053b4a137189f",
-    "checked_at": "2026-10-21T07:46:26.281Z",
+    "hash": "2a81b7c5864f50d3813d3b4cc83762d1ca5dc0db63f0a4514a1184cc306868a8",
+    "checked_at": "2026-10-22T01:01:31.235Z",
     "conference_id": "acl",
     "conference": "ACL 2027",
     "label": "ACL 2027 Joint Workshop Call",
-    "content_bytes": 37375
+    "content_bytes": 37386
   },
   "https://2026.acmmm.org/site/registration.html": {
     "hash": "5b177feda2b27ca0506589349f556aeeb4fee74e9e7c9acec88a08bf320c5a6c",
@@ -278,6 +278,14 @@
     "conference": "ICRA 2029",
     "label": "ICRA 2029 IEEE RAS Official Event Page",
     "content_bytes": 817368
+  },
+  "https://www.ieee-ras.org/event/2030-ieee-international-conference-on-robotics-and-automation-icra-74057/": {
+    "hash": "42556751499a6e5ef6147a6445f20424daa67aa870820858306353b1f230e361",
+    "checked_at": "2026-10-22T01:01:31.235Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2030",
+    "label": "ICRA 2030 IEEE RAS Official Event Page",
+    "content_bytes": 820077
   },
   "https://2027.naacl.org/calls/main_conference_papers/": {
     "hash": "b99b7962f50ea6d00d6cf1faddc300cc3902b9d808bc563519e25a8d2edf05ef",

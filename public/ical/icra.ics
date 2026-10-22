@@ -114,4 +114,25 @@ SUMMARY:ICRA 2029 · 会议结束
 URL:https://www.ieee-ras.org/event/2029-ieee-international-conference-on-robotics-and-automation-icra-68559/
 DTSTART;VALUE=DATE:20290512
 END:VEVENT
+BEGIN:VEVENT
+UID:icra-2030-paper@ai-conf-tracker
+DTSTAMP:20261022T010131Z
+SUMMARY:ICRA 2030 · 论文截稿
+URL:https://www.ieee-ras.org/event/2030-ieee-international-conference-on-robotics-and-automation-icra-74057/
+DTSTART;VALUE=DATE:20290915
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2030-conference-start@ai-conf-tracker
+DTSTAMP:20261022T010131Z
+SUMMARY:ICRA 2030 · 会议开始
+URL:https://www.ieee-ras.org/event/2030-ieee-international-conference-on-robotics-and-automation-icra-74057/
+DTSTART;VALUE=DATE:20300513
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2030-conference-end@ai-conf-tracker
+DTSTAMP:20261022T010131Z
+SUMMARY:ICRA 2030 · 会议结束
+URL:https://www.ieee-ras.org/event/2030-ieee-international-conference-on-robotics-and-automation-icra-74057/
+DTSTART;VALUE=DATE:20300517
+END:VEVENT
 END:VCALENDAR
