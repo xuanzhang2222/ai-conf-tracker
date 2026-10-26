@@ -140,7 +140,7 @@ export function formatMilestoneDate(milestone: Milestone, locale = 'zh-CN'): str
 }
 
 export function phaseForType(type: string): string {
-  if (/(abstract|paper|supplementary|code|data|ethics|conflict)/.test(type)) return '投稿'
+  if (/(abstract|paper|supplementary|submission_fee|code|data|ethics|conflict)/.test(type)) return '投稿'
   if (/(review|rebuttal|response|discussion|revision)/.test(type)) return '评审'
   if (/(notification|acceptance|withdrawal)/.test(type)) return '决定'
   if (/(camera|copyright|artifact|registration)/.test(type)) return '出版'

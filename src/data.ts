@@ -22,7 +22,7 @@ export const topicLabels: Record<string, string> = {
 
 export const eventTypeLabels: Record<string, string> = {
   abstract_registration: '摘要注册', abstract_deadline: '摘要截止', paper_deadline: '论文截止',
-  supplementary_deadline: '附录截止', code_deadline: '代码截止', data_deadline: '数据截止',
+  supplementary_deadline: '附录截止', submission_fee_deadline: '投稿缴费截止', code_deadline: '代码截止', data_deadline: '数据截止',
   ethics_form_deadline: '伦理表截止', conflict_registration_deadline: '利益冲突登记',
   review_release: '审稿意见发布', rebuttal_open: 'Rebuttal 开放', rebuttal_deadline: 'Rebuttal 截止',
   author_response_open: '作者回复开放', author_response_deadline: '作者回复截止',

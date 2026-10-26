@@ -11,15 +11,15 @@ editions:
     venue: { city: Seattle, country: USA, mode: onsite }
     sources:
       - &dates { url: https://cvpr.thecvf.com/, label: CVPR 官方页面, source_type: official_dates, verified_at: 2026-09-03T01:02:21Z }
-      - &cfp { url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers, label: CVPR 2027 Call for Papers, source_type: official_cfp, verified_at: 2026-09-08T01:04:00Z }
+      - &cfp { url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers, label: CVPR 2027 Call for Papers, source_type: official_cfp, verified_at: 2026-10-26T01:04:28Z }
       - &meeting { url: https://www.thecvf.com/?p=137, label: CVF Upcoming Conferences, source_type: official_announcement, verified_at: 2026-08-03T10:08:46Z }
     tracks:
       - id: main
         name: Main Conference
         milestones:
-          - { id: abstract, label: 论文注册截止, type: abstract_registration, kind: date, date: 2026-11-10, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
-          - { id: paper, label: 论文截稿, type: paper_deadline, kind: date, date: 2026-11-16, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
-          - { id: supplementary, label: 附录截止, type: supplementary_deadline, kind: date, date: 2026-11-23, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
+          - { id: abstract, label: 论文注册截止, type: abstract_registration, kind: instant, at: '2026-11-10T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: instant, at: '2026-11-16T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
+          - { id: supplementary, label: 附录截止, type: supplementary_deadline, kind: instant, at: '2026-11-23T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
           - { id: review-release, label: 审稿意见发布, type: review_release, kind: date, date: 2027-01-25, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
           - { id: rebuttal-open, label: Rebuttal 开始, type: rebuttal_open, kind: date, date: 2027-01-25, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
           - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: date, date: 2027-02-01, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }

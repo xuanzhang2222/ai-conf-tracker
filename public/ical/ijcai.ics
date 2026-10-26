@@ -4,56 +4,63 @@ PRODID:-//AI Conf Tracker//ZH-CN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:ijcai-2027-abstract@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · 摘要注册截止
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART:20270105T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-paper@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · 论文截稿
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART:20270112T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-supplementary@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · 附录与重投信息截止
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART:20270112T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcai-2027-non-primary-paper-payment@ai-conf-tracker
+DTSTAMP:20261026T010428Z
+SUMMARY:IJCAI 2027 · 非主投论文缴费截止
+URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
+DTSTART:20270119T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2027-phase-one-notification@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · 摘要拒稿通知
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART:20270226T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-rebuttal-open@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · 作者回复期开始
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART;VALUE=DATE:20270330
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-rebuttal@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · 作者回复截止
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART:20270403T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-notification@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · 录用通知
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART:20270422T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-camera-ready@ai-conf-tracker
-DTSTAMP:20261021T010214Z
+DTSTAMP:20261026T010428Z
 SUMMARY:IJCAI 2027 · Camera-ready 截止
 URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
 DTSTART:20270508T115900Z

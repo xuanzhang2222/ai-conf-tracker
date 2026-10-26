@@ -4,7 +4,7 @@ import { parse } from 'yaml'
 import { z } from 'zod'
 
 const eventTypes = [
-  'abstract_registration', 'abstract_deadline', 'paper_deadline', 'supplementary_deadline',
+  'abstract_registration', 'abstract_deadline', 'paper_deadline', 'supplementary_deadline', 'submission_fee_deadline',
   'code_deadline', 'data_deadline', 'ethics_form_deadline', 'conflict_registration_deadline',
   'review_release', 'rebuttal_open', 'rebuttal_deadline', 'author_response_open',
   'author_response_deadline', 'discussion_open', 'discussion_deadline', 'revision_deadline',

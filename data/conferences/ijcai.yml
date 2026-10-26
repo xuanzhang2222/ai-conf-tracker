@@ -8,10 +8,10 @@ dblp: conf/ijcai
 editions:
   - year: 2027
     website: https://2027.ijcai.org/
-    venue: { city: Kyoto / Hengqin Island, country: Japan / China, mode: tbd }
+    venue: { city: Kyoto / Hengqin Island, country: Japan / China, mode: onsite }
     sources:
       - &dates { url: https://2027.ijcai.org/, label: IJCAI 2027 Official Website, source_type: official_dates, verified_at: 2026-10-02T01:39:33Z }
-      - &cfp { url: https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/, label: IJCAI 2027 Main Track CFP, source_type: official_cfp, verified_at: 2026-10-21T01:02:14Z }
+      - &cfp { url: https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/, label: IJCAI 2027 Main Track CFP, source_type: official_cfp, verified_at: 2026-10-26T01:04:28Z }
       - &future { url: https://www.ijcai.org/future_conferences, label: IJCAI Future Conferences, source_type: official_announcement, verified_at: 2026-09-08T01:01:25Z }
       - &meeting { url: https://2026.ijcai.org/press/, label: IJCAI-ECAI 2026 Closing Press Report, source_type: official_announcement, verified_at: 2026-09-04T01:18:04Z }
     tracks:
@@ -21,6 +21,7 @@ editions:
           - { id: abstract, label: 摘要注册截止, type: abstract_deadline, kind: instant, at: '2027-01-04T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
           - { id: paper, label: 论文截稿, type: paper_deadline, kind: instant, at: '2027-01-11T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
           - { id: supplementary, label: 附录与重投信息截止, type: supplementary_deadline, kind: instant, at: '2027-01-11T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
+          - { id: non-primary-paper-payment, label: 非主投论文缴费截止, type: submission_fee_deadline, kind: instant, at: '2027-01-18T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
           - { id: phase-one-notification, label: 摘要拒稿通知, type: notification, kind: instant, at: '2027-02-25T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
           - { id: rebuttal-open, label: 作者回复期开始, type: author_response_open, kind: date, date: 2027-03-30, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
           - { id: rebuttal, label: 作者回复截止, type: author_response_deadline, kind: instant, at: '2027-04-02T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
