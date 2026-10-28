@@ -26,3 +26,21 @@ editions:
           - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2027-02-25, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-06-20, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-06-25, date_status: confirmed, action_required: false, source: *dates }
+  - year: 2028
+    website: https://www.thecvf.com/?page_id=100
+    venue: { city: San Antonio, country: USA, mode: tbd }
+    sources:
+      - &dates-2028 { url: https://www.thecvf.com/?page_id=100, label: CVF Official Conference List, source_type: official_announcement, verified_at: 2026-10-28T00:58:43Z }
+    tracks:
+      - id: main
+        name: Main Conference
+        milestones:
+          - { id: abstract, label: 论文注册截止, type: abstract_registration, kind: tbd, date_status: tbd, action_required: true, source: *dates-2028 }
+          - { id: paper, label: 论文截稿, type: paper_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2028 }
+          - { id: supplementary, label: 附录截止, type: supplementary_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2028 }
+          - { id: review-release, label: 审稿意见发布, type: review_release, kind: tbd, date_status: tbd, action_required: false, source: *dates-2028 }
+          - { id: rebuttal-open, label: Rebuttal 开始, type: rebuttal_open, kind: tbd, date_status: tbd, action_required: true, source: *dates-2028 }
+          - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: tbd, date_status: tbd, action_required: true, source: *dates-2028 }
+          - { id: notification, label: 最终录用通知, type: final_notification, kind: tbd, date_status: tbd, action_required: false, source: *dates-2028 }
+          - { id: conference-start, label: 会议开始, type: conference_start, kind: tbd, date_status: tbd, action_required: false, source: *dates-2028 }
+          - { id: conference-end, label: 会议结束, type: conference_end, kind: tbd, date_status: tbd, action_required: false, source: *dates-2028 }
