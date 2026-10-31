@@ -4164,7 +4164,7 @@
             "url": "https://neurips.cc/Conferences/2026",
             "label": "NeurIPS 2026 Official Conference Page",
             "source_type": "official_announcement",
-            "verified_at": "2026-10-28T00:58:43Z"
+            "verified_at": "2026-10-31T01:03:05Z"
           },
           {
             "url": "https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/",
@@ -4294,7 +4294,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               },
               {
@@ -4326,7 +4326,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               },
               {
@@ -4348,10 +4348,10 @@
               },
               {
                 "id": "registration-release",
-                "label": "悉尼与亚特兰大新增注册名额释放",
+                "label": "悉尼与亚特兰大候补名单激活",
                 "type": "registration_open",
                 "kind": "instant",
-                "at": "2026-10-30T10:00:00",
+                "at": "2026-10-30T11:00:00",
                 "timezone": "America/Los_Angeles",
                 "original_timezone": "PDT",
                 "date_status": "confirmed",
@@ -4360,8 +4360,23 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
-                }
+                  "verified_at": "2026-10-31T01:03:05Z"
+                },
+                "related_information": [
+                  {
+                    "title": "悉尼与亚特兰大候补名单已激活",
+                    "kind": "official_notice",
+                    "source_label": "NeurIPS 2026 官网公告",
+                    "summary": "悉尼与亚特兰大候补名单已于 **2026 年 10 月 30 日 11:00 PDT** 激活；官网表示后续将**每日释放更多注册名额**。",
+                    "content": "官网确认，悉尼与亚特兰大候补名单已于 **2026 年 10 月 30 日 11:00 PDT** 激活。后续会**每日释放更多注册名额**；候补者应加入候补名单并频繁查看注册邮件。官网没有公布每日放号的固定时刻，因此不创建推测性的重复节点。",
+                    "links": [
+                      {
+                        "label": "NeurIPS 2026 官网",
+                        "url": "https://neurips.cc/Conferences/2026"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "id": "early-registration",
@@ -4432,7 +4447,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               },
               {
@@ -4447,7 +4462,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               }
             ]
@@ -4468,7 +4483,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               },
               {
@@ -4483,7 +4498,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               }
             ]
@@ -4504,7 +4519,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               },
               {
@@ -4519,7 +4534,7 @@
                   "url": "https://neurips.cc/Conferences/2026",
                   "label": "NeurIPS 2026 Official Conference Page",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-10-31T01:03:05Z"
                 }
               }
             ]
