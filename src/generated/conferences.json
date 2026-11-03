@@ -2882,18 +2882,24 @@
     "editions": [
       {
         "year": 2027,
-        "website": "https://icml.cc/",
+        "website": "https://icml.cc/Conferences/2027",
         "venue": {
-          "city": "TBD",
-          "country": "TBD",
+          "city": "Rio de Janeiro",
+          "country": "Brazil",
           "mode": "tbd"
         },
         "sources": [
           {
-            "url": "https://icml.cc/",
-            "label": "ICML 官方页面",
+            "url": "https://icml.cc/Conferences/2027/Dates",
+            "label": "ICML 2027 Meeting Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T04:00:00Z"
+            "verified_at": "2026-11-03T01:04:24Z"
+          },
+          {
+            "url": "https://icml.cc/Conferences/FutureMeetings",
+            "label": "ICML Future Meetings",
+            "source_type": "official_announcement",
+            "verified_at": "2026-11-03T01:04:24Z"
           }
         ],
         "tracks": [
@@ -2909,10 +2915,10 @@
                 "date_status": "tbd",
                 "action_required": true,
                 "source": {
-                  "url": "https://icml.cc/",
-                  "label": "ICML 官方页面",
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-11-03T01:04:24Z"
                 }
               },
               {
@@ -2923,10 +2929,10 @@
                 "date_status": "tbd",
                 "action_required": true,
                 "source": {
-                  "url": "https://icml.cc/",
-                  "label": "ICML 官方页面",
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-11-03T01:04:24Z"
                 }
               },
               {
@@ -2937,10 +2943,10 @@
                 "date_status": "tbd",
                 "action_required": false,
                 "source": {
-                  "url": "https://icml.cc/",
-                  "label": "ICML 官方页面",
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-11-03T01:04:24Z"
                 }
               },
               {
@@ -2951,10 +2957,10 @@
                 "date_status": "tbd",
                 "action_required": true,
                 "source": {
-                  "url": "https://icml.cc/",
-                  "label": "ICML 官方页面",
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-11-03T01:04:24Z"
                 }
               },
               {
@@ -2965,10 +2971,40 @@
                 "date_status": "tbd",
                 "action_required": false,
                 "source": {
-                  "url": "https://icml.cc/",
-                  "label": "ICML 官方页面",
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T04:00:00Z"
+                  "verified_at": "2026-11-03T01:04:24Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始（Expo Day）",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-07-31",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-03T01:04:24Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束（Workshops）",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-08-06",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-03T01:04:24Z"
                 }
               }
             ]

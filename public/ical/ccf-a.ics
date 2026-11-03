@@ -353,6 +353,20 @@ URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270430
 END:VEVENT
 BEGIN:VEVENT
+UID:icml-2027-conference-start@ai-conf-tracker
+DTSTAMP:20261103T010424Z
+SUMMARY:ICML 2027 · 会议开始（Expo Day）
+URL:https://icml.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270731
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-conference-end@ai-conf-tracker
+DTSTAMP:20261103T010424Z
+SUMMARY:ICML 2027 · 会议结束（Workshops）
+URL:https://icml.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270806
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2026-abstract@ai-conf-tracker
 DTSTAMP:20261010T010115Z
 SUMMARY:NeurIPS 2026 · 摘要注册截止
