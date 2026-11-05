@@ -11,8 +11,9 @@ editions:
     venue: { city: Sydney / Atlanta / Paris, country: Australia / USA / France, mode: onsite }
     sources:
       - &dates { url: https://neurips.cc/Conferences/2026/Dates, label: NeurIPS 2026 Dates and Deadlines, source_type: official_dates, verified_at: 2026-10-10T01:01:15Z }
-      - &meeting { url: https://neurips.cc/Conferences/2026, label: NeurIPS 2026 Official Conference Page, source_type: official_announcement, verified_at: 2026-10-31T01:03:05Z }
+      - &meeting { url: https://neurips.cc/Conferences/2026, label: NeurIPS 2026 Official Conference Page, source_type: official_announcement, verified_at: 2026-11-05T01:08:10Z }
       - &registration { url: https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/, label: NeurIPS 2026 Multi-Site Registration Process, source_type: official_announcement, verified_at: 2026-08-28T01:03:21Z }
+      - &public-registration { url: https://neurips.cc/Register/, label: NeurIPS 2026 Official Registration, source_type: official_announcement, verified_at: 2026-11-05T01:08:10Z }
     tracks:
       - id: main
         name: Main Conference
@@ -28,23 +29,31 @@ editions:
           - { id: presentation-preference, label: 论文展示偏好回复截止, type: author_response_deadline, kind: date, date: 2026-09-30, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *meeting }
           - { id: location-assignment, label: 论文会场分配通知, type: notification, kind: instant, at: '2026-10-06T17:00:00', timezone: UTC, original_timezone: UTC, date_status: confirmed, action_required: false, source: *dates }
           - id: registration-release
-            label: 悉尼与亚特兰大候补名单激活
+            label: 悉尼与亚特兰大全部候补名单激活
             type: registration_open
             kind: instant
-            at: '2026-10-30T11:00:00'
+            at: '2026-11-03T22:00:00'
             timezone: America/Los_Angeles
-            original_timezone: PDT
+            original_timezone: PST
             date_status: confirmed
             action_required: true
             source: *meeting
             related_information:
-              - title: 悉尼与亚特兰大候补名单已激活
+              - title: 悉尼与亚特兰大全部候补名单已激活
                 kind: official_notice
                 source_label: NeurIPS 2026 官网公告
-                summary: 悉尼与亚特兰大候补名单已于 **2026 年 10 月 30 日 11:00 PDT** 激活；官网表示后续将**每日释放更多注册名额**。
-                content: 官网确认，悉尼与亚特兰大候补名单已于 **2026 年 10 月 30 日 11:00 PDT** 激活。后续会**每日释放更多注册名额**；候补者应加入候补名单并频繁查看注册邮件。官网没有公布每日放号的固定时刻，因此不创建推测性的重复节点。
+                summary: 官网将悉尼与亚特兰大**全部候补名单激活时间**更新为 **2026 年 11 月 3 日 22:00 PST**，取代此前公布的 **10 月 30 日 11:00 PDT**。
+                content: 官网确认，悉尼与亚特兰大全部候补名单已于 **2026 年 11 月 3 日 22:00 PST** 激活，并表示后续会**每日释放更多注册名额**。该时间替代此前官网公布的 **2026 年 10 月 30 日 11:00 PDT**；本节点已按最新正式公告更正。
                 links:
                   - { label: NeurIPS 2026 官网, url: https://neurips.cc/Conferences/2026 }
+              - title: 剩余名额已重新向公众开放
+                kind: official_notice
+                source_label: NeurIPS 2026 官网与官方注册页
+                summary: 官网当前确认，在处理作者预留名额和候补请求后，悉尼与亚特兰大的**剩余名额已重新向公众开放**。
+                content: 官网当前公告称，在处理作者预留注册和候补请求后，悉尼与亚特兰大的剩余名额已重新向公众开放。官方注册页当前仍会按具体场次显示可选或售罄状态。官网**没有公布本次重新开放的准确生效日期与时刻**，因此不另行创建推测性的日期节点。
+                links:
+                  - { label: NeurIPS 2026 官网, url: https://neurips.cc/Conferences/2026 }
+                  - { label: NeurIPS 2026 官方注册页, url: https://neurips.cc/Register/ }
           - { id: early-registration, label: 早期注册截止, type: early_registration_deadline, kind: date, date: 2026-10-30, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: registration-refund, label: 全额注册退款截止, type: registration_refund_deadline, kind: date, date: 2026-11-04, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: poster-topics, label: 海报主题选择截止, type: artifact_deadline, kind: date, date: 2026-11-15, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
