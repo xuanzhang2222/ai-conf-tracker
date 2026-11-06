@@ -10,7 +10,7 @@ editions:
     website: https://iclr.cc/Conferences/2027
     venue: { city: TBD, country: USA, mode: onsite }
     sources:
-      - &dates { url: https://iclr.cc/Conferences/2027/Dates, label: ICLR 2027 Dates and Deadlines, source_type: official_dates, verified_at: 2026-08-03T10:08:46Z }
+      - &dates { url: https://iclr.cc/Conferences/2027/Dates, label: ICLR 2027 Dates and Deadlines, source_type: official_dates, verified_at: 2026-11-06T01:01:51Z }
     tracks:
       - id: main
         name: Main Conference
@@ -21,5 +21,6 @@ editions:
           - { id: author-discussion, label: 作者与评审讨论截止, type: author_response_deadline, kind: date, date: 2026-11-18, date_status: confirmed, action_required: true, source: *dates }
           - { id: meta-review, label: Meta-review 截止, type: discussion_deadline, kind: date, date: 2026-12-16, date_status: confirmed, action_required: false, source: *dates }
           - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-12-16, date_status: confirmed, action_required: false, source: *dates }
+          - { id: registration-open, label: 参会注册开放, type: registration_open, kind: instant, at: '2026-12-23T10:00:00', timezone: America/Los_Angeles, original_timezone: PST, date_status: confirmed, action_required: true, source: *dates }
           - { id: conference-start, label: 主会开始, type: conference_start, kind: date, date: 2027-04-26, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: Workshops 结束, type: conference_end, kind: date, date: 2027-04-30, date_status: confirmed, action_required: false, source: *dates }

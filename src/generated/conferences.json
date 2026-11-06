@@ -1941,6 +1941,157 @@
             ]
           }
         ]
+      },
+      {
+        "year": 2030,
+        "website": "https://www.thecvf.com/?page_id=100",
+        "venue": {
+          "city": "Denver",
+          "country": "USA",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://www.thecvf.com/?page_id=100",
+            "label": "CVF Official Conference List",
+            "source_type": "official_announcement",
+            "verified_at": "2026-11-06T01:01:51Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "论文注册截止",
+                "type": "abstract_registration",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录截止",
+                "type": "supplementary_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "审稿意见发布",
+                "type": "review_release",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "rebuttal-open",
+                "label": "Rebuttal 开始",
+                "type": "rebuttal_open",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3055,7 +3206,7 @@
             "url": "https://iclr.cc/Conferences/2027/Dates",
             "label": "ICLR 2027 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-08-03T10:08:46Z"
+            "verified_at": "2026-11-06T01:01:51Z"
           }
         ],
         "tracks": [
@@ -3077,7 +3228,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               },
               {
@@ -3094,7 +3245,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               },
               {
@@ -3109,7 +3260,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               },
               {
@@ -3124,7 +3275,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               },
               {
@@ -3139,7 +3290,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               },
               {
@@ -3154,7 +3305,24 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
+                }
+              },
+              {
+                "id": "registration-open",
+                "label": "参会注册开放",
+                "type": "registration_open",
+                "kind": "instant",
+                "at": "2026-12-23T10:00:00",
+                "timezone": "America/Los_Angeles",
+                "original_timezone": "PST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               },
               {
@@ -3169,7 +3337,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               },
               {
@@ -3184,7 +3352,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-08-03T10:08:46Z"
+                  "verified_at": "2026-11-06T01:01:51Z"
                 }
               }
             ]
