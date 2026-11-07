@@ -2092,6 +2092,157 @@
             ]
           }
         ]
+      },
+      {
+        "year": 2031,
+        "website": "https://www.thecvf.com/?page_id=100",
+        "venue": {
+          "city": "Seattle",
+          "country": "USA",
+          "mode": "tbd"
+        },
+        "sources": [
+          {
+            "url": "https://www.thecvf.com/?page_id=100",
+            "label": "CVF Official Conference List",
+            "source_type": "official_announcement",
+            "verified_at": "2026-11-07T01:04:00Z"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "main",
+            "name": "Main Conference",
+            "milestones": [
+              {
+                "id": "abstract",
+                "label": "论文注册截止",
+                "type": "abstract_registration",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "supplementary",
+                "label": "附录截止",
+                "type": "supplementary_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "review-release",
+                "label": "审稿意见发布",
+                "type": "review_release",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "rebuttal-open",
+                "label": "Rebuttal 开始",
+                "type": "rebuttal_open",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "rebuttal",
+                "label": "Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "notification",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "conference-start",
+                "label": "会议开始",
+                "type": "conference_start",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              },
+              {
+                "id": "conference-end",
+                "label": "会议结束",
+                "type": "conference_end",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": false,
+                "source": {
+                  "url": "https://www.thecvf.com/?page_id=100",
+                  "label": "CVF Official Conference List",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-07T01:04:00Z"
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   },
