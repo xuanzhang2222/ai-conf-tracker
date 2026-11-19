@@ -100,4 +100,18 @@ SUMMARY:ACM MM 2026 · 导师注册截止
 URL:https://2026.acmmm.org/site/call-emerging-world-symposium.html
 DTSTART;VALUE=DATE:20261025
 END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2027-conference-start@ai-conf-tracker
+DTSTAMP:20261119T005845Z
+SUMMARY:ACM MM 2027 · 会议开始
+URL:https://acmmm.hosting2.acm.org/
+DTSTART;VALUE=DATE:20271108
+END:VEVENT
+BEGIN:VEVENT
+UID:acmmm-2027-conference-end@ai-conf-tracker
+DTSTAMP:20261119T005845Z
+SUMMARY:ACM MM 2027 · 会议结束
+URL:https://acmmm.hosting2.acm.org/
+DTSTART;VALUE=DATE:20271112
+END:VEVENT
 END:VCALENDAR

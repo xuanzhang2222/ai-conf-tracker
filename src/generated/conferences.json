@@ -899,7 +899,7 @@
             "url": "https://acmmm.hosting2.acm.org/",
             "label": "ACM Multimedia Steering Committee Official Website",
             "source_type": "official_announcement",
-            "verified_at": "2026-10-28T00:58:43Z"
+            "verified_at": "2026-11-19T00:58:45Z"
           }
         ],
         "tracks": [
@@ -918,7 +918,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -932,7 +932,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -946,7 +946,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -960,7 +960,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -974,7 +974,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -988,7 +988,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -1002,7 +1002,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -1016,7 +1016,7 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
@@ -1030,35 +1030,37 @@
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
                 "id": "conference-start",
                 "label": "会议开始",
                 "type": "conference_start",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2027-11-08",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               },
               {
                 "id": "conference-end",
                 "label": "会议结束",
                 "type": "conference_end",
-                "kind": "tbd",
-                "date_status": "tbd",
+                "kind": "date",
+                "date": "2027-11-12",
+                "date_status": "confirmed",
                 "action_required": false,
                 "source": {
                   "url": "https://acmmm.hosting2.acm.org/",
                   "label": "ACM Multimedia Steering Committee Official Website",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-10-28T00:58:43Z"
+                  "verified_at": "2026-11-19T00:58:45Z"
                 }
               }
             ]
