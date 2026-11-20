@@ -397,17 +397,17 @@ DTSTART;VALUE=DATE:20270225
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260903T010221Z
+DTSTAMP:20261120T010400Z
 SUMMARY:CVPR 2027 · 会议开始
-URL:https://cvpr.thecvf.com/
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270620
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260903T010221Z
+DTSTAMP:20261120T010400Z
 SUMMARY:CVPR 2027 · 会议结束
-URL:https://cvpr.thecvf.com/
-DTSTART;VALUE=DATE:20270625
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270624
 END:VEVENT
 BEGIN:VEVENT
 UID:ecai-2027-paper@ai-conf-tracker

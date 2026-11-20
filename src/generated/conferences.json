@@ -1466,10 +1466,10 @@
         },
         "sources": [
           {
-            "url": "https://cvpr.thecvf.com/",
-            "label": "CVPR 官方页面",
+            "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+            "label": "CVPR 2027 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-09-03T01:02:21Z"
+            "verified_at": "2026-11-20T01:04:00Z"
           },
           {
             "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
@@ -1617,10 +1617,10 @@
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://cvpr.thecvf.com/",
-                  "label": "CVPR 官方页面",
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+                  "label": "CVPR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-03T01:02:21Z"
+                  "verified_at": "2026-11-20T01:04:00Z"
                 }
               },
               {
@@ -1628,14 +1628,14 @@
                 "label": "会议结束",
                 "type": "conference_end",
                 "kind": "date",
-                "date": "2027-06-25",
+                "date": "2027-06-24",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://cvpr.thecvf.com/",
-                  "label": "CVPR 官方页面",
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+                  "label": "CVPR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-09-03T01:02:21Z"
+                  "verified_at": "2026-11-20T01:04:00Z"
                 }
               }
             ]
