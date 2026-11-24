@@ -60,15 +60,22 @@ DTSTART:20261215T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-early-registration@ai-conf-tracker
-DTSTAMP:20260926T010239Z
+DTSTAMP:20261124T010026Z
 SUMMARY:AAAI 2027 · 早鸟注册截止
 URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
 DTSTART:20261216T045900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-standard-registration@ai-conf-tracker
-DTSTAMP:20260926T010239Z
+DTSTAMP:20261124T010026Z
 SUMMARY:AAAI 2027 · 标准注册截止
+URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
+DTSTART:20270111T045900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-registration-refund@ai-conf-tracker
+DTSTAMP:20261124T010026Z
+SUMMARY:AAAI 2027 · 注册退款申请截止
 URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
 DTSTART:20270111T045900Z
 END:VEVENT
@@ -285,16 +292,16 @@ DTSTART;VALUE=DATE:20261025
 END:VEVENT
 BEGIN:VEVENT
 UID:acmmm-2027-conference-start@ai-conf-tracker
-DTSTAMP:20261119T005845Z
+DTSTAMP:20261124T010026Z
 SUMMARY:ACM MM 2027 · 会议开始
-URL:https://acmmm.hosting2.acm.org/
+URL:https://2027.acmmm.org/
 DTSTART;VALUE=DATE:20271108
 END:VEVENT
 BEGIN:VEVENT
 UID:acmmm-2027-conference-end@ai-conf-tracker
-DTSTAMP:20261119T005845Z
+DTSTAMP:20261124T010026Z
 SUMMARY:ACM MM 2027 · 会议结束
-URL:https://acmmm.hosting2.acm.org/
+URL:https://2027.acmmm.org/
 DTSTART;VALUE=DATE:20271112
 END:VEVENT
 BEGIN:VEVENT
@@ -678,16 +685,16 @@ DTSTART;VALUE=DATE:20261029
 END:VEVENT
 BEGIN:VEVENT
 UID:iccv-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20261124T010026Z
 SUMMARY:ICCV 2027 · 会议开始
-URL:https://www.thecvf.com/?p=137
+URL:https://www.thecvf.com/?page_id=100
 DTSTART;VALUE=DATE:20271002
 END:VEVENT
 BEGIN:VEVENT
 UID:iccv-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260803T100846Z
+DTSTAMP:20261124T010026Z
 SUMMARY:ICCV 2027 · 会议结束
-URL:https://www.thecvf.com/?p=137
+URL:https://www.thecvf.com/?page_id=100
 DTSTART;VALUE=DATE:20271008
 END:VEVENT
 BEGIN:VEVENT
@@ -829,6 +836,13 @@ DTSTAMP:20260918T010200Z
 SUMMARY:ICRA 2027 · 作者注册截止
 URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
 DTSTART;VALUE=DATE:20270305
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-camera-ready@ai-conf-tracker
+DTSTAMP:20261124T010026Z
+SUMMARY:ICRA 2027 · Camera-ready 截止
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
+DTSTART:20270307T075900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-early-registration@ai-conf-tracker

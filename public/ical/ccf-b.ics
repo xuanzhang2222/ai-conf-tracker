@@ -418,6 +418,13 @@ URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acceptin
 DTSTART;VALUE=DATE:20270305
 END:VEVENT
 BEGIN:VEVENT
+UID:icra-2027-camera-ready@ai-conf-tracker
+DTSTAMP:20261124T010026Z
+SUMMARY:ICRA 2027 · Camera-ready 截止
+URL:https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
+DTSTART:20270307T075900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2027-early-registration@ai-conf-tracker
 DTSTAMP:20260918T010200Z
 SUMMARY:ICRA 2027 · 早鸟注册截止

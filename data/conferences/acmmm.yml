@@ -35,10 +35,10 @@ editions:
           - { id: participation-lightning-talk-application, label: 参与及闪电演讲申请截止, type: paper_deadline, kind: date, date: 2026-10-25, date_status: confirmed, action_required: true, source: *emerging-world }
           - { id: mentor-registration, label: 导师注册截止, type: standard_registration_deadline, kind: date, date: 2026-10-25, date_status: confirmed, action_required: true, source: *emerging-world }
   - year: 2027
-    website: https://acmmm.hosting2.acm.org/
-    venue: { city: Hong Kong, country: China, mode: tbd }
+    website: https://2027.acmmm.org/
+    venue: { city: Hong Kong, country: China, mode: onsite }
     sources:
-      - &dates-2027 { url: https://acmmm.hosting2.acm.org/, label: ACM Multimedia Steering Committee Official Website, source_type: official_announcement, verified_at: 2026-11-19T00:58:45Z }
+      - &dates-2027 { url: https://2027.acmmm.org/, label: ACM Multimedia 2027 Official Website, source_type: official_dates, verified_at: 2026-11-24T01:00:26Z }
     tracks:
       - id: main
         name: Main Conference
