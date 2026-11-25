@@ -4,65 +4,170 @@ PRODID:-//AI Conf Tracker//ZH-CN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:www-2027-abstract@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 摘要注册截止
 URL:https://acmweb2027.org/important-dates/
 DTSTART:20261019T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-paper@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 论文截稿
 URL:https://acmweb2027.org/important-dates/
 DTSTART:20261026T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-review-release@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 评审结果发布
 URL:https://acmweb2027.org/important-dates/
 DTSTART;VALUE=DATE:20261215
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-rebuttal-open@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · Rebuttal 开始
 URL:https://acmweb2027.org/important-dates/
 DTSTART;VALUE=DATE:20261215
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-rebuttal@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · Rebuttal 截止
 URL:https://acmweb2027.org/important-dates/
 DTSTART:20261221T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-notification@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 录用通知
 URL:https://acmweb2027.org/important-dates/
 DTSTART;VALUE=DATE:20270104
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-final-version@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 论文最终版本截止
 URL:https://acmweb2027.org/important-dates/
 DTSTART:20270201T115900Z
 END:VEVENT
 BEGIN:VEVENT
+UID:www-2027-author-registration@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 长文作者注册缴费截止
+URL:https://www2027.thewebconf.org/research-track-papers/
+DTSTART:20270201T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:www-2027-conference-start@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 会议开始
 URL:https://acmweb2027.org/important-dates/
 DTSTART;VALUE=DATE:20270510
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-conference-end@ai-conf-tracker
-DTSTAMP:20260925T010249Z
+DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 会议结束
 URL:https://acmweb2027.org/important-dates/
 DTSTART;VALUE=DATE:20270514
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-short-notification@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 短文录用通知
+URL:https://www2027.thewebconf.org/research-track-papers/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-short-camera-ready@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 短文 Camera-ready 截止
+URL:https://www2027.thewebconf.org/research-track-papers/
+DTSTART:20270201T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-short-author-registration@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 短文作者注册缴费截止
+URL:https://www2027.thewebconf.org/research-track-papers/
+DTSTART:20270201T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-demo-paper@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · Demo 论文截稿
+URL:https://www2027.thewebconf.org/demos/
+DTSTART:20261117T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-demo-notification@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · Demo 录用通知
+URL:https://www2027.thewebconf.org/demos/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-demo-camera-ready@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · Demo Camera-ready 截止
+URL:https://www2027.thewebconf.org/demos/
+DTSTART:20270201T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-demo-author-registration@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · Demo 作者注册截止
+URL:https://www2027.thewebconf.org/demos/
+DTSTART:20270201T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-phd-paper@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 博士生论坛论文截稿
+URL:https://www2027.thewebconf.org/phd-symposium/
+DTSTART:20270107T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-phd-notification@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 博士生论坛录用通知
+URL:https://www2027.thewebconf.org/phd-symposium/
+DTSTART;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-phd-camera-ready@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 博士生论坛 Camera-ready 截止
+URL:https://www2027.thewebconf.org/phd-symposium/
+DTSTART:20270215T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-phd-author-registration@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 博士生论坛作者注册缴费截止
+URL:https://www2027.thewebconf.org/phd-symposium/
+DTSTART:20270215T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-resource-notification@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 资源论文录用通知
+URL:https://www2027.thewebconf.org/resource-submissions/
+DTSTART;VALUE=DATE:20270120
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-resource-camera-ready@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 资源论文 Camera-ready 截止（已延期）
+URL:https://www2027.thewebconf.org/resource-submissions/
+DTSTART:20270218T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-resource-author-registration@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 资源论文作者注册截止
+URL:https://www2027.thewebconf.org/resource-submissions/
+DTSTART:20270218T115900Z
 END:VEVENT
 END:VCALENDAR

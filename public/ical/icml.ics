@@ -4,17 +4,17 @@ PRODID:-//AI Conf Tracker//ZH-CN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:icml-2027-abstract@ai-conf-tracker
-DTSTAMP:20261112T010154Z
+DTSTAMP:20261125T011103Z
 SUMMARY:ICML 2027 · 摘要注册截止
-URL:https://icml.cc/Conferences/2027/Dates
-DTSTART;VALUE=DATE:20270114
+URL:https://icml.cc/Conferences/2027/CallForPapers
+DTSTART:20270115T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-paper@ai-conf-tracker
-DTSTAMP:20261112T010154Z
+DTSTAMP:20261125T011103Z
 SUMMARY:ICML 2027 · 论文截稿
-URL:https://icml.cc/Conferences/2027/Dates
-DTSTART;VALUE=DATE:20270122
+URL:https://icml.cc/Conferences/2027/CallForPapers
+DTSTART:20270123T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-phase-one-notification@ai-conf-tracker
@@ -29,6 +29,20 @@ DTSTAMP:20261112T010154Z
 SUMMARY:ICML 2027 · 录用通知
 URL:https://icml.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270503
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-early-registration@ai-conf-tracker
+DTSTAMP:20261125T011103Z
+SUMMARY:ICML 2027 · 早鸟注册截止
+URL:https://icml.cc/Conferences/2027/Pricing
+DTSTART:20270619T155900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-registration-refund@ai-conf-tracker
+DTSTAMP:20261125T011103Z
+SUMMARY:ICML 2027 · 参会注册取消及退款截止
+URL:https://icml.cc/Conferences/2027/Pricing
+DTSTART;VALUE=DATE:20270712
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-conference-start@ai-conf-tracker

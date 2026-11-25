@@ -8,10 +8,11 @@ dblp: conf/aaai
 editions:
   - year: 2027
     website: https://aaai.org/conference/aaai/aaai-27/
-    venue: { city: Montréal, country: Canada, mode: onsite }
+    venue: { city: Montréal, country: Canada, mode: hybrid }
     sources:
       - &dates { url: https://aaai.org/conference/aaai/aaai-27/, label: AAAI-27 官方作者日程, source_type: official_dates, verified_at: 2026-10-11T01:00:20Z }
-      - &registration { url: https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/, label: AAAI-27 官方注册信息, source_type: official_dates, verified_at: 2026-11-24T01:00:26Z }
+      - &registration { url: https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/, label: AAAI-27 官方注册信息, source_type: official_dates, verified_at: 2026-11-25T01:03:48Z }
+      - &publication { url: https://aaai.org/conference/aaai/aaai-27/paper-publication-and-conference-attendance/, label: AAAI-27 主赛道出版与参会要求, source_type: official_dates, verified_at: 2026-11-25T01:03:48Z }
     tracks:
       - id: main
         name: Main Technical Track
@@ -23,7 +24,7 @@ editions:
           - { id: author-feedback-open, label: 作者反馈开始, type: author_response_open, kind: date, date: 2026-10-24, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *dates }
           - { id: author-feedback, label: 作者反馈截止, type: author_response_deadline, kind: date, date: 2026-10-31, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-11-30, date_status: confirmed, action_required: false, source: *dates }
-          - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2026-12-14T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
+          - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: date, date: 2026-12-14, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *publication }
           - { id: early-registration, label: 早鸟注册截止, type: early_registration_deadline, kind: instant, at: '2026-12-15T23:59:00', timezone: Etc/GMT+5, original_timezone: EST, date_status: confirmed, action_required: true, source: *registration }
           - { id: standard-registration, label: 标准注册截止, type: standard_registration_deadline, kind: instant, at: '2027-01-10T23:59:00', timezone: Etc/GMT+5, original_timezone: EST, date_status: confirmed, action_required: true, source: *registration }
           - { id: registration-refund, label: 注册退款申请截止, type: registration_refund_deadline, kind: instant, at: '2027-01-10T23:59:00', timezone: Etc/GMT+5, original_timezone: EST, date_status: confirmed, action_required: true, source: *registration }

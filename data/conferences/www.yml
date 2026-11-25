@@ -10,7 +10,11 @@ editions:
     website: https://acmweb2027.org/
     venue: { city: Dublin, country: Ireland, mode: onsite }
     sources:
-      - &dates { url: https://acmweb2027.org/important-dates/, label: ACM Web Conference 2027 Important Dates, source_type: official_dates, verified_at: 2026-09-25T01:02:49Z }
+      - &dates { url: https://acmweb2027.org/important-dates/, label: ACM Web Conference 2027 Important Dates, source_type: official_dates, verified_at: 2026-11-25T01:03:48Z }
+      - &research-cfp { url: https://www2027.thewebconf.org/research-track-papers/, label: ACM Web Conference 2027 Research Track CFP, source_type: official_cfp, verified_at: 2026-11-25T01:03:48Z }
+      - &demo-cfp { url: https://www2027.thewebconf.org/demos/, label: ACM Web Conference 2027 Demo Track CFP, source_type: official_cfp, verified_at: 2026-11-25T01:03:48Z }
+      - &phd-cfp { url: https://www2027.thewebconf.org/phd-symposium/, label: ACM Web Conference 2027 PhD Symposium CFP, source_type: official_cfp, verified_at: 2026-11-25T01:03:48Z }
+      - &resource-cfp { url: https://www2027.thewebconf.org/resource-submissions/, label: ACM Web Conference 2027 Resource Track CFP, source_type: official_cfp, verified_at: 2026-11-25T01:03:48Z }
     tracks:
       - id: research
         name: Research & Industry Track Papers
@@ -22,8 +26,35 @@ editions:
           - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: instant, at: '2026-12-20T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: notification, label: 录用通知, type: notification, kind: date, date: 2027-01-04, date_status: confirmed, action_required: false, source: *dates }
           - { id: final-version, label: 论文最终版本截止, type: revision_deadline, kind: instant, at: '2027-01-31T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
+          - { id: author-registration, label: 长文作者注册缴费截止, type: author_registration_deadline, kind: instant, at: '2027-01-31T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *research-cfp }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-05-10, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-05-14, date_status: confirmed, action_required: false, source: *dates }
+      - id: short-papers
+        name: Short Papers
+        milestones:
+          - { id: short-notification, label: 短文录用通知, type: notification, kind: date, date: 2027-01-04, date_status: confirmed, action_required: false, source: *research-cfp }
+          - { id: short-camera-ready, label: 短文 Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2027-01-31T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *research-cfp }
+          - { id: short-author-registration, label: 短文作者注册缴费截止, type: author_registration_deadline, kind: instant, at: '2027-01-31T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *research-cfp }
+      - id: demos
+        name: Demo Papers
+        milestones:
+          - { id: demo-paper, label: Demo 论文截稿, type: paper_deadline, kind: instant, at: '2026-11-16T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *demo-cfp }
+          - { id: demo-notification, label: Demo 录用通知, type: notification, kind: date, date: 2027-01-04, date_status: confirmed, action_required: false, source: *demo-cfp }
+          - { id: demo-camera-ready, label: Demo Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2027-01-31T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *demo-cfp }
+          - { id: demo-author-registration, label: Demo 作者注册截止, type: author_registration_deadline, kind: instant, at: '2027-01-31T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *demo-cfp }
+      - id: phd-symposium
+        name: PhD Symposium
+        milestones:
+          - { id: phd-paper, label: 博士生论坛论文截稿, type: paper_deadline, kind: instant, at: '2027-01-06T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *phd-cfp }
+          - { id: phd-notification, label: 博士生论坛录用通知, type: notification, kind: date, date: 2027-02-01, date_status: confirmed, action_required: false, source: *phd-cfp }
+          - { id: phd-camera-ready, label: 博士生论坛 Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2027-02-14T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *phd-cfp }
+          - { id: phd-author-registration, label: 博士生论坛作者注册缴费截止, type: author_registration_deadline, kind: instant, at: '2027-02-14T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *phd-cfp }
+      - id: resources
+        name: Resource Papers
+        milestones:
+          - { id: resource-notification, label: 资源论文录用通知, type: notification, kind: date, date: 2027-01-20, date_status: confirmed, action_required: false, source: *resource-cfp }
+          - { id: resource-camera-ready, label: 资源论文 Camera-ready 截止（已延期）, type: camera_ready_deadline, kind: instant, at: '2027-02-17T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *resource-cfp }
+          - { id: resource-author-registration, label: 资源论文作者注册截止, type: author_registration_deadline, kind: instant, at: '2027-02-17T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *resource-cfp }
   - year: 2028
     website: https://thewebconf.org/
     venue: { city: Edmonton, country: Canada, mode: tbd }

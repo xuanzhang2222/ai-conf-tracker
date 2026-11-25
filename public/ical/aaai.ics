@@ -53,28 +53,28 @@ DTSTART;VALUE=DATE:20261130
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-camera-ready@ai-conf-tracker
-DTSTAMP:20261011T010020Z
+DTSTAMP:20261125T010348Z
 SUMMARY:AAAI 2027 · Camera-ready 截止
-URL:https://aaai.org/conference/aaai/aaai-27/
-DTSTART:20261215T115900Z
+URL:https://aaai.org/conference/aaai/aaai-27/paper-publication-and-conference-attendance/
+DTSTART;VALUE=DATE:20261214
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-early-registration@ai-conf-tracker
-DTSTAMP:20261124T010026Z
+DTSTAMP:20261125T010348Z
 SUMMARY:AAAI 2027 · 早鸟注册截止
 URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
 DTSTART:20261216T045900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-standard-registration@ai-conf-tracker
-DTSTAMP:20261124T010026Z
+DTSTAMP:20261125T010348Z
 SUMMARY:AAAI 2027 · 标准注册截止
 URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
 DTSTART:20270111T045900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-registration-refund@ai-conf-tracker
-DTSTAMP:20261124T010026Z
+DTSTAMP:20261125T010348Z
 SUMMARY:AAAI 2027 · 注册退款申请截止
 URL:https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
 DTSTART:20270111T045900Z
