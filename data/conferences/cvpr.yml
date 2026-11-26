@@ -13,6 +13,7 @@ editions:
       - &dates { url: https://cvpr.thecvf.com/Conferences/2027/Dates, label: CVPR 2027 Dates and Deadlines, source_type: official_dates, verified_at: 2026-11-20T01:04:00Z }
       - &cfp { url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers, label: CVPR 2027 Call for Papers, source_type: official_cfp, verified_at: 2026-10-26T01:04:28Z }
       - &meeting { url: https://www.thecvf.com/?p=137, label: CVF Upcoming Conferences, source_type: official_announcement, verified_at: 2026-08-03T10:08:46Z }
+      - &workshop-cfp { url: https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops, label: CVPR 2027 Call for Workshops, source_type: official_cfp, verified_at: 2026-11-26T01:08:54Z }
     tracks:
       - id: main
         name: Main Conference
@@ -26,6 +27,11 @@ editions:
           - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2027-02-25, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-06-20, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-06-24, date_status: confirmed, action_required: false, source: *dates }
+      - id: archival-workshop-papers
+        name: Archival Workshop Papers
+        milestones:
+          - { id: workshop-author-metadata, label: Workshop 存档论文作者信息提交截止, type: artifact_deadline, kind: date, date: 2027-03-29, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshop-cfp }
+          - { id: workshop-camera-ready, label: Workshop 存档论文 Camera-ready 截止, type: camera_ready_deadline, kind: date, date: 2027-04-23, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshop-cfp }
   - year: 2028
     website: https://www.thecvf.com/?page_id=100
     venue: { city: San Antonio, country: USA, mode: tbd }

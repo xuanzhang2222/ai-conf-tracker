@@ -65,4 +65,18 @@ SUMMARY:CVPR 2027 · 会议结束
 URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270624
 END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-author-metadata@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:CVPR 2027 · Workshop 存档论文作者信息提交截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270329
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:CVPR 2027 · Workshop 存档论文 Camera-ready 截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270423
+END:VEVENT
 END:VCALENDAR

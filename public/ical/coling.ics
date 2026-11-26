@@ -51,4 +51,46 @@ SUMMARY:COLING 2027 · 线上会议结束
 URL:https://2027.coling-iccl.org/calls/main_conference_papers/
 DTSTART;VALUE=DATE:20270507
 END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-industry-rebuttal-open@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 产业轨 Rebuttal 开始
+URL:https://2027.coling-iccl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-industry-rebuttal@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 产业轨 Rebuttal 截止
+URL:https://2027.coling-iccl.org/calls/industry_track/
+DTSTART:20270216T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-industry-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 产业轨录用通知
+URL:https://2027.coling-iccl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270315
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-demo-paper@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 系统演示论文与视频截止
+URL:https://2027.coling-iccl.org/calls/system_demonstrations/
+DTSTART:20261219T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-demo-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 系统演示录用通知
+URL:https://2027.coling-iccl.org/calls/system_demonstrations/
+DTSTART;VALUE=DATE:20270223
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-demo-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 系统演示 Camera-ready 截止
+URL:https://2027.coling-iccl.org/calls/system_demonstrations/
+DTSTART:20270314T115900Z
+END:VEVENT
 END:VCALENDAR

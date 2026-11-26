@@ -12,6 +12,8 @@ editions:
     sources:
       - &dates { url: https://2027.coling-iccl.org/, label: COLING 2027 官方 Important Dates, source_type: official_dates, verified_at: 2026-09-16T01:01:46Z }
       - &cfp { url: https://2027.coling-iccl.org/calls/main_conference_papers/, label: COLING 2027 Main Conference CFP, source_type: official_cfp, verified_at: 2026-09-16T01:01:46Z }
+      - &industry-cfp { url: https://2027.coling-iccl.org/calls/industry_track/, label: COLING 2027 Industry Track CFP, source_type: official_cfp, verified_at: 2026-11-26T01:08:54Z }
+      - &demo-cfp { url: https://2027.coling-iccl.org/calls/system_demonstrations/, label: COLING 2027 System Demonstrations CFP, source_type: official_cfp, verified_at: 2026-11-26T01:08:54Z }
       - { url: https://aclrollingreview.org/dates, label: ACL Rolling Review Dates and Venues, source_type: official_dates, verified_at: 2026-09-10T01:05:13Z }
       - { url: https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027, label: COLING 2027 Joint Workshop Call, source_type: official_announcement, verified_at: 2026-08-21T01:05:22Z }
     tracks:
@@ -29,3 +31,16 @@ editions:
         milestones:
           - { id: virtual-start, label: 线上会议开始, type: conference_start, kind: date, date: 2027-05-06, date_status: confirmed, action_required: false, source: *cfp }
           - { id: virtual-end, label: 线上会议结束, type: conference_end, kind: date, date: 2027-05-07, date_status: confirmed, action_required: false, source: *cfp }
+      - id: industry
+        name: Industry Track
+        milestones:
+          - { id: industry-rebuttal-open, label: 产业轨 Rebuttal 开始, type: rebuttal_open, kind: date, date: 2027-02-10, date_status: confirmed, action_required: false, source: *industry-cfp }
+          - { id: industry-rebuttal, label: 产业轨 Rebuttal 截止, type: rebuttal_deadline, kind: instant, at: '2027-02-15T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *industry-cfp }
+          - { id: industry-notification, label: 产业轨录用通知, type: notification, kind: date, date: 2027-03-15, date_status: confirmed, action_required: false, source: *industry-cfp }
+          - { id: industry-camera-ready, label: 产业轨 Camera-ready 截止, type: camera_ready_deadline, kind: tbd, date_status: tbd, action_required: true, source: *industry-cfp }
+      - id: demos
+        name: System Demonstrations
+        milestones:
+          - { id: demo-paper, label: 系统演示论文与视频截止, type: paper_deadline, kind: instant, at: '2026-12-18T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *demo-cfp }
+          - { id: demo-notification, label: 系统演示录用通知, type: notification, kind: date, date: 2027-02-23, date_status: confirmed, action_required: false, source: *demo-cfp }
+          - { id: demo-camera-ready, label: 系统演示 Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2027-03-13T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *demo-cfp }

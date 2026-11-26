@@ -12,6 +12,9 @@ editions:
     sources:
       - &dates { url: https://2027.naacl.org/, label: NAACL 2027 官方 Important Dates, source_type: official_dates, verified_at: 2026-08-15T01:02:03Z }
       - &cfp { url: https://2027.naacl.org/calls/main_conference_papers/, label: NAACL 2027 Main Conference CFP, source_type: official_cfp, verified_at: 2026-09-22T01:02:42Z }
+      - &industry-cfp { url: https://2027.naacl.org/calls/industry_track/, label: NAACL 2027 Industry Track CFP, source_type: official_cfp, verified_at: 2026-11-26T01:08:54Z }
+      - &demo-cfp { url: https://2027.naacl.org/calls/system_demonstration/, label: NAACL 2027 System Demonstrations CFP, source_type: official_cfp, verified_at: 2026-11-26T01:08:54Z }
+      - &srw-cfp { url: https://2027.naacl.org/calls/srw/, label: NAACL 2027 Student Research Workshop CFP, source_type: official_cfp, verified_at: 2026-11-26T01:08:54Z }
     tracks:
       - id: main
         name: Main Conference
@@ -24,3 +27,21 @@ editions:
           - { id: camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2027-03-03T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-06-01, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-06-05, date_status: confirmed, action_required: false, source: *dates }
+      - id: industry
+        name: Industry Track
+        milestones:
+          - { id: industry-rebuttal-open, label: 产业轨评审发布、Rebuttal 开始, type: rebuttal_open, kind: date, date: 2027-01-13, date_status: confirmed, action_required: false, source: *industry-cfp }
+          - { id: industry-rebuttal, label: 产业轨作者回复截止, type: author_response_deadline, kind: instant, at: '2027-01-27T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *industry-cfp }
+          - { id: industry-notification, label: 产业轨录用通知, type: notification, kind: date, date: 2027-02-24, date_status: confirmed, action_required: false, source: *industry-cfp }
+          - { id: industry-camera-ready, label: 产业轨 Camera-ready 截止, type: camera_ready_deadline, kind: tbd, date_status: tbd, action_required: true, source: *industry-cfp }
+      - id: demos
+        name: System Demonstrations
+        milestones:
+          - { id: demo-notification, label: 系统演示录用通知, type: notification, kind: date, date: 2027-02-10, date_status: confirmed, action_required: false, source: *demo-cfp }
+          - { id: demo-camera-ready, label: 系统演示 Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2027-03-03T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *demo-cfp }
+      - id: student-research-workshop
+        name: Student Research Workshop
+        milestones:
+          - { id: srw-paper, label: 学生研究 Workshop 论文与学生证明提交截止, type: paper_deadline, kind: instant, at: '2027-01-11T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *srw-cfp }
+          - { id: srw-notification, label: 学生研究 Workshop 录用通知, type: notification, kind: date, date: 2027-03-08, date_status: confirmed, action_required: false, source: *srw-cfp }
+          - { id: srw-camera-ready, label: 学生研究 Workshop Camera-ready 截止, type: camera_ready_deadline, kind: instant, at: '2027-03-15T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *srw-cfp }

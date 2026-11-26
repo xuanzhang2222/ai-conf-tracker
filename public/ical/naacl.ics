@@ -58,4 +58,60 @@ SUMMARY:NAACL 2027 · 会议结束
 URL:https://2027.naacl.org/
 DTSTART;VALUE=DATE:20270605
 END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-industry-rebuttal-open@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 产业轨评审发布、Rebuttal 开始
+URL:https://2027.naacl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270113
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-industry-rebuttal@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 产业轨作者回复截止
+URL:https://2027.naacl.org/calls/industry_track/
+DTSTART:20270128T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-industry-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 产业轨录用通知
+URL:https://2027.naacl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270224
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-demo-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 系统演示录用通知
+URL:https://2027.naacl.org/calls/system_demonstration/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-demo-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 系统演示 Camera-ready 截止
+URL:https://2027.naacl.org/calls/system_demonstration/
+DTSTART:20270304T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-srw-paper@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 学生研究 Workshop 论文与学生证明提交截止
+URL:https://2027.naacl.org/calls/srw/
+DTSTART:20270112T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-srw-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 学生研究 Workshop 录用通知
+URL:https://2027.naacl.org/calls/srw/
+DTSTART;VALUE=DATE:20270308
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-srw-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 学生研究 Workshop Camera-ready 截止
+URL:https://2027.naacl.org/calls/srw/
+DTSTART:20270316T115900Z
+END:VEVENT
 END:VCALENDAR

@@ -354,6 +354,48 @@ URL:https://2027.coling-iccl.org/calls/main_conference_papers/
 DTSTART;VALUE=DATE:20270507
 END:VEVENT
 BEGIN:VEVENT
+UID:coling-2027-industry-rebuttal-open@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 产业轨 Rebuttal 开始
+URL:https://2027.coling-iccl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-industry-rebuttal@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 产业轨 Rebuttal 截止
+URL:https://2027.coling-iccl.org/calls/industry_track/
+DTSTART:20270216T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-industry-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 产业轨录用通知
+URL:https://2027.coling-iccl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270315
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-demo-paper@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 系统演示论文与视频截止
+URL:https://2027.coling-iccl.org/calls/system_demonstrations/
+DTSTART:20261219T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-demo-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 系统演示录用通知
+URL:https://2027.coling-iccl.org/calls/system_demonstrations/
+DTSTART;VALUE=DATE:20270223
+END:VEVENT
+BEGIN:VEVENT
+UID:coling-2027-demo-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:COLING 2027 · 系统演示 Camera-ready 截止
+URL:https://2027.coling-iccl.org/calls/system_demonstrations/
+DTSTART:20270314T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-abstract@ai-conf-tracker
 DTSTAMP:20261026T010428Z
 SUMMARY:CVPR 2027 · 论文注册截止
@@ -415,6 +457,20 @@ DTSTAMP:20261120T010400Z
 SUMMARY:CVPR 2027 · 会议结束
 URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270624
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-author-metadata@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:CVPR 2027 · Workshop 存档论文作者信息提交截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270329
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:CVPR 2027 · Workshop 存档论文 Camera-ready 截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270423
 END:VEVENT
 BEGIN:VEVENT
 UID:ecai-2027-paper@ai-conf-tracker
@@ -1104,6 +1160,62 @@ URL:https://2027.naacl.org/
 DTSTART;VALUE=DATE:20270605
 END:VEVENT
 BEGIN:VEVENT
+UID:naacl-2027-industry-rebuttal-open@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 产业轨评审发布、Rebuttal 开始
+URL:https://2027.naacl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270113
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-industry-rebuttal@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 产业轨作者回复截止
+URL:https://2027.naacl.org/calls/industry_track/
+DTSTART:20270128T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-industry-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 产业轨录用通知
+URL:https://2027.naacl.org/calls/industry_track/
+DTSTART;VALUE=DATE:20270224
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-demo-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 系统演示录用通知
+URL:https://2027.naacl.org/calls/system_demonstration/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-demo-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 系统演示 Camera-ready 截止
+URL:https://2027.naacl.org/calls/system_demonstration/
+DTSTART:20270304T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-srw-paper@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 学生研究 Workshop 论文与学生证明提交截止
+URL:https://2027.naacl.org/calls/srw/
+DTSTART:20270112T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-srw-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 学生研究 Workshop 录用通知
+URL:https://2027.naacl.org/calls/srw/
+DTSTART;VALUE=DATE:20270308
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-srw-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:NAACL 2027 · 学生研究 Workshop Camera-ready 截止
+URL:https://2027.naacl.org/calls/srw/
+DTSTART:20270316T115900Z
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2026-abstract@ai-conf-tracker
 DTSTAMP:20261109T005940Z
 SUMMARY:NeurIPS 2026 · 摘要注册截止
@@ -1419,5 +1531,54 @@ DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 资源论文作者注册截止
 URL:https://www2027.thewebconf.org/resource-submissions/
 DTSTART:20270218T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-showcase-submission@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业展示投稿截止
+URL:https://www2027.thewebconf.org/industry-showcase/
+DTSTART;VALUE=DATE:20261207
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-showcase-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业展示录用通知
+URL:https://www2027.thewebconf.org/industry-showcase/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-innovation-forum-submission@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业创新论坛提案截止
+URL:https://www2027.thewebconf.org/industry-innovation-forum/
+DTSTART;VALUE=DATE:20261207
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-innovation-forum-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业创新论坛录用通知
+URL:https://www2027.thewebconf.org/industry-innovation-forum/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-workshop-paper@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · Workshop 论文投稿截止（大会统一日期）
+URL:https://www2027.thewebconf.org/workshops/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-workshop-paper-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · Workshop 论文录用通知
+URL:https://www2027.thewebconf.org/call-for-workshops/
+DTSTART;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-workshop-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · Workshop 论文最终版截止
+URL:https://www2027.thewebconf.org/call-for-workshops/
+DTSTART;VALUE=DATE:20270216
 END:VEVENT
 END:VCALENDAR

@@ -304,6 +304,20 @@ URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270624
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2027-workshop-author-metadata@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:CVPR 2027 · Workshop 存档论文作者信息提交截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270329
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:CVPR 2027 · Workshop 存档论文 Camera-ready 截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270423
+END:VEVENT
+BEGIN:VEVENT
 UID:iccv-2027-conference-start@ai-conf-tracker
 DTSTAMP:20261124T010026Z
 SUMMARY:ICCV 2027 · 会议开始
@@ -752,5 +766,54 @@ DTSTAMP:20261125T010348Z
 SUMMARY:WWW 2027 · 资源论文作者注册截止
 URL:https://www2027.thewebconf.org/resource-submissions/
 DTSTART:20270218T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-showcase-submission@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业展示投稿截止
+URL:https://www2027.thewebconf.org/industry-showcase/
+DTSTART;VALUE=DATE:20261207
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-showcase-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业展示录用通知
+URL:https://www2027.thewebconf.org/industry-showcase/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-innovation-forum-submission@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业创新论坛提案截止
+URL:https://www2027.thewebconf.org/industry-innovation-forum/
+DTSTART;VALUE=DATE:20261207
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-industry-innovation-forum-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · 产业创新论坛录用通知
+URL:https://www2027.thewebconf.org/industry-innovation-forum/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-workshop-paper@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · Workshop 论文投稿截止（大会统一日期）
+URL:https://www2027.thewebconf.org/workshops/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-workshop-paper-notification@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · Workshop 论文录用通知
+URL:https://www2027.thewebconf.org/call-for-workshops/
+DTSTART;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-workshop-camera-ready@ai-conf-tracker
+DTSTAMP:20261126T010854Z
+SUMMARY:WWW 2027 · Workshop 论文最终版截止
+URL:https://www2027.thewebconf.org/call-for-workshops/
+DTSTART;VALUE=DATE:20270216
 END:VEVENT
 END:VCALENDAR

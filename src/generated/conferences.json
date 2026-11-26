@@ -1310,6 +1310,18 @@
             "verified_at": "2026-09-16T01:01:46Z"
           },
           {
+            "url": "https://2027.coling-iccl.org/calls/industry_track/",
+            "label": "COLING 2027 Industry Track CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://2027.coling-iccl.org/calls/system_demonstrations/",
+            "label": "COLING 2027 System Demonstrations CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
             "url": "https://aclrollingreview.org/dates",
             "label": "ACL Rolling Review Dates and Venues",
             "source_type": "official_dates",
@@ -1457,6 +1469,128 @@
                 }
               }
             ]
+          },
+          {
+            "id": "industry",
+            "name": "Industry Track",
+            "milestones": [
+              {
+                "id": "industry-rebuttal-open",
+                "label": "产业轨 Rebuttal 开始",
+                "type": "rebuttal_open",
+                "kind": "date",
+                "date": "2027-02-10",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/industry_track/",
+                  "label": "COLING 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-rebuttal",
+                "label": "产业轨 Rebuttal 截止",
+                "type": "rebuttal_deadline",
+                "kind": "instant",
+                "at": "2027-02-15T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/industry_track/",
+                  "label": "COLING 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-notification",
+                "label": "产业轨录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-03-15",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/industry_track/",
+                  "label": "COLING 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-camera-ready",
+                "label": "产业轨 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/industry_track/",
+                  "label": "COLING 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "demos",
+            "name": "System Demonstrations",
+            "milestones": [
+              {
+                "id": "demo-paper",
+                "label": "系统演示论文与视频截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-12-18T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/system_demonstrations/",
+                  "label": "COLING 2027 System Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "demo-notification",
+                "label": "系统演示录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-02-23",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/system_demonstrations/",
+                  "label": "COLING 2027 System Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "demo-camera-ready",
+                "label": "系统演示 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2027-03-13T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/system_demonstrations/",
+                  "label": "COLING 2027 System Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
           }
         ]
       }
@@ -1505,6 +1639,12 @@
             "label": "CVF Upcoming Conferences",
             "source_type": "official_announcement",
             "verified_at": "2026-08-03T10:08:46Z"
+          },
+          {
+            "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
+            "label": "CVPR 2027 Call for Workshops",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
           }
         ],
         "tracks": [
@@ -1659,6 +1799,46 @@
                   "label": "CVPR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
                   "verified_at": "2026-11-20T01:04:00Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "archival-workshop-papers",
+            "name": "Archival Workshop Papers",
+            "milestones": [
+              {
+                "id": "workshop-author-metadata",
+                "label": "Workshop 存档论文作者信息提交截止",
+                "type": "artifact_deadline",
+                "kind": "date",
+                "date": "2027-03-29",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
+                  "label": "CVPR 2027 Call for Workshops",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "workshop-camera-ready",
+                "label": "Workshop 存档论文 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-04-23",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
+                  "label": "CVPR 2027 Call for Workshops",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
                 }
               }
             ]
@@ -3972,7 +4152,7 @@
             "url": "https://icml.cc/Conferences/2027/AuthorInstructions",
             "label": "ICML 2027 Author Instructions",
             "source_type": "official_announcement",
-            "verified_at": "2026-11-25T01:11:03Z"
+            "verified_at": "2026-11-26T01:08:54Z"
           }
         ],
         "tracks": [
@@ -4012,7 +4192,22 @@
                   "label": "ICML 2027 Call for Papers",
                   "source_type": "official_cfp",
                   "verified_at": "2026-11-25T01:11:03Z"
-                }
+                },
+                "related_information": [
+                  {
+                    "title": "补充材料与论文同时截止",
+                    "kind": "official_notice",
+                    "source_label": "ICML 2027 作者指南",
+                    "summary": "补充材料没有单独的截止日期。",
+                    "content": "如提交补充文稿、代码或数据，请在**2027 年 1 月 22 日 23:59（AoE）**前随论文提交，并确保材料已匿名化。**传统文字附录**可以直接放入主论文文件，无需另行作为补充材料上传。",
+                    "links": [
+                      {
+                        "label": "ICML 2027 作者指南",
+                        "url": "https://icml.cc/Conferences/2027/AuthorInstructions"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "id": "review-release",
@@ -4083,7 +4278,7 @@
                   "url": "https://icml.cc/Conferences/2027/AuthorInstructions",
                   "label": "ICML 2027 Author Instructions",
                   "source_type": "official_announcement",
-                  "verified_at": "2026-11-25T01:11:03Z"
+                  "verified_at": "2026-11-26T01:08:54Z"
                 }
               },
               {
@@ -5312,6 +5507,24 @@
             "label": "NAACL 2027 Main Conference CFP",
             "source_type": "official_cfp",
             "verified_at": "2026-09-22T01:02:42Z"
+          },
+          {
+            "url": "https://2027.naacl.org/calls/industry_track/",
+            "label": "NAACL 2027 Industry Track CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://2027.naacl.org/calls/system_demonstration/",
+            "label": "NAACL 2027 System Demonstrations CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://2027.naacl.org/calls/srw/",
+            "label": "NAACL 2027 Student Research Workshop CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
           }
         ],
         "tracks": [
@@ -5445,6 +5658,166 @@
                   "label": "NAACL 2027 官方 Important Dates",
                   "source_type": "official_dates",
                   "verified_at": "2026-08-15T01:02:03Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "industry",
+            "name": "Industry Track",
+            "milestones": [
+              {
+                "id": "industry-rebuttal-open",
+                "label": "产业轨评审发布、Rebuttal 开始",
+                "type": "rebuttal_open",
+                "kind": "date",
+                "date": "2027-01-13",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/industry_track/",
+                  "label": "NAACL 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-rebuttal",
+                "label": "产业轨作者回复截止",
+                "type": "author_response_deadline",
+                "kind": "instant",
+                "at": "2027-01-27T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/industry_track/",
+                  "label": "NAACL 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-notification",
+                "label": "产业轨录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-02-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/industry_track/",
+                  "label": "NAACL 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-camera-ready",
+                "label": "产业轨 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/industry_track/",
+                  "label": "NAACL 2027 Industry Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "demos",
+            "name": "System Demonstrations",
+            "milestones": [
+              {
+                "id": "demo-notification",
+                "label": "系统演示录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-02-10",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/system_demonstration/",
+                  "label": "NAACL 2027 System Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "demo-camera-ready",
+                "label": "系统演示 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2027-03-03T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/system_demonstration/",
+                  "label": "NAACL 2027 System Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "student-research-workshop",
+            "name": "Student Research Workshop",
+            "milestones": [
+              {
+                "id": "srw-paper",
+                "label": "学生研究 Workshop 论文与学生证明提交截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2027-01-11T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/srw/",
+                  "label": "NAACL 2027 Student Research Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "srw-notification",
+                "label": "学生研究 Workshop 录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-03-08",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/srw/",
+                  "label": "NAACL 2027 Student Research Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "srw-camera-ready",
+                "label": "学生研究 Workshop Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2027-03-15T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/srw/",
+                  "label": "NAACL 2027 Student Research Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
                 }
               }
             ]
@@ -6237,6 +6610,30 @@
             "label": "ACM Web Conference 2027 Resource Track CFP",
             "source_type": "official_cfp",
             "verified_at": "2026-11-25T01:03:48Z"
+          },
+          {
+            "url": "https://www2027.thewebconf.org/industry-showcase/",
+            "label": "ACM Web Conference 2027 Industry Showcase CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://www2027.thewebconf.org/industry-innovation-forum/",
+            "label": "ACM Web Conference 2027 Industry Innovation Forum CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://www2027.thewebconf.org/workshops/",
+            "label": "ACM Web Conference 2027 Accepted Workshops",
+            "source_type": "official_announcement",
+            "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://www2027.thewebconf.org/call-for-workshops/",
+            "label": "ACM Web Conference 2027 Workshop CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-26T01:08:54Z"
           }
         ],
         "tracks": [
@@ -6656,6 +7053,141 @@
                   "label": "ACM Web Conference 2027 Resource Track CFP",
                   "source_type": "official_cfp",
                   "verified_at": "2026-11-25T01:03:48Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "industry-showcase",
+            "name": "Industry Showcase",
+            "milestones": [
+              {
+                "id": "industry-showcase-submission",
+                "label": "产业展示投稿截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-12-07",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/industry-showcase/",
+                  "label": "ACM Web Conference 2027 Industry Showcase CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-showcase-notification",
+                "label": "产业展示录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-04",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/industry-showcase/",
+                  "label": "ACM Web Conference 2027 Industry Showcase CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "industry-innovation-forum",
+            "name": "Industry Innovation Forum",
+            "milestones": [
+              {
+                "id": "industry-innovation-forum-submission",
+                "label": "产业创新论坛提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-12-07",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/industry-innovation-forum/",
+                  "label": "ACM Web Conference 2027 Industry Innovation Forum CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "industry-innovation-forum-notification",
+                "label": "产业创新论坛录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-04",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/industry-innovation-forum/",
+                  "label": "ACM Web Conference 2027 Industry Innovation Forum CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "workshops",
+            "name": "Workshop Papers",
+            "milestones": [
+              {
+                "id": "workshop-paper",
+                "label": "Workshop 论文投稿截止（大会统一日期）",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2027-01-04",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/workshops/",
+                  "label": "ACM Web Conference 2027 Accepted Workshops",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "workshop-paper-notification",
+                "label": "Workshop 论文录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-02-01",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/call-for-workshops/",
+                  "label": "ACM Web Conference 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
+                }
+              },
+              {
+                "id": "workshop-camera-ready",
+                "label": "Workshop 论文最终版截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-02-16",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/call-for-workshops/",
+                  "label": "ACM Web Conference 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-26T01:08:54Z"
                 }
               }
             ]
