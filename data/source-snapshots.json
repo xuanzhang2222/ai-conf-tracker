@@ -56,12 +56,12 @@
     "content_bytes": 22327
   },
   "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027": {
-    "hash": "807c0ce2ea9a44c3a86df240a7d8c4b0e093da7f4404bf8cbde1456f9d0b73a4",
-    "checked_at": "2026-11-26T11:01:08.370Z",
+    "hash": "8fa70a6e4c871168fd692c90e98591a8fcc946ded0f9af4b5ea4bfedb3f9f342",
+    "checked_at": "2026-11-27T01:03:21.361Z",
     "conference_id": "acl",
     "conference": "ACL 2027",
     "label": "ACL 2027 Joint Workshop Call",
-    "content_bytes": 34830
+    "content_bytes": 34840
   },
   "https://2026.acmmm.org/site/important-dates.html": {
     "hash": "f71fb029bd5553ea9e092fcee7c327e6f592789db0cb9169a7c1e62cccb435ac",
@@ -558,5 +558,125 @@
     "conference": "WWW 2028",
     "label": "ACM Web Conference Series Future Conferences",
     "content_bytes": 4197
+  },
+  "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/": {
+    "hash": "25b1bc81a09d0ed5f02aba2baa08190262b4436c9b6080cea238c88d277b30a3",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "aamas",
+    "conference": "AAMAS 2027",
+    "label": "AAMAS 2027 Blue Sky Ideas CFP",
+    "content_bytes": 42328
+  },
+  "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/": {
+    "hash": "7132afd4d152774e68764ad599e682bb9b7106303456ec25d8b77b6d913b1908",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "aamas",
+    "conference": "AAMAS 2027",
+    "label": "AAMAS 2027 Workshop CFP",
+    "content_bytes": 45031
+  },
+  "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/": {
+    "hash": "18813cab72bb569d384b622c4187f4a5108b43cd0419ebf3b2d3335a2db5f172",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "aamas",
+    "conference": "AAMAS 2027",
+    "label": "AAMAS 2027 AAAI Fast Track CFP",
+    "content_bytes": 38741
+  },
+  "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-competition/": {
+    "hash": "7d7649b0046bdceaefb3d0965b5acaf6f5d7e0646f9c067093aabc53d5951310",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "aamas",
+    "conference": "AAMAS 2027",
+    "label": "AAMAS 2027 Competition CFP",
+    "content_bytes": 42665
+  },
+  "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/": {
+    "hash": "846a87679a4797cc8e3b2c29723a967bab34869e5ea7113577af536391728991",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "aamas",
+    "conference": "AAMAS 2027",
+    "label": "AAMAS 2027 Tutorial CFP",
+    "content_bytes": 42066
+  },
+  "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/": {
+    "hash": "46622f61e558b1817474d2f0b68a7845ed0292df0cabf12cad5e65c182e4d9ef",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "aamas",
+    "conference": "AAMAS 2027",
+    "label": "AAMAS 2027 Doctoral Consortium CFP",
+    "content_bytes": 40055
+  },
+  "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/": {
+    "hash": "2830aa08cd4c3c5faa78a076f56710016fc559a59ad219e89d7db62604c9dcc0",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "aamas",
+    "conference": "AAMAS 2027",
+    "label": "AAMAS 2027 Demonstrations CFP",
+    "content_bytes": 40695
+  },
+  "https://2027.coling-iccl.org/calls/tutorials/": {
+    "hash": "885d396124d9961511e14ab07f3b9e35589a548f84b6603ef0336262d918c59e",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "coling",
+    "conference": "COLING 2027",
+    "label": "COLING 2027 Joint Tutorial CFP",
+    "content_bytes": 21963
+  },
+  "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/": {
+    "hash": "4aefa9c8d3d5adb47ff85f819bba1994bf8cf360c9cdebed691169beb7f63b73",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Arts in Robotics CFP",
+    "content_bytes": 171426
+  },
+  "https://2027.ieee-icra.org/contribute/call-for-community-building-day/": {
+    "hash": "befe4fefa6aec052cbb4a2f296799567a76579c8a8a4ed664a78077dd57e62ae",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Community Building Day CFP",
+    "content_bytes": 166598
+  },
+  "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/": {
+    "hash": "32f4037cffbd61f5b0b3fe7b3888f6a32eeff4cd4f08b701af3597d0fd0e546a",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Workshop and Tutorial CFP",
+    "content_bytes": 149740
+  },
+  "https://2027.ieee-icra.org/contribute/call-for-competition/": {
+    "hash": "cc5884c674d34ad5e0a97742c08e26c544883f959b127e1229a2324f140833d9",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Competition CFP",
+    "content_bytes": 171903
+  },
+  "https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/": {
+    "hash": "67c37659f84bce5314872c5fa376924da9663fd282cead210a801c787779998e",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "ijcai",
+    "conference": "IJCAI 2027",
+    "label": "IJCAI 2027 AI, the Arts and Creativity CFP",
+    "content_bytes": 142005
+  },
+  "https://2027.naacl.org/calls/tutorials/": {
+    "hash": "62e6e84455797555541ab262c978e089291e8c2af23bd9f31f9286d539d03824",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "naacl",
+    "conference": "NAACL 2027",
+    "label": "NAACL 2027 Joint Tutorial CFP",
+    "content_bytes": 22869
+  },
+  "https://www2027.thewebconf.org/tutorials/": {
+    "hash": "722671bc75eb542ab5f8060601961b6880b7e9ee1aa4956a4e692eab2c41ae00",
+    "checked_at": "2026-11-27T01:03:21.361Z",
+    "conference_id": "www",
+    "conference": "WWW 2027",
+    "label": "ACM Web Conference 2027 Tutorial CFP",
+    "content_bytes": 116601
   }
 }

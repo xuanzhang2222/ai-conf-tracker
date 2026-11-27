@@ -66,4 +66,235 @@ SUMMARY:AAMAS 2027 · 会议结束
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 DTSTART;VALUE=DATE:20270507
 END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-blue-sky-ideas-abstract@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 蓝天构想摘要截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+DTSTART;VALUE=DATE:20261105
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-blue-sky-ideas-paper@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 蓝天构想论文截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+DTSTART;VALUE=DATE:20261112
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-blue-sky-ideas-phase-one@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 蓝天构想第一阶段通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+DTSTART;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-blue-sky-ideas-rebuttal-open@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 蓝天构想作者回复开始
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+DTSTART;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-blue-sky-ideas-rebuttal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 蓝天构想作者回复截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+DTSTART;VALUE=DATE:20270107
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-blue-sky-ideas-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 蓝天构想最终通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+DTSTART;VALUE=DATE:20270121
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-blue-sky-ideas-camera-ready@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 蓝天构想 Camera-ready 截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+DTSTART;VALUE=DATE:20270211
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-workshops-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · Workshop 提案截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/
+DTSTART:20261030T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-workshops-proposal-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · Workshop 提案通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/
+DTSTART;VALUE=DATE:20261128
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-workshops-paper@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · Workshop 论文建议截止（以各 Workshop 为准）
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/
+DTSTART:20270125T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-workshops-paper-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · Workshop 论文建议通知截止（以各 Workshop 为准）
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/
+DTSTART:20270301T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-workshops-start@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · Workshop 开始
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/
+DTSTART;VALUE=DATE:20270503
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-workshops-end@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · Workshop 结束
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/
+DTSTART;VALUE=DATE:20270504
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-tutorials-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 教程提案截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/
+DTSTART;VALUE=DATE:20261210
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-tutorials-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 教程提案通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/
+DTSTART;VALUE=DATE:20261230
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-tutorials-materials@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 教程网站及材料提交截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/
+DTSTART;VALUE=DATE:20270210
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-tutorials-start@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 教程开始
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/
+DTSTART;VALUE=DATE:20270503
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-tutorials-end@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 教程结束
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/
+DTSTART;VALUE=DATE:20270504
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-aaai-fast-track-paper@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · AAAI 快速通道论文截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/
+DTSTART;VALUE=DATE:20261211
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-aaai-fast-track-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · AAAI 快速通道录用通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/
+DTSTART;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-aaai-fast-track-camera-ready@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · AAAI 快速通道 Camera-ready 截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/
+DTSTART;VALUE=DATE:20270211
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-aaai-fast-track-author-registration@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · AAAI 快速通道作者注册截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/
+DTSTART;VALUE=DATE:20270331
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-competitions-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 竞赛提案截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-competition/
+DTSTART;VALUE=DATE:20261205
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-competitions-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 竞赛提案通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-competition/
+DTSTART;VALUE=DATE:20261224
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-demos-paper@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 演示论文截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/
+DTSTART:20261228T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-demos-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 演示论文通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/
+DTSTART;VALUE=DATE:20270127
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-demos-camera-ready@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 演示 Camera-ready 截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/
+DTSTART:20270212T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-demos-start@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 演示开始
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/
+DTSTART;VALUE=DATE:20270505
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-demos-end@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 演示结束
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/
+DTSTART;VALUE=DATE:20270507
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-doctoral-consortium-abstract@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 博士生论坛摘要注册截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/
+DTSTART;VALUE=DATE:20261231
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-doctoral-consortium-paper@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 博士生论坛材料提交截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/
+DTSTART;VALUE=DATE:20270108
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-doctoral-consortium-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 博士生论坛录用通知
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/
+DTSTART;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-doctoral-consortium-camera-ready@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:AAMAS 2027 · 博士生论坛 Camera-ready 截止
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/
+DTSTART;VALUE=DATE:20270211
+END:VEVENT
 END:VCALENDAR

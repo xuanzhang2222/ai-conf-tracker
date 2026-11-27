@@ -80,6 +80,104 @@ URL:https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-acceptin
 DTSTART;VALUE=DATE:20270528
 END:VEVENT
 BEGIN:VEVENT
+UID:icra-2027-arts-robotics-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 机器人艺术提案截止
+URL:https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/
+DTSTART:20261202T075900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-arts-robotics-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 机器人艺术录用通知
+URL:https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/
+DTSTART;VALUE=DATE:20270131
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-arts-robotics-materials@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 机器人艺术最终材料截止
+URL:https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/
+DTSTART;VALUE=DATE:20270405
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-community-day-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 社区建设日申请截止
+URL:https://2027.ieee-icra.org/contribute/call-for-community-building-day/
+DTSTART:20261201T075900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-community-day-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 社区建设日申请结果
+URL:https://2027.ieee-icra.org/contribute/call-for-community-building-day/
+DTSTART;VALUE=DATE:20270131
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-community-day-start@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 社区建设日
+URL:https://2027.ieee-icra.org/contribute/call-for-community-building-day/
+DTSTART;VALUE=DATE:20270527
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-workshops-tutorials-pre-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · Workshop／教程预提案截止
+URL:https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/
+DTSTART;VALUE=DATE:20260901
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-workshops-tutorials-invitation@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 完整提案邀请与反馈（延期）
+URL:https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/
+DTSTART;VALUE=DATE:20261005
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-workshops-tutorials-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · Workshop／教程完整提案截止（延期）
+URL:https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/
+DTSTART;VALUE=DATE:20261102
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-workshops-tutorials-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · Workshop／教程录用通知
+URL:https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/
+DTSTART;VALUE=DATE:20270131
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-competitions-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 竞赛提案截止
+URL:https://2027.ieee-icra.org/contribute/call-for-competition/
+DTSTART;VALUE=DATE:20260831
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-competitions-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 竞赛提案通知
+URL:https://2027.ieee-icra.org/contribute/call-for-competition/
+DTSTART;VALUE=DATE:20261031
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-competitions-start@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 竞赛开始
+URL:https://2027.ieee-icra.org/contribute/call-for-competition/
+DTSTART;VALUE=DATE:20270525
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-competitions-end@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:ICRA 2027 · 竞赛结束
+URL:https://2027.ieee-icra.org/contribute/call-for-competition/
+DTSTART;VALUE=DATE:20270527
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2028-paper@ai-conf-tracker
 DTSTAMP:20261018T010219Z
 SUMMARY:ICRA 2028 · 论文截稿

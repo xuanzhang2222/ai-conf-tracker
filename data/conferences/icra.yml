@@ -15,6 +15,10 @@ editions:
       - &video-update { url: https://2027.ieee-icra.org/announcements/call-for-papers-accompanying-video-submission-period-updated/, label: ICRA 2027 Accompanying Video Submission Update, source_type: official_announcement, verified_at: 2026-09-18T01:04:20Z }
       - &registration { url: https://2027.ieee-icra.org/attend/registration-information/, label: ICRA 2027 Registration Information, source_type: official_dates, verified_at: 2026-09-05T01:02:07Z }
       - &ras-dates { url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/, label: IEEE RAS ICRA Official Dates, source_type: official_dates, verified_at: 2026-11-24T01:00:26Z }
+      - &arts-robotics-cfp { url: https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/, label: ICRA 2027 Arts in Robotics CFP, source_type: official_cfp, verified_at: 2026-11-27T01:01:56Z }
+      - &community-day-cfp { url: https://2027.ieee-icra.org/contribute/call-for-community-building-day/, label: ICRA 2027 Community Building Day CFP, source_type: official_cfp, verified_at: 2026-11-27T01:01:56Z }
+      - &workshops-tutorials-cfp { url: https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/, label: ICRA 2027 Workshop and Tutorial CFP, source_type: official_cfp, verified_at: 2026-11-27T01:01:56Z }
+      - &competitions-cfp { url: https://2027.ieee-icra.org/contribute/call-for-competition/, label: ICRA 2027 Competition CFP, source_type: official_cfp, verified_at: 2026-11-27T01:01:56Z }
     tracks:
       - id: main
         name: Main Conference
@@ -46,6 +50,34 @@ editions:
           - { id: standard-registration, label: 标准注册截止, type: standard_registration_deadline, kind: date, date: 2027-05-14, date_status: confirmed, action_required: true, source: *dates }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-05-24, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-05-28, date_status: confirmed, action_required: false, source: *dates }
+      - id: arts-robotics
+        name: Arts in Robotics
+        milestones:
+          - { id: arts-robotics-proposal, label: 机器人艺术提案截止, type: paper_deadline, kind: instant, at: '2026-12-01T23:59:00', timezone: Etc/GMT+8, original_timezone: PST, date_status: confirmed, action_required: true, source: *arts-robotics-cfp }
+          - { id: arts-robotics-notification, label: 机器人艺术录用通知, type: notification, kind: date, date: 2027-01-31, timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: false, source: *arts-robotics-cfp }
+          - { id: arts-robotics-materials, label: 机器人艺术最终材料截止, type: camera_ready_deadline, kind: date, date: 2027-04-05, timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: true, source: *arts-robotics-cfp }
+      - id: community-day
+        name: Community Building Day
+        milestones:
+          - { id: community-day-proposal, label: 社区建设日申请截止, type: paper_deadline, kind: instant, at: '2026-11-30T23:59:00', timezone: Etc/GMT+8, original_timezone: PST, date_status: confirmed, action_required: true, source: *community-day-cfp }
+          - { id: community-day-notification, label: 社区建设日申请结果, type: notification, kind: date, date: 2027-01-31, date_status: confirmed, action_required: false, source: *community-day-cfp }
+          - { id: community-day-start, label: 社区建设日, type: workshop_start, kind: date, date: 2027-05-27, date_status: confirmed, action_required: false, source: *community-day-cfp }
+      - id: workshops-tutorials
+        name: Workshops and Tutorials
+        milestones:
+          - { id: workshops-tutorials-pre-proposal, label: Workshop／教程预提案截止, type: paper_deadline, kind: date, date: 2026-09-01, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshops-tutorials-cfp }
+          - { id: workshops-tutorials-invitation-original, label: 原完整提案邀请通知（已延期）, type: notification, kind: date, date: 2026-10-01, date_status: superseded, action_required: false, source: *workshops-tutorials-cfp }
+          - { id: workshops-tutorials-invitation, label: 完整提案邀请与反馈（延期）, type: notification, kind: date, date: 2026-10-05, date_status: confirmed, action_required: false, source: *workshops-tutorials-cfp }
+          - { id: workshops-tutorials-proposal-original, label: 原 Workshop／教程完整提案截止（已延期）, type: paper_deadline, kind: date, date: 2026-11-01, date_status: superseded, action_required: false, source: *workshops-tutorials-cfp }
+          - { id: workshops-tutorials-proposal, label: Workshop／教程完整提案截止（延期）, type: paper_deadline, kind: date, date: 2026-11-02, date_status: confirmed, action_required: true, source: *workshops-tutorials-cfp }
+          - { id: workshops-tutorials-notification, label: Workshop／教程录用通知, type: notification, kind: date, date: 2027-01-31, date_status: confirmed, action_required: false, source: *workshops-tutorials-cfp }
+      - id: competitions
+        name: Competitions
+        milestones:
+          - { id: competitions-proposal, label: 竞赛提案截止, type: paper_deadline, kind: date, date: 2026-08-31, timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: true, source: *competitions-cfp }
+          - { id: competitions-notification, label: 竞赛提案通知, type: notification, kind: date, date: 2026-10-31, timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: false, source: *competitions-cfp }
+          - { id: competitions-start, label: 竞赛开始, type: workshop_start, kind: date, date: 2027-05-25, date_status: confirmed, action_required: false, source: *competitions-cfp }
+          - { id: competitions-end, label: 竞赛结束, type: workshop_end, kind: date, date: 2027-05-27, date_status: confirmed, action_required: false, source: *competitions-cfp }
   - year: 2028
     website: https://2028.ieee-icra.org/
     venue: { city: Rio de Janeiro, country: Brazil, mode: onsite }

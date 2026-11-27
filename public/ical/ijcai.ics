@@ -93,4 +93,32 @@ SUMMARY:IJCAI 2027 · 横琴岛卫星活动结束
 URL:https://2027.ijcai.org/
 DTSTART;VALUE=DATE:20270817
 END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-arts-creativity-paper@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:IJCAI 2027 · AI、艺术与创造力论文及作者信息截止
+URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/
+DTSTART:20270112T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-arts-creativity-payment@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:IJCAI 2027 · AI、艺术与创造力非主投论文缴费截止
+URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/
+DTSTART:20270119T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-arts-creativity-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:IJCAI 2027 · AI、艺术与创造力录用通知
+URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/
+DTSTART:20270422T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-arts-creativity-camera-ready@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:IJCAI 2027 · AI、艺术与创造力 Camera-ready 截止
+URL:https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/
+DTSTART:20270602T115900Z
+END:VEVENT
 END:VCALENDAR

@@ -219,4 +219,18 @@ SUMMARY:WWW 2027 · Workshop 论文最终版截止
 URL:https://www2027.thewebconf.org/call-for-workshops/
 DTSTART;VALUE=DATE:20270216
 END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-tutorials-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:WWW 2027 · 教程提案录用通知
+URL:https://www2027.thewebconf.org/tutorials/
+DTSTART;VALUE=DATE:20270125
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-tutorials-materials@ai-conf-tracker
+DTSTAMP:20261125T010348Z
+SUMMARY:WWW 2027 · 教程最终材料截止
+URL:https://acmweb2027.org/important-dates/
+DTSTART:20270217T115900Z
+END:VEVENT
 END:VCALENDAR

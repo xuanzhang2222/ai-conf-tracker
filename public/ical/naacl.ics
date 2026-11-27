@@ -114,4 +114,18 @@ SUMMARY:NAACL 2027 · 学生研究 Workshop Camera-ready 截止
 URL:https://2027.naacl.org/calls/srw/
 DTSTART:20270316T115900Z
 END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-tutorials-proposal@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:NAACL 2027 · 联合教程提案截止
+URL:https://2027.naacl.org/calls/tutorials/
+DTSTART:20261003T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:naacl-2027-tutorials-notification@ai-conf-tracker
+DTSTAMP:20261127T010156Z
+SUMMARY:NAACL 2027 · 联合教程录用通知
+URL:https://2027.naacl.org/calls/tutorials/
+DTSTART;VALUE=DATE:20261125
+END:VEVENT
 END:VCALENDAR

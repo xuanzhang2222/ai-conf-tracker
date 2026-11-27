@@ -305,6 +305,48 @@
             "label": "AAMAS 2027 Official Website",
             "source_type": "official_dates",
             "verified_at": "2026-10-07T01:00:40Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+            "label": "AAMAS 2027 Blue Sky Ideas CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/",
+            "label": "AAMAS 2027 Workshop CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/",
+            "label": "AAMAS 2027 Tutorial CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/",
+            "label": "AAMAS 2027 AAAI Fast Track CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-competition/",
+            "label": "AAMAS 2027 Competition CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/",
+            "label": "AAMAS 2027 Demonstrations CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/",
+            "label": "AAMAS 2027 Doctoral Consortium CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
           }
         ],
         "tracks": [
@@ -456,6 +498,609 @@
                   "label": "AAMAS 2027 Main Track CFP",
                   "source_type": "official_cfp",
                   "verified_at": "2026-08-22T01:05:13Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "blue-sky-ideas",
+            "name": "Blue Sky Ideas",
+            "milestones": [
+              {
+                "id": "blue-sky-ideas-abstract",
+                "label": "蓝天构想摘要截止",
+                "type": "abstract_deadline",
+                "kind": "date",
+                "date": "2026-11-05",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "blue-sky-ideas-paper",
+                "label": "蓝天构想论文截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-11-12",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "blue-sky-ideas-phase-one",
+                "label": "蓝天构想第一阶段通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-30",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "blue-sky-ideas-rebuttal-open",
+                "label": "蓝天构想作者回复开始",
+                "type": "rebuttal_open",
+                "kind": "date",
+                "date": "2027-01-04",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "blue-sky-ideas-rebuttal",
+                "label": "蓝天构想作者回复截止",
+                "type": "rebuttal_deadline",
+                "kind": "date",
+                "date": "2027-01-07",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "blue-sky-ideas-notification",
+                "label": "蓝天构想最终通知",
+                "type": "final_notification",
+                "kind": "date",
+                "date": "2027-01-21",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "blue-sky-ideas-camera-ready",
+                "label": "蓝天构想 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-02-11",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "blue-sky-ideas-author-registration",
+                "label": "蓝天构想作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/",
+                  "label": "AAMAS 2027 Blue Sky Ideas CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "workshops",
+            "name": "Workshops",
+            "milestones": [
+              {
+                "id": "workshops-proposal",
+                "label": "Workshop 提案截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-10-29T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/",
+                  "label": "AAMAS 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-proposal-notification",
+                "label": "Workshop 提案通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-28",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/",
+                  "label": "AAMAS 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-paper",
+                "label": "Workshop 论文建议截止（以各 Workshop 为准）",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2027-01-24T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "tentative",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/",
+                  "label": "AAMAS 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-paper-notification",
+                "label": "Workshop 论文建议通知截止（以各 Workshop 为准）",
+                "type": "notification",
+                "kind": "instant",
+                "at": "2027-02-28T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "tentative",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/",
+                  "label": "AAMAS 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-start",
+                "label": "Workshop 开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-05-03",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/",
+                  "label": "AAMAS 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-end",
+                "label": "Workshop 结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-05-04",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/",
+                  "label": "AAMAS 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tutorials",
+            "name": "Tutorials",
+            "milestones": [
+              {
+                "id": "tutorials-proposal",
+                "label": "教程提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-12-10",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/",
+                  "label": "AAMAS 2027 Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-notification",
+                "label": "教程提案通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-12-30",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/",
+                  "label": "AAMAS 2027 Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-materials",
+                "label": "教程网站及材料提交截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-02-10",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/",
+                  "label": "AAMAS 2027 Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-start",
+                "label": "教程开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-05-03",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/",
+                  "label": "AAMAS 2027 Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-end",
+                "label": "教程结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-05-04",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-tutorials/",
+                  "label": "AAMAS 2027 Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "aaai-fast-track",
+            "name": "AAAI Fast Track",
+            "milestones": [
+              {
+                "id": "aaai-fast-track-paper",
+                "label": "AAAI 快速通道论文截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-12-11",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/",
+                  "label": "AAMAS 2027 AAAI Fast Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "aaai-fast-track-notification",
+                "label": "AAAI 快速通道录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-02-01",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/",
+                  "label": "AAMAS 2027 AAAI Fast Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "aaai-fast-track-camera-ready",
+                "label": "AAAI 快速通道 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-02-11",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/",
+                  "label": "AAMAS 2027 AAAI Fast Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "aaai-fast-track-author-registration",
+                "label": "AAAI 快速通道作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "date",
+                "date": "2027-03-31",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-aaai-fast-track/",
+                  "label": "AAMAS 2027 AAAI Fast Track CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "competitions",
+            "name": "Competition Proposals",
+            "milestones": [
+              {
+                "id": "competitions-proposal",
+                "label": "竞赛提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-12-05",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-competition/",
+                  "label": "AAMAS 2027 Competition CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "competitions-notification",
+                "label": "竞赛提案通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-12-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-competition/",
+                  "label": "AAMAS 2027 Competition CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "competitions-author-registration",
+                "label": "竞赛作者注册截止",
+                "type": "author_registration_deadline",
+                "kind": "tbd",
+                "date_status": "tbd",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-competition/",
+                  "label": "AAMAS 2027 Competition CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "demos",
+            "name": "Demonstrations",
+            "milestones": [
+              {
+                "id": "demos-paper",
+                "label": "演示论文截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-12-27T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/",
+                  "label": "AAMAS 2027 Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "demos-notification",
+                "label": "演示论文通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-27",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/",
+                  "label": "AAMAS 2027 Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "demos-camera-ready",
+                "label": "演示 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2027-02-11T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/",
+                  "label": "AAMAS 2027 Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "demos-start",
+                "label": "演示开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-05-05",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/",
+                  "label": "AAMAS 2027 Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "demos-end",
+                "label": "演示结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-05-07",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-demonstrations/",
+                  "label": "AAMAS 2027 Demonstrations CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "doctoral-consortium",
+            "name": "Doctoral Consortium",
+            "milestones": [
+              {
+                "id": "doctoral-consortium-abstract",
+                "label": "博士生论坛摘要注册截止",
+                "type": "abstract_registration",
+                "kind": "date",
+                "date": "2026-12-31",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/",
+                  "label": "AAMAS 2027 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "doctoral-consortium-paper",
+                "label": "博士生论坛材料提交截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2027-01-08",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/",
+                  "label": "AAMAS 2027 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "doctoral-consortium-notification",
+                "label": "博士生论坛录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-02-01",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/",
+                  "label": "AAMAS 2027 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "doctoral-consortium-camera-ready",
+                "label": "博士生论坛 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-02-11",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-victor-doctoral-consortium/",
+                  "label": "AAMAS 2027 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
                 }
               }
             ]
@@ -1332,6 +1977,12 @@
             "label": "COLING 2027 Joint Workshop Call",
             "source_type": "official_announcement",
             "verified_at": "2026-08-21T01:05:22Z"
+          },
+          {
+            "url": "https://2027.coling-iccl.org/calls/tutorials/",
+            "label": "COLING 2027 Joint Tutorial CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
           }
         ],
         "tracks": [
@@ -1588,6 +2239,59 @@
                   "label": "COLING 2027 System Demonstrations CFP",
                   "source_type": "official_cfp",
                   "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tutorials",
+            "name": "Tutorials",
+            "milestones": [
+              {
+                "id": "tutorials-proposal",
+                "label": "联合教程提案截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-10-02T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/tutorials/",
+                  "label": "COLING 2027 Joint Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-notification",
+                "label": "联合教程录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-25",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/tutorials/",
+                  "label": "COLING 2027 Joint Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-start",
+                "label": "COLING 教程日",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-05-09",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.coling-iccl.org/calls/tutorials/",
+                  "label": "COLING 2027 Joint Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
                 }
               }
             ]
@@ -4529,6 +5233,30 @@
             "label": "IEEE RAS ICRA Official Dates",
             "source_type": "official_dates",
             "verified_at": "2026-11-24T01:00:26Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/",
+            "label": "ICRA 2027 Arts in Robotics CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/contribute/call-for-community-building-day/",
+            "label": "ICRA 2027 Community Building Day CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+            "label": "ICRA 2027 Workshop and Tutorial CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/contribute/call-for-competition/",
+            "label": "ICRA 2027 Competition CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
           }
         ],
         "tracks": [
@@ -4733,6 +5461,284 @@
                   "label": "ICRA 2027 Call for Papers",
                   "source_type": "official_cfp",
                   "verified_at": "2026-09-18T01:02:00Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "arts-robotics",
+            "name": "Arts in Robotics",
+            "milestones": [
+              {
+                "id": "arts-robotics-proposal",
+                "label": "机器人艺术提案截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-12-01T23:59:00",
+                "timezone": "Etc/GMT+8",
+                "original_timezone": "PST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/",
+                  "label": "ICRA 2027 Arts in Robotics CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "arts-robotics-notification",
+                "label": "机器人艺术录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-31",
+                "timezone": "America/Los_Angeles",
+                "original_timezone": "Pacific Time",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/",
+                  "label": "ICRA 2027 Arts in Robotics CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "arts-robotics-materials",
+                "label": "机器人艺术最终材料截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-04-05",
+                "timezone": "America/Los_Angeles",
+                "original_timezone": "Pacific Time",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/",
+                  "label": "ICRA 2027 Arts in Robotics CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "community-day",
+            "name": "Community Building Day",
+            "milestones": [
+              {
+                "id": "community-day-proposal",
+                "label": "社区建设日申请截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-11-30T23:59:00",
+                "timezone": "Etc/GMT+8",
+                "original_timezone": "PST",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-community-building-day/",
+                  "label": "ICRA 2027 Community Building Day CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "community-day-notification",
+                "label": "社区建设日申请结果",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-31",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-community-building-day/",
+                  "label": "ICRA 2027 Community Building Day CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "community-day-start",
+                "label": "社区建设日",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-05-27",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-community-building-day/",
+                  "label": "ICRA 2027 Community Building Day CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "workshops-tutorials",
+            "name": "Workshops and Tutorials",
+            "milestones": [
+              {
+                "id": "workshops-tutorials-pre-proposal",
+                "label": "Workshop／教程预提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-09-01",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+                  "label": "ICRA 2027 Workshop and Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-tutorials-invitation-original",
+                "label": "原完整提案邀请通知（已延期）",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-10-01",
+                "date_status": "superseded",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+                  "label": "ICRA 2027 Workshop and Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-tutorials-invitation",
+                "label": "完整提案邀请与反馈（延期）",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-10-05",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+                  "label": "ICRA 2027 Workshop and Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-tutorials-proposal-original",
+                "label": "原 Workshop／教程完整提案截止（已延期）",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-11-01",
+                "date_status": "superseded",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+                  "label": "ICRA 2027 Workshop and Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-tutorials-proposal",
+                "label": "Workshop／教程完整提案截止（延期）",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-11-02",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+                  "label": "ICRA 2027 Workshop and Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "workshops-tutorials-notification",
+                "label": "Workshop／教程录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-31",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+                  "label": "ICRA 2027 Workshop and Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "competitions",
+            "name": "Competitions",
+            "milestones": [
+              {
+                "id": "competitions-proposal",
+                "label": "竞赛提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-08-31",
+                "timezone": "America/Los_Angeles",
+                "original_timezone": "Pacific Time",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-competition/",
+                  "label": "ICRA 2027 Competition CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "competitions-notification",
+                "label": "竞赛提案通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-10-31",
+                "timezone": "America/Los_Angeles",
+                "original_timezone": "Pacific Time",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-competition/",
+                  "label": "ICRA 2027 Competition CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "competitions-start",
+                "label": "竞赛开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-05-25",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-competition/",
+                  "label": "ICRA 2027 Competition CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "competitions-end",
+                "label": "竞赛结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-05-27",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-competition/",
+                  "label": "ICRA 2027 Competition CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
                 }
               }
             ]
@@ -5210,6 +6216,12 @@
             "label": "IJCAI-ECAI 2026 Closing Press Report",
             "source_type": "official_announcement",
             "verified_at": "2026-09-04T01:18:04Z"
+          },
+          {
+            "url": "https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/",
+            "label": "IJCAI 2027 AI, the Arts and Creativity CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
           }
         ],
         "tracks": [
@@ -5465,6 +6477,80 @@
                 }
               }
             ]
+          },
+          {
+            "id": "arts-creativity",
+            "name": "AI, the Arts and Creativity",
+            "milestones": [
+              {
+                "id": "arts-creativity-paper",
+                "label": "AI、艺术与创造力论文及作者信息截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2027-01-11T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/",
+                  "label": "IJCAI 2027 AI, the Arts and Creativity CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "arts-creativity-payment",
+                "label": "AI、艺术与创造力非主投论文缴费截止",
+                "type": "submission_fee_deadline",
+                "kind": "instant",
+                "at": "2027-01-18T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/",
+                  "label": "IJCAI 2027 AI, the Arts and Creativity CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "arts-creativity-notification",
+                "label": "AI、艺术与创造力录用通知",
+                "type": "notification",
+                "kind": "instant",
+                "at": "2027-04-21T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/",
+                  "label": "IJCAI 2027 AI, the Arts and Creativity CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "arts-creativity-camera-ready",
+                "label": "AI、艺术与创造力 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2027-06-01T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ijcai.org/ijcai-2027-call-for-papers-ai-arts-and-creativity/",
+                  "label": "IJCAI 2027 AI, the Arts and Creativity CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
           }
         ]
       }
@@ -5525,6 +6611,12 @@
             "label": "NAACL 2027 Student Research Workshop CFP",
             "source_type": "official_cfp",
             "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://2027.naacl.org/calls/tutorials/",
+            "label": "NAACL 2027 Joint Tutorial CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
           }
         ],
         "tracks": [
@@ -5818,6 +6910,44 @@
                   "label": "NAACL 2027 Student Research Workshop CFP",
                   "source_type": "official_cfp",
                   "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tutorials",
+            "name": "Tutorials",
+            "milestones": [
+              {
+                "id": "tutorials-proposal",
+                "label": "联合教程提案截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-10-02T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/tutorials/",
+                  "label": "NAACL 2027 Joint Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-notification",
+                "label": "联合教程录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-25",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.naacl.org/calls/tutorials/",
+                  "label": "NAACL 2027 Joint Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
                 }
               }
             ]
@@ -6634,6 +7764,12 @@
             "label": "ACM Web Conference 2027 Workshop CFP",
             "source_type": "official_cfp",
             "verified_at": "2026-11-26T01:08:54Z"
+          },
+          {
+            "url": "https://www2027.thewebconf.org/tutorials/",
+            "label": "ACM Web Conference 2027 Tutorial CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-27T01:01:56Z"
           }
         ],
         "tracks": [
@@ -7188,6 +8324,44 @@
                   "label": "ACM Web Conference 2027 Workshop CFP",
                   "source_type": "official_cfp",
                   "verified_at": "2026-11-26T01:08:54Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tutorials",
+            "name": "Tutorials",
+            "milestones": [
+              {
+                "id": "tutorials-notification",
+                "label": "教程提案录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-01-25",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://www2027.thewebconf.org/tutorials/",
+                  "label": "ACM Web Conference 2027 Tutorial CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-27T01:01:56Z"
+                }
+              },
+              {
+                "id": "tutorials-materials",
+                "label": "教程最终材料截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2027-02-16T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://acmweb2027.org/important-dates/",
+                  "label": "ACM Web Conference 2027 Important Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-25T01:03:48Z"
                 }
               }
             ]
