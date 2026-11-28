@@ -10,17 +10,51 @@ editions:
     website: https://iclr.cc/Conferences/2027
     venue: { city: TBD, country: USA, mode: onsite }
     sources:
-      - &dates { url: https://iclr.cc/Conferences/2027/Dates, label: ICLR 2027 Dates and Deadlines, source_type: official_dates, verified_at: 2026-11-06T01:01:51Z }
+      - &dates { url: https://iclr.cc/Conferences/2027/Dates, label: ICLR 2027 Dates and Deadlines, source_type: official_dates, verified_at: 2026-11-28T01:06:01Z }
+      - &cfp { url: https://iclr.cc/Conferences/2027/CallForPapers, label: ICLR 2027 Call for Papers, source_type: official_cfp, verified_at: 2026-11-28T01:06:01Z }
+      - &workshops-cfp { url: https://iclr.cc/Conferences/2027/CallForWorkshops, label: ICLR 2027 Workshop CFP, source_type: official_cfp, verified_at: 2026-11-28T01:06:01Z }
+      - &workshops-guide { url: https://iclr.cc/Conferences/2027/WorkshopGuidelines, label: ICLR 2027 Workshop Proposal Guide, source_type: official_cfp, verified_at: 2026-11-28T01:06:01Z }
+      - &blog-cfp { url: https://iclr.cc/Conferences/2027/CallForBlogPosts, label: ICLR 2027 Blog Posts CFP, source_type: official_cfp, verified_at: 2026-11-28T01:06:01Z }
     tracks:
       - id: main
         name: Main Conference
         milestones:
           - { id: abstract, label: 摘要注册截止, type: abstract_deadline, kind: instant, at: '2026-09-18T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
           - { id: paper, label: 论文截稿, type: paper_deadline, kind: instant, at: '2026-09-25T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *dates }
-          - { id: review-release, label: 审稿意见发布, type: review_release, kind: date, date: 2026-11-05, date_status: confirmed, action_required: false, source: *dates }
-          - { id: author-discussion, label: 作者与评审讨论截止, type: author_response_deadline, kind: date, date: 2026-11-18, date_status: confirmed, action_required: true, source: *dates }
-          - { id: meta-review, label: Meta-review 截止, type: discussion_deadline, kind: date, date: 2026-12-16, date_status: confirmed, action_required: false, source: *dates }
-          - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-12-16, date_status: confirmed, action_required: false, source: *dates }
+          - { id: review-release, label: 审稿意见发布, type: review_release, kind: date, date: 2026-11-05, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
+          - { id: author-discussion-open, label: 作者与评审讨论开始, type: author_response_open, kind: date, date: 2026-11-05, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
+          - { id: author-discussion, label: 作者与评审讨论截止, type: author_response_deadline, kind: date, date: 2026-11-18, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
+          - { id: meta-review-open, label: 评审与领域主席讨论及 Meta-review 开始, type: discussion_open, kind: date, date: 2026-11-19, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
+          - { id: meta-review, label: Meta-review 截止, type: discussion_deadline, kind: date, date: 2026-12-16, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
+          - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-12-16, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
           - { id: registration-open, label: 参会注册开放, type: registration_open, kind: instant, at: '2026-12-23T10:00:00', timezone: America/Los_Angeles, original_timezone: PST, date_status: confirmed, action_required: true, source: *dates }
           - { id: conference-start, label: 主会开始, type: conference_start, kind: date, date: 2027-04-26, date_status: confirmed, action_required: false, source: *dates }
-          - { id: conference-end, label: Workshops 结束, type: conference_end, kind: date, date: 2027-04-30, date_status: confirmed, action_required: false, source: *dates }
+          - { id: main-program-end, label: 主会结束, type: conference_end, kind: date, date: 2027-04-28, date_status: confirmed, action_required: false, source: *dates }
+          - { id: conference-end, label: 会议结束（Workshops）, type: conference_end, kind: date, date: 2027-04-30, date_status: confirmed, action_required: false, source: *dates }
+      - id: workshops
+        name: Workshops
+        milestones:
+          - { id: workshop-proposal, label: Workshop 提案截止, type: paper_deadline, kind: instant, at: '2026-10-09T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshops-cfp }
+          - { id: workshop-proposal-notification, label: Workshop 提案录用通知, type: notification, kind: date, date: 2026-12-07, date_status: confirmed, action_required: false, source: *workshops-cfp }
+          - id: workshop-paper-notification
+            label: Workshop 投稿最迟录用通知
+            type: notification
+            kind: instant
+            at: '2027-02-26T23:59:00'
+            timezone: Etc/GMT+12
+            original_timezone: AoE
+            date_status: confirmed
+            action_required: false
+            source: *workshops-guide
+            related_information:
+              - title: Workshop 投稿与录用时间
+                kind: official_notice
+                source_label: ICLR 2027 Workshop 提案指南
+                summary: '**2 月 1 日**是建议投稿日期，各 Workshop 的实际截稿时间以各自征稿通知为准。'
+                content: 官方要求 Workshop 组织者最迟在 **2027 年 2 月 26 日 23:59（AoE）**通知作者录用结果，并在 OpenReview 公开录用论文。**2 月 1 日**不是统一的强制截稿日期。
+          - { id: workshop-start, label: Workshops 开始, type: workshop_start, kind: date, date: 2027-04-29, date_status: confirmed, action_required: false, source: *dates }
+      - id: blog-posts
+        name: Blog Posts
+        milestones:
+          - { id: blog-notification, label: 博客文章录用通知, type: notification, kind: date, date: 2027-03-01, date_status: confirmed, action_required: false, source: *blog-cfp }
+          - { id: blog-camera-ready, label: 博客文章终稿合并, type: camera_ready_deadline, kind: date, date: 2027-03-15, date_status: confirmed, action_required: true, source: *blog-cfp }

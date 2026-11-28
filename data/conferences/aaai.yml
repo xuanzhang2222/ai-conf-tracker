@@ -13,6 +13,18 @@ editions:
       - &dates { url: https://aaai.org/conference/aaai/aaai-27/, label: AAAI-27 官方作者日程, source_type: official_dates, verified_at: 2026-10-11T01:00:20Z }
       - &registration { url: https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/, label: AAAI-27 官方注册信息, source_type: official_dates, verified_at: 2026-11-25T01:03:48Z }
       - &publication { url: https://aaai.org/conference/aaai/aaai-27/paper-publication-and-conference-attendance/, label: AAAI-27 主赛道出版与参会要求, source_type: official_dates, verified_at: 2026-11-25T01:03:48Z }
+      - &alignment { url: https://aaai.org/conference/aaai/aaai-27/aia-call/, label: AAAI-27 AI Alignment CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &social-impact { url: https://aaai.org/conference/aaai/aaai-27/aisi-call/, label: AAAI-27 AI for Social Impact CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &demo-cfp { url: https://aaai.org/conference/aaai/aaai-27/demonstration-call/, label: AAAI-27 Demonstration CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &student-cfp { url: https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/, label: AAAI-27 Student Abstract and Poster CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &doctoral-cfp { url: https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/, label: AAAI-27 Doctoral Consortium CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &new-faculty-cfp { url: https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/, label: AAAI-27 New Faculty Highlights CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &senior-cfp { url: https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/, label: AAAI-27 Senior Member Presentation CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &workshops-cfp { url: https://aaai.org/conference/aaai/aaai-27/workshops-call/, label: AAAI-27 Workshop CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &workshops-program { url: https://aaai.org/conference/aaai/aaai-27/workshop-program/, label: AAAI-27 Workshop Program, source_type: official_dates, verified_at: 2026-11-28T01:09:08Z }
+      - &bridge-cfp { url: https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/, label: AAAI-27 Bridge Program CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &tutorial-cfp { url: https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/, label: AAAI-27 Tutorial and Lab CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
+      - &tutorial-program { url: https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum/, label: AAAI-27 Tutorial and Lab Program, source_type: official_dates, verified_at: 2026-11-28T01:09:08Z }
     tracks:
       - id: main
         name: Main Technical Track
@@ -30,3 +42,83 @@ editions:
           - { id: registration-refund, label: 注册退款申请截止, type: registration_refund_deadline, kind: instant, at: '2027-01-10T23:59:00', timezone: Etc/GMT+5, original_timezone: EST, date_status: confirmed, action_required: true, source: *registration }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-02-16, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-02-23, date_status: confirmed, action_required: false, source: *dates }
+      - id: ai-alignment
+        name: AI Alignment
+        milestones:
+          - { id: ai-alignment-abstract, label: 摘要注册截止, type: abstract_deadline, kind: instant, at: '2026-08-14T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *alignment }
+          - { id: ai-alignment-paper, label: 论文截稿, type: paper_deadline, kind: instant, at: '2026-08-21T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *alignment }
+          - { id: ai-alignment-supplementary, label: 补充材料与代码截止, type: supplementary_deadline, kind: instant, at: '2026-08-24T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *alignment }
+          - { id: ai-alignment-feedback-open, label: 作者反馈开始, type: author_response_open, kind: date, date: 2026-10-27, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *alignment }
+          - { id: ai-alignment-feedback, label: 作者反馈截止, type: author_response_deadline, kind: date, date: 2026-11-02, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *alignment }
+          - { id: ai-alignment-notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-11-30, date_status: confirmed, action_required: false, source: *alignment }
+          - { id: ai-alignment-camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: date, date: 2026-12-14, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *alignment }
+      - id: ai-social-impact
+        name: AI for Social Impact
+        milestones:
+          - { id: ai-social-impact-abstract, label: 摘要注册截止, type: abstract_deadline, kind: instant, at: '2026-07-21T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *social-impact }
+          - { id: ai-social-impact-paper, label: 论文截稿, type: paper_deadline, kind: instant, at: '2026-07-28T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *social-impact }
+          - { id: ai-social-impact-supplementary, label: 补充材料与代码截止, type: supplementary_deadline, kind: instant, at: '2026-07-31T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *social-impact }
+          - { id: ai-social-impact-feedback-open, label: 作者反馈开始, type: author_response_open, kind: date, date: 2026-10-24, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *social-impact }
+          - { id: ai-social-impact-feedback, label: 作者反馈截止, type: author_response_deadline, kind: date, date: 2026-10-31, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *social-impact }
+          - { id: ai-social-impact-notification, label: 最终录用通知, type: final_notification, kind: date, date: 2026-11-30, date_status: confirmed, action_required: false, source: *social-impact }
+          - { id: ai-social-impact-camera-ready, label: Camera-ready 截止, type: camera_ready_deadline, kind: date, date: 2026-12-14, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *social-impact }
+      - id: demonstrations
+        name: Demonstrations
+        milestones:
+          - { id: demonstrations-paper, label: Demo 论文与演示材料截止, type: paper_deadline, kind: instant, at: '2026-09-18T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *demo-cfp }
+          - { id: demonstrations-camera-ready, label: Demo Camera-ready 截止, type: camera_ready_deadline, kind: date, date: 2026-11-20, date_status: confirmed, action_required: true, source: *demo-cfp }
+          - { id: demonstrations-start, label: Demo 开始, type: workshop_start, kind: date, date: 2027-02-18, date_status: confirmed, action_required: false, source: *demo-cfp }
+          - { id: demonstrations-end, label: Demo 结束, type: workshop_end, kind: date, date: 2027-02-21, date_status: confirmed, action_required: false, source: *demo-cfp }
+      - id: student-abstract
+        name: Student Abstract and Poster Program
+        milestones:
+          - { id: student-abstract-abstract, label: 学生摘要投稿截止, type: abstract_deadline, kind: date, date: 2026-09-28, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *student-cfp }
+          - { id: student-abstract-notification, label: 学生摘要录用通知, type: notification, kind: date, date: 2026-11-13, date_status: confirmed, action_required: false, source: *student-cfp }
+          - { id: student-abstract-camera-ready, label: 学生摘要 Camera-ready 截止, type: camera_ready_deadline, kind: date, date: 2026-12-11, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *student-cfp }
+          - { id: student-abstract-poster-day, label: 学生摘要与海报展示日, type: workshop_start, kind: date, date: 2027-02-19, date_status: confirmed, action_required: false, source: *student-cfp }
+      - id: doctoral-consortium
+        name: Doctoral Consortium
+        milestones:
+          - { id: doctoral-consortium-application, label: 博士生论坛申请截止, type: paper_deadline, kind: date, date: 2026-10-13, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *doctoral-cfp }
+          - { id: doctoral-consortium-notification, label: 博士生论坛录用通知, type: notification, kind: date, date: 2026-11-14, date_status: confirmed, action_required: false, source: *doctoral-cfp }
+          - { id: doctoral-consortium-camera-ready, label: 博士生论坛论文摘要终稿截止, type: camera_ready_deadline, kind: date, date: 2026-12-05, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *doctoral-cfp }
+          - { id: doctoral-consortium-start, label: 博士生论坛开始, type: workshop_start, kind: date, date: 2027-02-16, date_status: confirmed, action_required: false, source: *doctoral-cfp }
+          - { id: doctoral-consortium-end, label: 博士生论坛结束, type: workshop_end, kind: date, date: 2027-02-17, date_status: confirmed, action_required: false, source: *doctoral-cfp }
+      - id: new-faculty
+        name: New Faculty Highlights
+        milestones:
+          - { id: new-faculty-application, label: 新晋教师报告申请截止, type: paper_deadline, kind: date, date: 2026-09-18, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *new-faculty-cfp }
+          - { id: new-faculty-notification, label: 新晋教师报告录用通知, type: notification, kind: date, date: 2026-11-06, date_status: confirmed, action_required: false, source: *new-faculty-cfp }
+          - { id: new-faculty-camera-ready, label: 新晋教师报告终稿截止, type: camera_ready_deadline, kind: date, date: 2026-11-20, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *new-faculty-cfp }
+          - { id: new-faculty-speaker-material, label: 报告摘要和讲者材料截止, type: artifact_deadline, kind: date, date: 2026-11-30, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *new-faculty-cfp }
+          - { id: new-faculty-video, label: 报告视频链接截止（暂定）, type: artifact_deadline, kind: date, date: 2026-12-14, timezone: Etc/GMT+12, original_timezone: AoE, date_status: tentative, action_required: true, source: *new-faculty-cfp }
+      - id: senior-member
+        name: Senior Member Presentation
+        milestones:
+          - { id: senior-member-paper, label: 资深会员报告和论文投稿截止, type: paper_deadline, kind: instant, at: '2026-09-23T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *senior-cfp }
+          - { id: senior-member-notification, label: 资深会员报告录用通知, type: notification, kind: instant, at: '2026-11-18T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *senior-cfp }
+          - { id: senior-member-camera-ready, label: 资深会员报告终稿截止, type: camera_ready_deadline, kind: instant, at: '2026-12-30T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *senior-cfp }
+      - id: workshops
+        name: Workshops
+        milestones:
+          - { id: workshops-proposal, label: Workshop 提案截止, type: paper_deadline, kind: date, date: 2026-08-28, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshops-cfp }
+          - { id: workshops-proposal-notification, label: Workshop 提案决定通知, type: notification, kind: date, date: 2026-09-25, date_status: confirmed, action_required: false, source: *workshops-cfp }
+          - { id: workshops-paper, label: Workshop 投稿截止（大会通用日程）, type: paper_deadline, kind: date, date: 2026-11-20, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshops-cfp }
+          - { id: workshops-notification, label: Workshop 录用通知（大会通用日程）, type: notification, kind: date, date: 2026-12-02, date_status: confirmed, action_required: false, source: *workshops-program }
+          - { id: workshops-start, label: Workshops 开始, type: workshop_start, kind: date, date: 2027-02-22, date_status: confirmed, action_required: false, source: *workshops-program }
+          - { id: workshops-end, label: Workshops 结束, type: workshop_end, kind: date, date: 2027-02-23, date_status: confirmed, action_required: false, source: *workshops-program }
+      - id: bridge
+        name: Bridge Program
+        milestones:
+          - { id: bridge-proposal, label: Bridge 提案截止, type: paper_deadline, kind: instant, at: '2026-10-16T23:59:00', timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *bridge-cfp }
+          - { id: bridge-participant-material, label: Bridge 参会材料发布截止（组织者）, type: artifact_deadline, kind: date, date: 2027-01-20, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *bridge-cfp }
+          - { id: bridge-start, label: Bridge Program 开始, type: workshop_start, kind: date, date: 2027-02-16, date_status: confirmed, action_required: false, source: *bridge-cfp }
+          - { id: bridge-end, label: Bridge Program 结束, type: workshop_end, kind: date, date: 2027-02-17, date_status: confirmed, action_required: false, source: *bridge-cfp }
+      - id: tutorials-labs
+        name: Tutorial and Lab Forum
+        milestones:
+          - { id: tutorials-labs-proposal, label: 教程与实验室提案截止, type: paper_deadline, kind: date, date: 2026-09-22, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *tutorial-cfp }
+          - { id: tutorials-labs-notification, label: 教程与实验室提案录用通知, type: notification, kind: date, date: 2026-10-15, date_status: confirmed, action_required: false, source: *tutorial-cfp }
+          - { id: tutorials-labs-course-material, label: 教程与实验室材料发布截止, type: artifact_deadline, kind: date, date: 2026-12-05, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *tutorial-cfp }
+          - { id: tutorials-labs-start, label: 教程与实验室论坛开始, type: workshop_start, kind: date, date: 2027-02-16, date_status: confirmed, action_required: false, source: *tutorial-program }
+          - { id: tutorials-labs-end, label: 教程与实验室论坛结束, type: workshop_end, kind: date, date: 2027-02-17, date_status: confirmed, action_required: false, source: *tutorial-program }

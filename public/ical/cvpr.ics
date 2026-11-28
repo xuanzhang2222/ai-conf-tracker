@@ -53,28 +53,63 @@ DTSTART;VALUE=DATE:20270225
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-2027-conference-start@ai-conf-tracker
-DTSTAMP:20261120T010400Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · 会议开始
 URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270620
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2027-main-program-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · 主会开始
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270622
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-conference-end@ai-conf-tracker
-DTSTAMP:20261120T010400Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · 会议结束
 URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270624
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2027-workshop-proposal@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshop 提案截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20261104
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-program-abstract@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshop 日程指南摘要提交截止（组织者）
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270507
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-tutorial-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshops／教程开始
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270620
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-tutorial-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshops／教程结束
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270621
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-workshop-author-metadata@ai-conf-tracker
-DTSTAMP:20261126T010854Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · Workshop 存档论文作者信息提交截止
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
 DTSTART;VALUE=DATE:20270329
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-2027-workshop-camera-ready@ai-conf-tracker
-DTSTAMP:20261126T010854Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · Workshop 存档论文 Camera-ready 截止
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
 DTSTART;VALUE=DATE:20270423

@@ -678,5 +678,149 @@
     "conference": "WWW 2028",
     "label": "ACM Web Conference Series Future Conferences",
     "content_bytes": 4197
+  },
+  "https://2027.ieee-icra.org/announcements/call-for-satellite-conference-centers/": {
+    "hash": "b585531abef6a813bc271f22b986cb408e205ee0f94a64515d873a1c8dd2f00a",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Satellite Conference Centers Announcement",
+    "content_bytes": 141658
+  },
+  "https://2027.ieee-icra.org/contribute/call-for-satellite-conference-centers/": {
+    "hash": "024fd74120e5623c748c178ff050d172e8fa87fbfeb4307c415c265c3d4d4091",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "icra",
+    "conference": "ICRA 2027",
+    "label": "ICRA 2027 Satellite Conference Centers CFP",
+    "content_bytes": 165196
+  },
+  "https://aaai.org/conference/aaai/aaai-27/aia-call/": {
+    "hash": "f7e6a4bfee372815b9f233f12cd4e9d773f0949ece2de695f6431009a45cc5e0",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 AI Alignment CFP",
+    "content_bytes": 202703
+  },
+  "https://aaai.org/conference/aaai/aaai-27/aisi-call/": {
+    "hash": "a3a8c5ecddf3fe12d541b9b35e67db796ee7e647aabe24caca838adadb762704",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 AI for Social Impact CFP",
+    "content_bytes": 204706
+  },
+  "https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/": {
+    "hash": "1e15835fcdf1877797e59d613870754b800f49c152aa04c183f1ba70546fc29e",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Bridge Program CFP",
+    "content_bytes": 206791
+  },
+  "https://aaai.org/conference/aaai/aaai-27/demonstration-call/": {
+    "hash": "2703e547e37b29a18cc694d912e1a8d7996d96d231a852cf8ca9c24caa3583d8",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Demonstration CFP",
+    "content_bytes": 201747
+  },
+  "https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/": {
+    "hash": "609deaf60649fd1bdbe5899b8c914e932b207c4583d3a25e955030e77d2e8425",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 New Faculty Highlights CFP",
+    "content_bytes": 197085
+  },
+  "https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/": {
+    "hash": "4f9e09fc102c7b8ee15c71c6a08f663f026c9290f290e8894d0d3be3cc6179af",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Senior Member Presentation CFP",
+    "content_bytes": 204410
+  },
+  "https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/": {
+    "hash": "271284e3dc6c7153f85133946275620d50b61ec1a2a729faa70e181098fb41a6",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Student Abstract and Poster CFP",
+    "content_bytes": 203937
+  },
+  "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/": {
+    "hash": "386471023157268313a13bd4bb78c20b31036d8dee7256d1f2d5c0244f925593",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Doctoral Consortium CFP",
+    "content_bytes": 203360
+  },
+  "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/": {
+    "hash": "f30da37361c4ec076d92c84af6cade41b9b67fef7dc4f74c64510431f2643d5b",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Tutorial and Lab CFP",
+    "content_bytes": 203764
+  },
+  "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum/": {
+    "hash": "75d2dc869e2f0e707fd6de6fbcf1567fca195d0114e2155fb5dd7fef6d784b7f",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Tutorial and Lab Program",
+    "content_bytes": 207950
+  },
+  "https://aaai.org/conference/aaai/aaai-27/workshop-program/": {
+    "hash": "25f101cb2b52cbe3faa558925a02483aec31eccfae4a87282b916993abc41b49",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Workshop Program",
+    "content_bytes": 207231
+  },
+  "https://aaai.org/conference/aaai/aaai-27/workshops-call/": {
+    "hash": "7b7833fc43ae8f66b5f059a45da4c3989f6344b777e4f003bb522dc305965a29",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "aaai",
+    "conference": "AAAI 2027",
+    "label": "AAAI-27 Workshop CFP",
+    "content_bytes": 200851
+  },
+  "https://iclr.cc/Conferences/2027/CallForBlogPosts": {
+    "hash": "00513fa800b3e3fff0264a4c4341ac75d8009bf4165c8fe1c9f20b568769c753",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "iclr",
+    "conference": "ICLR 2027",
+    "label": "ICLR 2027 Blog Posts CFP",
+    "content_bytes": 50742
+  },
+  "https://iclr.cc/Conferences/2027/CallForPapers": {
+    "hash": "f41d6569ac74bb820324f69d44494c059b7aee386463d19aa625da34f11b3e06",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "iclr",
+    "conference": "ICLR 2027",
+    "label": "ICLR 2027 Call for Papers",
+    "content_bytes": 45101
+  },
+  "https://iclr.cc/Conferences/2027/CallForWorkshops": {
+    "hash": "2a7b484a22f9e33589a6e9905494868f3c9d83572453fcb695a0732bb54233ab",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "iclr",
+    "conference": "ICLR 2027",
+    "label": "ICLR 2027 Workshop CFP",
+    "content_bytes": 52723
+  },
+  "https://iclr.cc/Conferences/2027/WorkshopGuidelines": {
+    "hash": "fa4a62e1d20ed6ef25e7e46bfc89902f75a26ef5fa8b878dd0036c096077bed0",
+    "checked_at": "2026-11-28T01:12:49.780Z",
+    "conference_id": "iclr",
+    "conference": "ICLR 2027",
+    "label": "ICLR 2027 Workshop Proposal Guide",
+    "content_bytes": 65252
   }
 }

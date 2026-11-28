@@ -94,6 +94,356 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 DTSTART;VALUE=DATE:20270223
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-ai-alignment-abstract@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 摘要注册截止
+URL:https://aaai.org/conference/aaai/aaai-27/aia-call/
+DTSTART:20260815T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-alignment-paper@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 论文截稿
+URL:https://aaai.org/conference/aaai/aaai-27/aia-call/
+DTSTART:20260822T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-alignment-supplementary@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 补充材料与代码截止
+URL:https://aaai.org/conference/aaai/aaai-27/aia-call/
+DTSTART:20260825T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-alignment-feedback-open@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 作者反馈开始
+URL:https://aaai.org/conference/aaai/aaai-27/aia-call/
+DTSTART;VALUE=DATE:20261027
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-alignment-feedback@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 作者反馈截止
+URL:https://aaai.org/conference/aaai/aaai-27/aia-call/
+DTSTART;VALUE=DATE:20261102
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-alignment-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 最终录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/aia-call/
+DTSTART;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-alignment-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Camera-ready 截止
+URL:https://aaai.org/conference/aaai/aaai-27/aia-call/
+DTSTART;VALUE=DATE:20261214
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-social-impact-abstract@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 摘要注册截止
+URL:https://aaai.org/conference/aaai/aaai-27/aisi-call/
+DTSTART:20260722T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-social-impact-paper@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 论文截稿
+URL:https://aaai.org/conference/aaai/aaai-27/aisi-call/
+DTSTART:20260729T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-social-impact-supplementary@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 补充材料与代码截止
+URL:https://aaai.org/conference/aaai/aaai-27/aisi-call/
+DTSTART:20260801T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-social-impact-feedback-open@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 作者反馈开始
+URL:https://aaai.org/conference/aaai/aaai-27/aisi-call/
+DTSTART;VALUE=DATE:20261024
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-social-impact-feedback@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 作者反馈截止
+URL:https://aaai.org/conference/aaai/aaai-27/aisi-call/
+DTSTART;VALUE=DATE:20261031
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-social-impact-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 最终录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/aisi-call/
+DTSTART;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-ai-social-impact-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Camera-ready 截止
+URL:https://aaai.org/conference/aaai/aaai-27/aisi-call/
+DTSTART;VALUE=DATE:20261214
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-demonstrations-paper@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Demo 论文与演示材料截止
+URL:https://aaai.org/conference/aaai/aaai-27/demonstration-call/
+DTSTART:20260919T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-demonstrations-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Demo Camera-ready 截止
+URL:https://aaai.org/conference/aaai/aaai-27/demonstration-call/
+DTSTART;VALUE=DATE:20261120
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-demonstrations-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Demo 开始
+URL:https://aaai.org/conference/aaai/aaai-27/demonstration-call/
+DTSTART;VALUE=DATE:20270218
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-demonstrations-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Demo 结束
+URL:https://aaai.org/conference/aaai/aaai-27/demonstration-call/
+DTSTART;VALUE=DATE:20270221
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-student-abstract-abstract@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 学生摘要投稿截止
+URL:https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/
+DTSTART;VALUE=DATE:20260928
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-student-abstract-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 学生摘要录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/
+DTSTART;VALUE=DATE:20261113
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-student-abstract-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 学生摘要 Camera-ready 截止
+URL:https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/
+DTSTART;VALUE=DATE:20261211
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-student-abstract-poster-day@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 学生摘要与海报展示日
+URL:https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/
+DTSTART;VALUE=DATE:20270219
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-doctoral-consortium-application@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 博士生论坛申请截止
+URL:https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/
+DTSTART;VALUE=DATE:20261013
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-doctoral-consortium-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 博士生论坛录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/
+DTSTART;VALUE=DATE:20261114
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-doctoral-consortium-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 博士生论坛论文摘要终稿截止
+URL:https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/
+DTSTART;VALUE=DATE:20261205
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-doctoral-consortium-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 博士生论坛开始
+URL:https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/
+DTSTART;VALUE=DATE:20270216
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-doctoral-consortium-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 博士生论坛结束
+URL:https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/
+DTSTART;VALUE=DATE:20270217
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-new-faculty-application@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 新晋教师报告申请截止
+URL:https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/
+DTSTART;VALUE=DATE:20260918
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-new-faculty-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 新晋教师报告录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/
+DTSTART;VALUE=DATE:20261106
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-new-faculty-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 新晋教师报告终稿截止
+URL:https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/
+DTSTART;VALUE=DATE:20261120
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-new-faculty-speaker-material@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 报告摘要和讲者材料截止
+URL:https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/
+DTSTART;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-new-faculty-video@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 报告视频链接截止（暂定）
+URL:https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/
+DTSTART;VALUE=DATE:20261214
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-senior-member-paper@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 资深会员报告和论文投稿截止
+URL:https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/
+DTSTART:20260924T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-senior-member-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 资深会员报告录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/
+DTSTART:20261119T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-senior-member-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 资深会员报告终稿截止
+URL:https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/
+DTSTART:20261231T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-workshops-proposal@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Workshop 提案截止
+URL:https://aaai.org/conference/aaai/aaai-27/workshops-call/
+DTSTART;VALUE=DATE:20260828
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-workshops-proposal-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Workshop 提案决定通知
+URL:https://aaai.org/conference/aaai/aaai-27/workshops-call/
+DTSTART;VALUE=DATE:20260925
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-workshops-paper@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Workshop 投稿截止（大会通用日程）
+URL:https://aaai.org/conference/aaai/aaai-27/workshops-call/
+DTSTART;VALUE=DATE:20261120
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-workshops-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Workshop 录用通知（大会通用日程）
+URL:https://aaai.org/conference/aaai/aaai-27/workshop-program/
+DTSTART;VALUE=DATE:20261202
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-workshops-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Workshops 开始
+URL:https://aaai.org/conference/aaai/aaai-27/workshop-program/
+DTSTART;VALUE=DATE:20270222
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-workshops-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Workshops 结束
+URL:https://aaai.org/conference/aaai/aaai-27/workshop-program/
+DTSTART;VALUE=DATE:20270223
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-bridge-proposal@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Bridge 提案截止
+URL:https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/
+DTSTART:20261017T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-bridge-participant-material@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Bridge 参会材料发布截止（组织者）
+URL:https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/
+DTSTART;VALUE=DATE:20270120
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-bridge-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Bridge Program 开始
+URL:https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/
+DTSTART;VALUE=DATE:20270216
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-bridge-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · Bridge Program 结束
+URL:https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/
+DTSTART;VALUE=DATE:20270217
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-tutorials-labs-proposal@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 教程与实验室提案截止
+URL:https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/
+DTSTART;VALUE=DATE:20260922
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-tutorials-labs-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 教程与实验室提案录用通知
+URL:https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/
+DTSTART;VALUE=DATE:20261015
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-tutorials-labs-course-material@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 教程与实验室材料发布截止
+URL:https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/
+DTSTART;VALUE=DATE:20261205
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-tutorials-labs-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 教程与实验室论坛开始
+URL:https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum/
+DTSTART;VALUE=DATE:20270216
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-tutorials-labs-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:AAAI 2027 · 教程与实验室论坛结束
+URL:https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum/
+DTSTART;VALUE=DATE:20270217
+END:VEVENT
+BEGIN:VEVENT
 UID:acl-2027-arr-paper@ai-conf-tracker
 DTSTAMP:20261001T010016Z
 SUMMARY:ACL 2027 · ARR 投稿截止
@@ -291,28 +641,63 @@ DTSTART;VALUE=DATE:20270225
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-2027-conference-start@ai-conf-tracker
-DTSTAMP:20261120T010400Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · 会议开始
 URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270620
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2027-main-program-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · 主会开始
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270622
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-conference-end@ai-conf-tracker
-DTSTAMP:20261120T010400Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · 会议结束
 URL:https://cvpr.thecvf.com/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270624
 END:VEVENT
 BEGIN:VEVENT
+UID:cvpr-2027-workshop-proposal@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshop 提案截止
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20261104
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-program-abstract@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshop 日程指南摘要提交截止（组织者）
+URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20270507
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-tutorial-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshops／教程开始
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270620
+END:VEVENT
+BEGIN:VEVENT
+UID:cvpr-2027-workshop-tutorial-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:CVPR 2027 · Workshops／教程结束
+URL:https://cvpr.thecvf.com/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270621
+END:VEVENT
+BEGIN:VEVENT
 UID:cvpr-2027-workshop-author-metadata@ai-conf-tracker
-DTSTAMP:20261126T010854Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · Workshop 存档论文作者信息提交截止
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
 DTSTART;VALUE=DATE:20270329
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-2027-workshop-camera-ready@ai-conf-tracker
-DTSTAMP:20261126T010854Z
+DTSTAMP:20261128T010908Z
 SUMMARY:CVPR 2027 · Workshop 存档论文 Camera-ready 截止
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops
 DTSTART;VALUE=DATE:20270423
@@ -333,66 +718,129 @@ DTSTART;VALUE=DATE:20271008
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-abstract@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 摘要注册截止
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART:20260919T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-paper@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 论文截稿
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART:20260926T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-review-release@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 审稿意见发布
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261105
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-author-discussion-open@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 作者与评审讨论开始
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261105
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-author-discussion@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 作者与评审讨论截止
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261118
 END:VEVENT
 BEGIN:VEVENT
+UID:iclr-2027-meta-review-open@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 评审与领域主席讨论及 Meta-review 开始
+URL:https://iclr.cc/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261119
+END:VEVENT
+BEGIN:VEVENT
 UID:iclr-2027-meta-review@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · Meta-review 截止
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261216
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-notification@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 最终录用通知
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261216
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-registration-open@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 参会注册开放
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART:20261223T180000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-conference-start@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 主会开始
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270426
 END:VEVENT
 BEGIN:VEVENT
+UID:iclr-2027-main-program-end@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 主会结束
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270428
+END:VEVENT
+BEGIN:VEVENT
 UID:iclr-2027-conference-end@ai-conf-tracker
-DTSTAMP:20261106T010151Z
-SUMMARY:ICLR 2027 · Workshops 结束
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 会议结束（Workshops）
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270430
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-proposal@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshop 提案截止
+URL:https://iclr.cc/Conferences/2027/CallForWorkshops
+DTSTART:20261010T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-proposal-notification@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshop 提案录用通知
+URL:https://iclr.cc/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20261207
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-paper-notification@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshop 投稿最迟录用通知
+URL:https://iclr.cc/Conferences/2027/WorkshopGuidelines
+DTSTART:20270227T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-start@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshops 开始
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270429
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-blog-notification@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 博客文章录用通知
+URL:https://iclr.cc/Conferences/2027/CallForBlogPosts
+DTSTART;VALUE=DATE:20270301
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-blog-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 博客文章终稿合并
+URL:https://iclr.cc/Conferences/2027/CallForBlogPosts
+DTSTART;VALUE=DATE:20270315
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-abstract@ai-conf-tracker
@@ -410,14 +858,14 @@ DTSTART:20270123T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-phase-one-notification@ai-conf-tracker
-DTSTAMP:20261112T010154Z
+DTSTAMP:20261128T010908Z
 SUMMARY:ICML 2027 · 第一阶段拒稿通知
 URL:https://icml.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270223
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-notification@ai-conf-tracker
-DTSTAMP:20261112T010154Z
+DTSTAMP:20261128T010908Z
 SUMMARY:ICML 2027 · 录用通知
 URL:https://icml.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270503
@@ -438,17 +886,45 @@ DTSTART;VALUE=DATE:20270712
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-conference-start@ai-conf-tracker
-DTSTAMP:20261112T010154Z
+DTSTAMP:20261128T010908Z
 SUMMARY:ICML 2027 · 会议开始（Expo Day）
 URL:https://icml.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270731
 END:VEVENT
 BEGIN:VEVENT
+UID:icml-2027-main-program-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICML 2027 · 主会开始
+URL:https://icml.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270802
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-main-program-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICML 2027 · 主会结束
+URL:https://icml.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270804
+END:VEVENT
+BEGIN:VEVENT
 UID:icml-2027-conference-end@ai-conf-tracker
-DTSTAMP:20261112T010154Z
+DTSTAMP:20261128T010908Z
 SUMMARY:ICML 2027 · 会议结束（Workshops）
 URL:https://icml.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270806
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-tutorials-day@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICML 2027 · 教程日
+URL:https://icml.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270801
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-workshops-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICML 2027 · Workshops 开始
+URL:https://icml.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270805
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-abstract@ai-conf-tracker

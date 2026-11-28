@@ -852,6 +852,34 @@ URL:https://2027.ieee-icra.org/contribute/call-for-competition/
 DTSTART;VALUE=DATE:20270527
 END:VEVENT
 BEGIN:VEVENT
+UID:icra-2027-satellite-center-application@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICRA 2027 · 卫星会场申请截止
+URL:https://2027.ieee-icra.org/announcements/call-for-satellite-conference-centers/
+DTSTART;VALUE=DATE:20261110
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-satellite-center-notification@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICRA 2027 · 卫星会场申请结果最迟通知
+URL:https://2027.ieee-icra.org/announcements/call-for-satellite-conference-centers/
+DTSTART;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-satellite-conference-start@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICRA 2027 · 卫星会议开始
+URL:https://2027.ieee-icra.org/contribute/call-for-satellite-conference-centers/
+DTSTART;VALUE=DATE:20270524
+END:VEVENT
+BEGIN:VEVENT
+UID:icra-2027-satellite-conference-end@ai-conf-tracker
+DTSTAMP:20261128T010908Z
+SUMMARY:ICRA 2027 · 卫星会议结束
+URL:https://2027.ieee-icra.org/contribute/call-for-satellite-conference-centers/
+DTSTART;VALUE=DATE:20270528
+END:VEVENT
+BEGIN:VEVENT
 UID:icra-2028-paper@ai-conf-tracker
 DTSTAMP:20261018T010219Z
 SUMMARY:ICRA 2028 · 论文截稿

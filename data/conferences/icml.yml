@@ -10,7 +10,7 @@ editions:
     website: https://icml.cc/Conferences/2027
     venue: { city: Rio de Janeiro, country: Brazil, mode: hybrid }
     sources:
-      - &dates { url: https://icml.cc/Conferences/2027/Dates, label: ICML 2027 Meeting Dates, source_type: official_dates, verified_at: 2026-11-12T01:01:54Z }
+      - &dates { url: https://icml.cc/Conferences/2027/Dates, label: ICML 2027 Meeting Dates, source_type: official_dates, verified_at: 2026-11-28T01:09:08Z }
       - &meeting { url: https://icml.cc/Conferences/FutureMeetings, label: ICML Future Meetings, source_type: official_announcement, verified_at: 2026-11-03T01:04:24Z }
       - &cfp { url: https://icml.cc/Conferences/2027/CallForPapers, label: ICML 2027 Call for Papers, source_type: official_cfp, verified_at: 2026-11-25T01:11:03Z }
       - &pricing { url: https://icml.cc/Conferences/2027/Pricing, label: ICML 2027 Registration Pricing, source_type: official_dates, verified_at: 2026-11-25T01:11:03Z }
@@ -47,7 +47,17 @@ editions:
           - { id: early-registration, label: 早鸟注册截止, type: early_registration_deadline, kind: instant, at: '2027-06-19T08:59:00', timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: true, source: *pricing }
           - { id: registration-refund, label: 参会注册取消及退款截止, type: registration_refund_deadline, kind: date, date: 2027-07-12, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *pricing }
           - { id: conference-start, label: 会议开始（Expo Day）, type: conference_start, kind: date, date: 2027-07-31, date_status: confirmed, action_required: false, source: *dates }
+          - { id: main-program-start, label: 主会开始, type: conference_start, kind: date, date: 2027-08-02, date_status: confirmed, action_required: false, source: *dates }
+          - { id: main-program-end, label: 主会结束, type: conference_end, kind: date, date: 2027-08-04, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束（Workshops）, type: conference_end, kind: date, date: 2027-08-06, date_status: confirmed, action_required: false, source: *dates }
+      - id: tutorials
+        name: Tutorials
+        milestones:
+          - { id: tutorials-day, label: 教程日, type: workshop_start, kind: date, date: 2027-08-01, date_status: confirmed, action_required: false, source: *dates }
+      - id: workshops
+        name: Workshops
+        milestones:
+          - { id: workshops-start, label: Workshops 开始, type: workshop_start, kind: date, date: 2027-08-05, date_status: confirmed, action_required: false, source: *dates }
   - year: 2028
     website: https://icml.cc/Conferences/FutureMeetings
     venue: { city: TBD, country: USA, mode: tbd }

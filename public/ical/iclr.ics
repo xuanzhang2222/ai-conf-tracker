@@ -4,65 +4,128 @@ PRODID:-//AI Conf Tracker//ZH-CN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:iclr-2027-abstract@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 摘要注册截止
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART:20260919T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-paper@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 论文截稿
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART:20260926T115900Z
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-review-release@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 审稿意见发布
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261105
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-author-discussion-open@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 作者与评审讨论开始
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261105
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-author-discussion@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 作者与评审讨论截止
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261118
 END:VEVENT
 BEGIN:VEVENT
+UID:iclr-2027-meta-review-open@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 评审与领域主席讨论及 Meta-review 开始
+URL:https://iclr.cc/Conferences/2027/CallForPapers
+DTSTART;VALUE=DATE:20261119
+END:VEVENT
+BEGIN:VEVENT
 UID:iclr-2027-meta-review@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · Meta-review 截止
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261216
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-notification@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 最终录用通知
-URL:https://iclr.cc/Conferences/2027/Dates
+URL:https://iclr.cc/Conferences/2027/CallForPapers
 DTSTART;VALUE=DATE:20261216
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-registration-open@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 参会注册开放
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART:20261223T180000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-conference-start@ai-conf-tracker
-DTSTAMP:20261106T010151Z
+DTSTAMP:20261128T010601Z
 SUMMARY:ICLR 2027 · 主会开始
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270426
 END:VEVENT
 BEGIN:VEVENT
+UID:iclr-2027-main-program-end@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 主会结束
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270428
+END:VEVENT
+BEGIN:VEVENT
 UID:iclr-2027-conference-end@ai-conf-tracker
-DTSTAMP:20261106T010151Z
-SUMMARY:ICLR 2027 · Workshops 结束
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 会议结束（Workshops）
 URL:https://iclr.cc/Conferences/2027/Dates
 DTSTART;VALUE=DATE:20270430
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-proposal@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshop 提案截止
+URL:https://iclr.cc/Conferences/2027/CallForWorkshops
+DTSTART:20261010T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-proposal-notification@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshop 提案录用通知
+URL:https://iclr.cc/Conferences/2027/CallForWorkshops
+DTSTART;VALUE=DATE:20261207
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-paper-notification@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshop 投稿最迟录用通知
+URL:https://iclr.cc/Conferences/2027/WorkshopGuidelines
+DTSTART:20270227T115900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-workshop-start@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · Workshops 开始
+URL:https://iclr.cc/Conferences/2027/Dates
+DTSTART;VALUE=DATE:20270429
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-blog-notification@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 博客文章录用通知
+URL:https://iclr.cc/Conferences/2027/CallForBlogPosts
+DTSTART;VALUE=DATE:20270301
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-blog-camera-ready@ai-conf-tracker
+DTSTAMP:20261128T010601Z
+SUMMARY:ICLR 2027 · 博客文章终稿合并
+URL:https://iclr.cc/Conferences/2027/CallForBlogPosts
+DTSTART;VALUE=DATE:20270315
 END:VEVENT
 END:VCALENDAR

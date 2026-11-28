@@ -19,6 +19,8 @@ editions:
       - &community-day-cfp { url: https://2027.ieee-icra.org/contribute/call-for-community-building-day/, label: ICRA 2027 Community Building Day CFP, source_type: official_cfp, verified_at: 2026-11-27T01:01:56Z }
       - &workshops-tutorials-cfp { url: https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/, label: ICRA 2027 Workshop and Tutorial CFP, source_type: official_cfp, verified_at: 2026-11-27T01:01:56Z }
       - &competitions-cfp { url: https://2027.ieee-icra.org/contribute/call-for-competition/, label: ICRA 2027 Competition CFP, source_type: official_cfp, verified_at: 2026-11-27T01:01:56Z }
+      - &satellite-announcement { url: https://2027.ieee-icra.org/announcements/call-for-satellite-conference-centers/, label: ICRA 2027 Satellite Conference Centers Announcement, source_type: official_announcement, verified_at: 2026-11-28T01:09:08Z }
+      - &satellite-cfp { url: https://2027.ieee-icra.org/contribute/call-for-satellite-conference-centers/, label: ICRA 2027 Satellite Conference Centers CFP, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
     tracks:
       - id: main
         name: Main Conference
@@ -78,6 +80,13 @@ editions:
           - { id: competitions-notification, label: 竞赛提案通知, type: notification, kind: date, date: 2026-10-31, timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: false, source: *competitions-cfp }
           - { id: competitions-start, label: 竞赛开始, type: workshop_start, kind: date, date: 2027-05-25, date_status: confirmed, action_required: false, source: *competitions-cfp }
           - { id: competitions-end, label: 竞赛结束, type: workshop_end, kind: date, date: 2027-05-27, date_status: confirmed, action_required: false, source: *competitions-cfp }
+      - id: satellite-conferences
+        name: Satellite Conference Centers
+        milestones:
+          - { id: satellite-center-application, label: 卫星会场申请截止, type: paper_deadline, kind: date, date: 2026-11-10, timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: true, source: *satellite-announcement }
+          - { id: satellite-center-notification, label: 卫星会场申请结果最迟通知, type: notification, kind: date, date: 2026-11-30, timezone: America/Los_Angeles, original_timezone: Pacific Time, date_status: confirmed, action_required: false, source: *satellite-announcement }
+          - { id: satellite-conference-start, label: 卫星会议开始, type: workshop_start, kind: date, date: 2027-05-24, date_status: confirmed, action_required: false, source: *satellite-cfp }
+          - { id: satellite-conference-end, label: 卫星会议结束, type: workshop_end, kind: date, date: 2027-05-28, date_status: confirmed, action_required: false, source: *satellite-cfp }
   - year: 2028
     website: https://2028.ieee-icra.org/
     venue: { city: Rio de Janeiro, country: Brazil, mode: onsite }

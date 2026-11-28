@@ -10,10 +10,10 @@ editions:
     website: https://cvpr.thecvf.com/
     venue: { city: Seattle, country: USA, mode: onsite }
     sources:
-      - &dates { url: https://cvpr.thecvf.com/Conferences/2027/Dates, label: CVPR 2027 Dates and Deadlines, source_type: official_dates, verified_at: 2026-11-20T01:04:00Z }
+      - &dates { url: https://cvpr.thecvf.com/Conferences/2027/Dates, label: CVPR 2027 Dates and Deadlines, source_type: official_dates, verified_at: 2026-11-28T01:09:08Z }
       - &cfp { url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers, label: CVPR 2027 Call for Papers, source_type: official_cfp, verified_at: 2026-10-26T01:04:28Z }
       - &meeting { url: https://www.thecvf.com/?p=137, label: CVF Upcoming Conferences, source_type: official_announcement, verified_at: 2026-08-03T10:08:46Z }
-      - &workshop-cfp { url: https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops, label: CVPR 2027 Call for Workshops, source_type: official_cfp, verified_at: 2026-11-26T01:08:54Z }
+      - &workshop-cfp { url: https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops, label: CVPR 2027 Call for Workshops, source_type: official_cfp, verified_at: 2026-11-28T01:09:08Z }
     tracks:
       - id: main
         name: Main Conference
@@ -26,7 +26,15 @@ editions:
           - { id: rebuttal, label: Rebuttal 截止, type: rebuttal_deadline, kind: date, date: 2027-02-01, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *cfp }
           - { id: notification, label: 最终录用通知, type: final_notification, kind: date, date: 2027-02-25, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: false, source: *cfp }
           - { id: conference-start, label: 会议开始, type: conference_start, kind: date, date: 2027-06-20, date_status: confirmed, action_required: false, source: *dates }
+          - { id: main-program-start, label: 主会开始, type: conference_start, kind: date, date: 2027-06-22, date_status: confirmed, action_required: false, source: *dates }
           - { id: conference-end, label: 会议结束, type: conference_end, kind: date, date: 2027-06-24, date_status: confirmed, action_required: false, source: *dates }
+      - id: workshops
+        name: Workshops and Tutorials
+        milestones:
+          - { id: workshop-proposal, label: Workshop 提案截止, type: paper_deadline, kind: date, date: 2026-11-04, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshop-cfp }
+          - { id: workshop-program-abstract, label: Workshop 日程指南摘要提交截止（组织者）, type: artifact_deadline, kind: date, date: 2027-05-07, timezone: Etc/GMT+12, original_timezone: AoE, date_status: confirmed, action_required: true, source: *workshop-cfp }
+          - { id: workshop-tutorial-start, label: Workshops／教程开始, type: workshop_start, kind: date, date: 2027-06-20, date_status: confirmed, action_required: false, source: *dates }
+          - { id: workshop-tutorial-end, label: Workshops／教程结束, type: workshop_end, kind: date, date: 2027-06-21, date_status: confirmed, action_required: false, source: *dates }
       - id: archival-workshop-papers
         name: Archival Workshop Papers
         milestones:

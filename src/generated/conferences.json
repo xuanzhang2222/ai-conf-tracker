@@ -42,6 +42,78 @@
             "label": "AAAI-27 主赛道出版与参会要求",
             "source_type": "official_dates",
             "verified_at": "2026-11-25T01:03:48Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+            "label": "AAAI-27 AI Alignment CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+            "label": "AAAI-27 AI for Social Impact CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/demonstration-call/",
+            "label": "AAAI-27 Demonstration CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/",
+            "label": "AAAI-27 Student Abstract and Poster CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/",
+            "label": "AAAI-27 Doctoral Consortium CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/",
+            "label": "AAAI-27 New Faculty Highlights CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/",
+            "label": "AAAI-27 Senior Member Presentation CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/workshops-call/",
+            "label": "AAAI-27 Workshop CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/workshop-program/",
+            "label": "AAAI-27 Workshop Program",
+            "source_type": "official_dates",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/",
+            "label": "AAAI-27 Bridge Program CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/",
+            "label": "AAAI-27 Tutorial and Lab CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum/",
+            "label": "AAAI-27 Tutorial and Lab Program",
+            "source_type": "official_dates",
+            "verified_at": "2026-11-28T01:09:08Z"
           }
         ],
         "tracks": [
@@ -260,6 +332,876 @@
                   "label": "AAAI-27 官方作者日程",
                   "source_type": "official_dates",
                   "verified_at": "2026-10-11T01:00:20Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ai-alignment",
+            "name": "AI Alignment",
+            "milestones": [
+              {
+                "id": "ai-alignment-abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "instant",
+                "at": "2026-08-14T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+                  "label": "AAAI-27 AI Alignment CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-alignment-paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-08-21T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+                  "label": "AAAI-27 AI Alignment CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-alignment-supplementary",
+                "label": "补充材料与代码截止",
+                "type": "supplementary_deadline",
+                "kind": "instant",
+                "at": "2026-08-24T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+                  "label": "AAAI-27 AI Alignment CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-alignment-feedback-open",
+                "label": "作者反馈开始",
+                "type": "author_response_open",
+                "kind": "date",
+                "date": "2026-10-27",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+                  "label": "AAAI-27 AI Alignment CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-alignment-feedback",
+                "label": "作者反馈截止",
+                "type": "author_response_deadline",
+                "kind": "date",
+                "date": "2026-11-02",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+                  "label": "AAAI-27 AI Alignment CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-alignment-notification",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "date",
+                "date": "2026-11-30",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+                  "label": "AAAI-27 AI Alignment CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-alignment-camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2026-12-14",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aia-call/",
+                  "label": "AAAI-27 AI Alignment CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ai-social-impact",
+            "name": "AI for Social Impact",
+            "milestones": [
+              {
+                "id": "ai-social-impact-abstract",
+                "label": "摘要注册截止",
+                "type": "abstract_deadline",
+                "kind": "instant",
+                "at": "2026-07-21T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+                  "label": "AAAI-27 AI for Social Impact CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-social-impact-paper",
+                "label": "论文截稿",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-07-28T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+                  "label": "AAAI-27 AI for Social Impact CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-social-impact-supplementary",
+                "label": "补充材料与代码截止",
+                "type": "supplementary_deadline",
+                "kind": "instant",
+                "at": "2026-07-31T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+                  "label": "AAAI-27 AI for Social Impact CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-social-impact-feedback-open",
+                "label": "作者反馈开始",
+                "type": "author_response_open",
+                "kind": "date",
+                "date": "2026-10-24",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+                  "label": "AAAI-27 AI for Social Impact CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-social-impact-feedback",
+                "label": "作者反馈截止",
+                "type": "author_response_deadline",
+                "kind": "date",
+                "date": "2026-10-31",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+                  "label": "AAAI-27 AI for Social Impact CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-social-impact-notification",
+                "label": "最终录用通知",
+                "type": "final_notification",
+                "kind": "date",
+                "date": "2026-11-30",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+                  "label": "AAAI-27 AI for Social Impact CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "ai-social-impact-camera-ready",
+                "label": "Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2026-12-14",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/aisi-call/",
+                  "label": "AAAI-27 AI for Social Impact CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "demonstrations",
+            "name": "Demonstrations",
+            "milestones": [
+              {
+                "id": "demonstrations-paper",
+                "label": "Demo 论文与演示材料截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-09-18T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/demonstration-call/",
+                  "label": "AAAI-27 Demonstration CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "demonstrations-camera-ready",
+                "label": "Demo Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2026-11-20",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/demonstration-call/",
+                  "label": "AAAI-27 Demonstration CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "demonstrations-start",
+                "label": "Demo 开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-02-18",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/demonstration-call/",
+                  "label": "AAAI-27 Demonstration CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "demonstrations-end",
+                "label": "Demo 结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-02-21",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/demonstration-call/",
+                  "label": "AAAI-27 Demonstration CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "student-abstract",
+            "name": "Student Abstract and Poster Program",
+            "milestones": [
+              {
+                "id": "student-abstract-abstract",
+                "label": "学生摘要投稿截止",
+                "type": "abstract_deadline",
+                "kind": "date",
+                "date": "2026-09-28",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/",
+                  "label": "AAAI-27 Student Abstract and Poster CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "student-abstract-notification",
+                "label": "学生摘要录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-13",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/",
+                  "label": "AAAI-27 Student Abstract and Poster CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "student-abstract-camera-ready",
+                "label": "学生摘要 Camera-ready 截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2026-12-11",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/",
+                  "label": "AAAI-27 Student Abstract and Poster CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "student-abstract-poster-day",
+                "label": "学生摘要与海报展示日",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-02-19",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/",
+                  "label": "AAAI-27 Student Abstract and Poster CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "doctoral-consortium",
+            "name": "Doctoral Consortium",
+            "milestones": [
+              {
+                "id": "doctoral-consortium-application",
+                "label": "博士生论坛申请截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-10-13",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/",
+                  "label": "AAAI-27 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "doctoral-consortium-notification",
+                "label": "博士生论坛录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-14",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/",
+                  "label": "AAAI-27 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "doctoral-consortium-camera-ready",
+                "label": "博士生论坛论文摘要终稿截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2026-12-05",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/",
+                  "label": "AAAI-27 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "doctoral-consortium-start",
+                "label": "博士生论坛开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-02-16",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/",
+                  "label": "AAAI-27 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "doctoral-consortium-end",
+                "label": "博士生论坛结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-02-17",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/",
+                  "label": "AAAI-27 Doctoral Consortium CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "new-faculty",
+            "name": "New Faculty Highlights",
+            "milestones": [
+              {
+                "id": "new-faculty-application",
+                "label": "新晋教师报告申请截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-09-18",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/",
+                  "label": "AAAI-27 New Faculty Highlights CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "new-faculty-notification",
+                "label": "新晋教师报告录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-06",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/",
+                  "label": "AAAI-27 New Faculty Highlights CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "new-faculty-camera-ready",
+                "label": "新晋教师报告终稿截止",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2026-11-20",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/",
+                  "label": "AAAI-27 New Faculty Highlights CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "new-faculty-speaker-material",
+                "label": "报告摘要和讲者材料截止",
+                "type": "artifact_deadline",
+                "kind": "date",
+                "date": "2026-11-30",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/",
+                  "label": "AAAI-27 New Faculty Highlights CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "new-faculty-video",
+                "label": "报告视频链接截止（暂定）",
+                "type": "artifact_deadline",
+                "kind": "date",
+                "date": "2026-12-14",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "tentative",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/new-faculty-highlights-call-for-proposals/",
+                  "label": "AAAI-27 New Faculty Highlights CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "senior-member",
+            "name": "Senior Member Presentation",
+            "milestones": [
+              {
+                "id": "senior-member-paper",
+                "label": "资深会员报告和论文投稿截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-09-23T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/",
+                  "label": "AAAI-27 Senior Member Presentation CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "senior-member-notification",
+                "label": "资深会员报告录用通知",
+                "type": "notification",
+                "kind": "instant",
+                "at": "2026-11-18T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/",
+                  "label": "AAAI-27 Senior Member Presentation CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "senior-member-camera-ready",
+                "label": "资深会员报告终稿截止",
+                "type": "camera_ready_deadline",
+                "kind": "instant",
+                "at": "2026-12-30T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/senior-member-presentation-track-call-for-proposals/",
+                  "label": "AAAI-27 Senior Member Presentation CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "workshops",
+            "name": "Workshops",
+            "milestones": [
+              {
+                "id": "workshops-proposal",
+                "label": "Workshop 提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-08-28",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/workshops-call/",
+                  "label": "AAAI-27 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshops-proposal-notification",
+                "label": "Workshop 提案决定通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-09-25",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/workshops-call/",
+                  "label": "AAAI-27 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshops-paper",
+                "label": "Workshop 投稿截止（大会通用日程）",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-11-20",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/workshops-call/",
+                  "label": "AAAI-27 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshops-notification",
+                "label": "Workshop 录用通知（大会通用日程）",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-12-02",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/workshop-program/",
+                  "label": "AAAI-27 Workshop Program",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshops-start",
+                "label": "Workshops 开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-02-22",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/workshop-program/",
+                  "label": "AAAI-27 Workshop Program",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshops-end",
+                "label": "Workshops 结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-02-23",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/workshop-program/",
+                  "label": "AAAI-27 Workshop Program",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "bridge",
+            "name": "Bridge Program",
+            "milestones": [
+              {
+                "id": "bridge-proposal",
+                "label": "Bridge 提案截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-10-16T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/",
+                  "label": "AAAI-27 Bridge Program CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "bridge-participant-material",
+                "label": "Bridge 参会材料发布截止（组织者）",
+                "type": "artifact_deadline",
+                "kind": "date",
+                "date": "2027-01-20",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/",
+                  "label": "AAAI-27 Bridge Program CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "bridge-start",
+                "label": "Bridge Program 开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-02-16",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/",
+                  "label": "AAAI-27 Bridge Program CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "bridge-end",
+                "label": "Bridge Program 结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-02-17",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/bridge-program-call-for-proposals/",
+                  "label": "AAAI-27 Bridge Program CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tutorials-labs",
+            "name": "Tutorial and Lab Forum",
+            "milestones": [
+              {
+                "id": "tutorials-labs-proposal",
+                "label": "教程与实验室提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-09-22",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/",
+                  "label": "AAAI-27 Tutorial and Lab CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "tutorials-labs-notification",
+                "label": "教程与实验室提案录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-10-15",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/",
+                  "label": "AAAI-27 Tutorial and Lab CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "tutorials-labs-course-material",
+                "label": "教程与实验室材料发布截止",
+                "type": "artifact_deadline",
+                "kind": "date",
+                "date": "2026-12-05",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum-call-for-proposal/",
+                  "label": "AAAI-27 Tutorial and Lab CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "tutorials-labs-start",
+                "label": "教程与实验室论坛开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-02-16",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum/",
+                  "label": "AAAI-27 Tutorial and Lab Program",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "tutorials-labs-end",
+                "label": "教程与实验室论坛结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-02-17",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://aaai.org/conference/aaai/aaai-27/tutorial-and-lab-forum/",
+                  "label": "AAAI-27 Tutorial and Lab Program",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               }
             ]
@@ -2330,7 +3272,7 @@
             "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
             "label": "CVPR 2027 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-11-20T01:04:00Z"
+            "verified_at": "2026-11-28T01:09:08Z"
           },
           {
             "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
@@ -2348,7 +3290,7 @@
             "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
             "label": "CVPR 2027 Call for Workshops",
             "source_type": "official_cfp",
-            "verified_at": "2026-11-26T01:08:54Z"
+            "verified_at": "2026-11-28T01:09:08Z"
           }
         ],
         "tracks": [
@@ -2487,7 +3429,22 @@
                   "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
                   "label": "CVPR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-20T01:04:00Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "main-program-start",
+                "label": "主会开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-06-22",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+                  "label": "CVPR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               },
               {
@@ -2502,7 +3459,77 @@
                   "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
                   "label": "CVPR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-20T01:04:00Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "workshops",
+            "name": "Workshops and Tutorials",
+            "milestones": [
+              {
+                "id": "workshop-proposal",
+                "label": "Workshop 提案截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-11-04",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
+                  "label": "CVPR 2027 Call for Workshops",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshop-program-abstract",
+                "label": "Workshop 日程指南摘要提交截止（组织者）",
+                "type": "artifact_deadline",
+                "kind": "date",
+                "date": "2027-05-07",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
+                  "label": "CVPR 2027 Call for Workshops",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshop-tutorial-start",
+                "label": "Workshops／教程开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-06-20",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+                  "label": "CVPR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "workshop-tutorial-end",
+                "label": "Workshops／教程结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-06-21",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+                  "label": "CVPR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               }
             ]
@@ -2525,7 +3552,7 @@
                   "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
                   "label": "CVPR 2027 Call for Workshops",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-11-26T01:08:54Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               },
               {
@@ -2542,7 +3569,7 @@
                   "url": "https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops",
                   "label": "CVPR 2027 Call for Workshops",
                   "source_type": "official_cfp",
-                  "verified_at": "2026-11-26T01:08:54Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               }
             ]
@@ -4641,7 +5668,31 @@
             "url": "https://iclr.cc/Conferences/2027/Dates",
             "label": "ICLR 2027 Dates and Deadlines",
             "source_type": "official_dates",
-            "verified_at": "2026-11-06T01:01:51Z"
+            "verified_at": "2026-11-28T01:06:01Z"
+          },
+          {
+            "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+            "label": "ICLR 2027 Call for Papers",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:06:01Z"
+          },
+          {
+            "url": "https://iclr.cc/Conferences/2027/CallForWorkshops",
+            "label": "ICLR 2027 Workshop CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:06:01Z"
+          },
+          {
+            "url": "https://iclr.cc/Conferences/2027/WorkshopGuidelines",
+            "label": "ICLR 2027 Workshop Proposal Guide",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:06:01Z"
+          },
+          {
+            "url": "https://iclr.cc/Conferences/2027/CallForBlogPosts",
+            "label": "ICLR 2027 Blog Posts CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:06:01Z"
           }
         ],
         "tracks": [
@@ -4663,7 +5714,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
@@ -4680,7 +5731,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
@@ -4689,13 +5740,32 @@
                 "type": "review_release",
                 "kind": "date",
                 "date": "2026-11-05",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027/Dates",
-                  "label": "ICLR 2027 Dates and Deadlines",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+                  "label": "ICLR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              },
+              {
+                "id": "author-discussion-open",
+                "label": "作者与评审讨论开始",
+                "type": "author_response_open",
+                "kind": "date",
+                "date": "2026-11-05",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+                  "label": "ICLR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
@@ -4704,13 +5774,32 @@
                 "type": "author_response_deadline",
                 "kind": "date",
                 "date": "2026-11-18",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
                 "date_status": "confirmed",
                 "action_required": true,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027/Dates",
-                  "label": "ICLR 2027 Dates and Deadlines",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+                  "label": "ICLR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              },
+              {
+                "id": "meta-review-open",
+                "label": "评审与领域主席讨论及 Meta-review 开始",
+                "type": "discussion_open",
+                "kind": "date",
+                "date": "2026-11-19",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+                  "label": "ICLR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
@@ -4719,13 +5808,15 @@
                 "type": "discussion_deadline",
                 "kind": "date",
                 "date": "2026-12-16",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027/Dates",
-                  "label": "ICLR 2027 Dates and Deadlines",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+                  "label": "ICLR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
@@ -4734,13 +5825,15 @@
                 "type": "final_notification",
                 "kind": "date",
                 "date": "2026-12-16",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
                 "date_status": "confirmed",
                 "action_required": false,
                 "source": {
-                  "url": "https://iclr.cc/Conferences/2027/Dates",
-                  "label": "ICLR 2027 Dates and Deadlines",
-                  "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+                  "label": "ICLR 2027 Call for Papers",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
@@ -4757,7 +5850,7 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
@@ -4772,12 +5865,27 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              },
+              {
+                "id": "main-program-end",
+                "label": "主会结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-04-28",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               },
               {
                 "id": "conference-end",
-                "label": "Workshops 结束",
+                "label": "会议结束（Workshops）",
                 "type": "conference_end",
                 "kind": "date",
                 "date": "2027-04-30",
@@ -4787,7 +5895,122 @@
                   "url": "https://iclr.cc/Conferences/2027/Dates",
                   "label": "ICLR 2027 Dates and Deadlines",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-06T01:01:51Z"
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "workshops",
+            "name": "Workshops",
+            "milestones": [
+              {
+                "id": "workshop-proposal",
+                "label": "Workshop 提案截止",
+                "type": "paper_deadline",
+                "kind": "instant",
+                "at": "2026-10-09T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/CallForWorkshops",
+                  "label": "ICLR 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              },
+              {
+                "id": "workshop-proposal-notification",
+                "label": "Workshop 提案录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-12-07",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/CallForWorkshops",
+                  "label": "ICLR 2027 Workshop CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              },
+              {
+                "id": "workshop-paper-notification",
+                "label": "Workshop 投稿最迟录用通知",
+                "type": "notification",
+                "kind": "instant",
+                "at": "2027-02-26T23:59:00",
+                "timezone": "Etc/GMT+12",
+                "original_timezone": "AoE",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/WorkshopGuidelines",
+                  "label": "ICLR 2027 Workshop Proposal Guide",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
+                },
+                "related_information": [
+                  {
+                    "title": "Workshop 投稿与录用时间",
+                    "kind": "official_notice",
+                    "source_label": "ICLR 2027 Workshop 提案指南",
+                    "summary": "**2 月 1 日**是建议投稿日期，各 Workshop 的实际截稿时间以各自征稿通知为准。",
+                    "content": "官方要求 Workshop 组织者最迟在 **2027 年 2 月 26 日 23:59（AoE）**通知作者录用结果，并在 OpenReview 公开录用论文。**2 月 1 日**不是统一的强制截稿日期。"
+                  }
+                ]
+              },
+              {
+                "id": "workshop-start",
+                "label": "Workshops 开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-04-29",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/Dates",
+                  "label": "ICLR 2027 Dates and Deadlines",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "blog-posts",
+            "name": "Blog Posts",
+            "milestones": [
+              {
+                "id": "blog-notification",
+                "label": "博客文章录用通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2027-03-01",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/CallForBlogPosts",
+                  "label": "ICLR 2027 Blog Posts CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
+                }
+              },
+              {
+                "id": "blog-camera-ready",
+                "label": "博客文章终稿合并",
+                "type": "camera_ready_deadline",
+                "kind": "date",
+                "date": "2027-03-15",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://iclr.cc/Conferences/2027/CallForBlogPosts",
+                  "label": "ICLR 2027 Blog Posts CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:06:01Z"
                 }
               }
             ]
@@ -4826,7 +6049,7 @@
             "url": "https://icml.cc/Conferences/2027/Dates",
             "label": "ICML 2027 Meeting Dates",
             "source_type": "official_dates",
-            "verified_at": "2026-11-12T01:01:54Z"
+            "verified_at": "2026-11-28T01:09:08Z"
           },
           {
             "url": "https://icml.cc/Conferences/FutureMeetings",
@@ -4939,7 +6162,7 @@
                   "url": "https://icml.cc/Conferences/2027/Dates",
                   "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-12T01:01:54Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               },
               {
@@ -4968,7 +6191,7 @@
                   "url": "https://icml.cc/Conferences/2027/Dates",
                   "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-12T01:01:54Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               },
               {
@@ -5031,7 +6254,37 @@
                   "url": "https://icml.cc/Conferences/2027/Dates",
                   "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-12T01:01:54Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "main-program-start",
+                "label": "主会开始",
+                "type": "conference_start",
+                "kind": "date",
+                "date": "2027-08-02",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "main-program-end",
+                "label": "主会结束",
+                "type": "conference_end",
+                "kind": "date",
+                "date": "2027-08-04",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               },
               {
@@ -5046,7 +6299,49 @@
                   "url": "https://icml.cc/Conferences/2027/Dates",
                   "label": "ICML 2027 Meeting Dates",
                   "source_type": "official_dates",
-                  "verified_at": "2026-11-12T01:01:54Z"
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tutorials",
+            "name": "Tutorials",
+            "milestones": [
+              {
+                "id": "tutorials-day",
+                "label": "教程日",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-08-01",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "workshops",
+            "name": "Workshops",
+            "milestones": [
+              {
+                "id": "workshops-start",
+                "label": "Workshops 开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-08-05",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://icml.cc/Conferences/2027/Dates",
+                  "label": "ICML 2027 Meeting Dates",
+                  "source_type": "official_dates",
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               }
             ]
@@ -5257,6 +6552,18 @@
             "label": "ICRA 2027 Competition CFP",
             "source_type": "official_cfp",
             "verified_at": "2026-11-27T01:01:56Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/announcements/call-for-satellite-conference-centers/",
+            "label": "ICRA 2027 Satellite Conference Centers Announcement",
+            "source_type": "official_announcement",
+            "verified_at": "2026-11-28T01:09:08Z"
+          },
+          {
+            "url": "https://2027.ieee-icra.org/contribute/call-for-satellite-conference-centers/",
+            "label": "ICRA 2027 Satellite Conference Centers CFP",
+            "source_type": "official_cfp",
+            "verified_at": "2026-11-28T01:09:08Z"
           }
         ],
         "tracks": [
@@ -5739,6 +7046,76 @@
                   "label": "ICRA 2027 Competition CFP",
                   "source_type": "official_cfp",
                   "verified_at": "2026-11-27T01:01:56Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": "satellite-conferences",
+            "name": "Satellite Conference Centers",
+            "milestones": [
+              {
+                "id": "satellite-center-application",
+                "label": "卫星会场申请截止",
+                "type": "paper_deadline",
+                "kind": "date",
+                "date": "2026-11-10",
+                "timezone": "America/Los_Angeles",
+                "original_timezone": "Pacific Time",
+                "date_status": "confirmed",
+                "action_required": true,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/announcements/call-for-satellite-conference-centers/",
+                  "label": "ICRA 2027 Satellite Conference Centers Announcement",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "satellite-center-notification",
+                "label": "卫星会场申请结果最迟通知",
+                "type": "notification",
+                "kind": "date",
+                "date": "2026-11-30",
+                "timezone": "America/Los_Angeles",
+                "original_timezone": "Pacific Time",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/announcements/call-for-satellite-conference-centers/",
+                  "label": "ICRA 2027 Satellite Conference Centers Announcement",
+                  "source_type": "official_announcement",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "satellite-conference-start",
+                "label": "卫星会议开始",
+                "type": "workshop_start",
+                "kind": "date",
+                "date": "2027-05-24",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-satellite-conference-centers/",
+                  "label": "ICRA 2027 Satellite Conference Centers CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
+                }
+              },
+              {
+                "id": "satellite-conference-end",
+                "label": "卫星会议结束",
+                "type": "workshop_end",
+                "kind": "date",
+                "date": "2027-05-28",
+                "date_status": "confirmed",
+                "action_required": false,
+                "source": {
+                  "url": "https://2027.ieee-icra.org/contribute/call-for-satellite-conference-centers/",
+                  "label": "ICRA 2027 Satellite Conference Centers CFP",
+                  "source_type": "official_cfp",
+                  "verified_at": "2026-11-28T01:09:08Z"
                 }
               }
             ]
